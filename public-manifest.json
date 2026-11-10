@@ -39,9 +39,14 @@
       "sha256": "8560f10a53f44d9e52ca51a7fed90be272d83a87bf1142e7fd06a4797c6b8540"
     },
     {
+      "path": "LICENSE",
+      "bytes": 1076,
+      "sha256": "63662f448f508a4dee056906265d23ae4eb4714209cd1971d978dd0b1287c95c"
+    },
+    {
       "path": "README.md",
-      "bytes": 2746,
-      "sha256": "104bc0b52459f0a8500f022d2ddb577becd1ace863d8d55d5abcadd5242cc5b5"
+      "bytes": 2925,
+      "sha256": "1c97988357fcd6410ee5c06f63182188a5bf4081dea3d41dd5b8ee673f008108"
     },
     {
       "path": "designs/school-bus-v01/build_bus.py",

@@ -33,3 +33,7 @@ CAD（`.FCStd`）、STEP・STL、最終3MFを成果物として収録します�
 - [バスの版一覧](docs/バスの版一覧.md)
 - [人間のレビュー記録](docs/人間のレビュー記録.md)
 - [コンセプトと品質方針](docs/NEKOMO-concept-and-quality.md)
+
+## ライセンス
+
+[MITライセンス](LICENSE)の適用範囲は、NEKOMOで作成したCADモデルとそのSTEP・STL出力、および制作・検証コードです。
