@@ -6,6 +6,13 @@
 !/tools/
 !/designs/
 !/public-manifest.json
+!/.github/
+/.github/*
+!/.github/workflows/
+!/quality/
+/quality/*
+!/quality/support-removal-preflight.py
+!/LICENSE
 !/.agents/
 /.agents/*
 !/.agents/skills/

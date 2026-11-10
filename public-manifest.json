@@ -5,8 +5,8 @@
   "files": [
     {
       "path": ".agents/skills/nekomo-dr-review/SKILL.md",
-      "bytes": 8595,
-      "sha256": "fa0dd68d6d569b8c146a9a0b10739fe4e9a7d6fbfc785a5d787b69513deb469d"
+      "bytes": 8470,
+      "sha256": "360eac1ad16835ad369587d008cc3f5ab862a5cc69a97afae947651298ba96a0"
     },
     {
       "path": ".agents/skills/nekomo-dr-review/agents/openai.yaml",
@@ -20,8 +20,8 @@
     },
     {
       "path": ".agents/skills/nekomo-dr-review/references/stages.md",
-      "bytes": 9483,
-      "sha256": "d6b0fd2be051099df194fb033e85aa1844752bf0cbf025beb92d7a43dab7cf97"
+      "bytes": 9476,
+      "sha256": "5d56556b4fe65e27dfe64b455a3da6c2e7b0ab00d2e291311f3e94addb39a060"
     },
     {
       "path": ".gitattributes",
@@ -29,14 +29,19 @@
       "sha256": "8ca782ac97d92525f67cef0fff3182121d7653ecec79bbbecaf504ae48f790c8"
     },
     {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 1550,
+      "sha256": "5c11ba0cab044919ad67dbb043cc7c633b5debb47d31cc89159f9db1d7bd2081"
+    },
+    {
       "path": ".gitignore",
-      "bytes": 5228,
-      "sha256": "e2a324b725f768ba4d2c92d32e70763db33ad144ca959cbfc83973d329955c76"
+      "bytes": 5349,
+      "sha256": "8560f10a53f44d9e52ca51a7fed90be272d83a87bf1142e7fd06a4797c6b8540"
     },
     {
       "path": "README.md",
-      "bytes": 2688,
-      "sha256": "603d32aa2786a74e897dc1e34120ecc78265d7a7c3ad8e16e322b0d1c3ac6f29"
+      "bytes": 2746,
+      "sha256": "104bc0b52459f0a8500f022d2ddb577becd1ace863d8d55d5abcadd5242cc5b5"
     },
     {
       "path": "designs/school-bus-v01/build_bus.py",
@@ -909,6 +914,11 @@
       "sha256": "447e6fad24398086d52eb8948c2283e92a16ef566ccdea167af0a074ab54a8d1"
     },
     {
+      "path": "docs/reproduce.md",
+      "bytes": 5789,
+      "sha256": "38cbdbe7304318c638dc82483ae99456d9b7e470a55f8880f29c27d6eedeb74d"
+    },
+    {
       "path": "docs/バスの版一覧.md",
       "bytes": 10104,
       "sha256": "35302c18d8960948fad5e2396b1be0d584f4d216099fd96845962eb1d6d30a6c"
@@ -917,6 +927,16 @@
       "path": "docs/人間のレビュー記録.md",
       "bytes": 2228,
       "sha256": "9e1a68abac36e1576ae6a656eeaca15d79397cad3b08d5db69f20f5eee28c0c9"
+    },
+    {
+      "path": "quality/support-removal-preflight.py",
+      "bytes": 21853,
+      "sha256": "67b7935aa92c81315eca6f9bdf36c63d57bc10bb34aa970b0ef2aae32828e240"
+    },
+    {
+      "path": "tools/update_manifest.py",
+      "bytes": 1650,
+      "sha256": "10edecf508cb6af8e0cf92b0b43fd4c288c81e6ae95fad13a06f7d10de63b3cf"
     },
     {
       "path": "tools/verify_snapshot.py",

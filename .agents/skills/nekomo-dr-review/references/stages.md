@@ -86,5 +86,5 @@
 - [v04の設計審査・試験計画](../../../../docs/designs/school-bus-v04-dr/quality/preprint-review/test-plan.md)
 - [v06シンプル版の試験計画](../../../../docs/designs/school-bus-v06-simple/quality/preprint-review/test-plan.md)
 - [バスのエージェントレビュー一覧](../../../../docs/data/bus-agent-reviews.json)
-- ローカルにあれば、`quality/print-failure-20261110/過去トラ-NEKOMO-TR-001.md`も読みます。この不具合原本と検査ツールは公開スナップショットに含まれない場合があります。読めなかった場合はその旨を記録し、推測で補いません。
+- 公開用の[不具合報告](../../../../docs/evidence/print-quality-feedback.json)を参照します。ローカルに原本 `quality/print-failure-20261110/過去トラ-NEKOMO-TR-001.md` があれば併せて読み、原本を参照できなかった場合はその旨を記録します。
 

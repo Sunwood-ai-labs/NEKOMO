@@ -1,0 +1,45 @@
+name: Verify snapshot
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.12'
+      - name: Check manifest coverage
+        run: python tools/update_manifest.py --check
+      - name: Verify published files and review records
+        run: python tools/verify_snapshot.py
+      - name: Check support preflight on archived slices
+        run: |
+          python - <<'PY'
+          import json
+          import subprocess
+          import sys
+
+          examples = [
+              ('designs/school-bus-v09-sloped/exports/sloped-two-color-sliced.3mf', 0, 'PASS_FILE_ONLY'),
+              ('designs/school-bus-v06-empty-inverted/two-color-red-tyres/red-tyres-inverted-sliced.3mf', 1, 'BLOCK'),
+          ]
+          for path, expected_exit, expected_status in examples:
+              run = subprocess.run(
+                  [sys.executable, 'quality/support-removal-preflight.py', path],
+                  capture_output=True, text=True, encoding='utf-8',
+              )
+              print(run.stdout)
+              if run.returncode != expected_exit or json.loads(run.stdout)['status'] != expected_status:
+                  sys.exit(f'Unexpected preflight result for {path}: {run.stderr}')
+          PY
