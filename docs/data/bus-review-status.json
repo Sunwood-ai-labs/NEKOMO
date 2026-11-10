@@ -1,0 +1,724 @@
+{
+  "schema_version": 2,
+  "as_of": "2026-11-10",
+  "attribution_rule": "人間の設計要望・採用指示・印刷報告と、エージェントの審査・機械記録を区別して記録する。",
+  "human_events": [
+    {
+      "id": "R01",
+      "title": "参照写真との外観差を指摘",
+      "category": "設計フィードバック",
+      "target": "v01 → v02",
+      "interpretation": "写真1.jpgを添付。外観の差を指摘した。続けてサポート材を使ってよいと伝えた。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "R02",
+      "title": "参考の設計案を提示",
+      "category": "初期要求",
+      "target": "v02設計条件",
+      "interpretation": "後続に設計案を貼り、寸法・部品分割・安全面などを参考条件として提示。ここを出力レビューや承認とは数えない。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "R03",
+      "title": "使用できる色を赤白へ訂正",
+      "category": "設計フィードバック",
+      "target": "v02 → v03",
+      "interpretation": "色の制約を訂正。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "R04",
+      "title": "サンプル船程度への小型化を提案",
+      "category": "設計フィードバック",
+      "target": "v02 → v03",
+      "interpretation": "小型化とサンプル船程度の寸法を提案。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "R05",
+      "title": "製造可能性と内部空間を質問",
+      "category": "設計フィードバック",
+      "target": "v04 → 未確認",
+      "interpretation": "DR実施状況と製造可能性を質問し、内部空間の扱いを懸念。具体的な形状変更の指示や合格判定ではない。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "R06",
+      "title": "約60mm案を半分にする案を提示",
+      "category": "設計フィードバック",
+      "target": "v05の製造性検討中に提示された60mm案",
+      "interpretation": "v04基準形状と開口候補をv05で検討していたターン内の縮小提案。その後、実機の船も約60mmと確認して比較しており、30mm版の製作記録はない。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "R07",
+      "title": "床なし・空洞・逆さ印刷を提案",
+      "category": "設計フィードバック",
+      "target": "v05 → v06",
+      "interpretation": "開底・中空・上下逆の印刷を提案し、印刷容易性を確認。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "R08",
+      "title": "2色を指定",
+      "category": "設計フィードバック",
+      "target": "v05 → v06",
+      "interpretation": "同ターンで2色を指定。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "R09",
+      "title": "タイヤの色違いを要望",
+      "category": "設計フィードバック",
+      "target": "v06 → 赤タイヤ派生版",
+      "interpretation": "タイヤ色違いの派生を依頼。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "R10",
+      "title": "赤タイヤ版を採用して印刷を指示",
+      "category": "採用承認・印刷指示",
+      "target": "v06赤タイヤ派生版",
+      "interpretation": "提示された赤タイヤ派生版を採用し、印刷を依頼。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "R11",
+      "title": "v03提示への肯定的反応と工程確認",
+      "category": "設計への肯定的反応・工程確認",
+      "target": "v03提示の直後",
+      "interpretation": "v03の画像・成果物提示の次のターンに要望内容と反応し、DRと制作フローを質問。肯定的な反応は確認できるが、品質合格や印刷指示とは扱わない。時系列はv03-positive-context.jsonに保存。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "Q01",
+      "title": "初期要求",
+      "category": "初期要求",
+      "target": "初期案または工程全体",
+      "interpretation": "制作条件またはエージェントへの依頼。人間がDRや現物評価を実施した証拠には数えない。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "Q02",
+      "title": "初期要求",
+      "category": "初期要求",
+      "target": "初期案または工程全体",
+      "interpretation": "制作条件またはエージェントへの依頼。人間がDRや現物評価を実施した証拠には数えない。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "Q03",
+      "title": "初期要求",
+      "category": "初期要求",
+      "target": "初期案または工程全体",
+      "interpretation": "制作条件またはエージェントへの依頼。人間がDRや現物評価を実施した証拠には数えない。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "Q04",
+      "title": "DR実施依頼",
+      "category": "DR実施依頼",
+      "target": "初期案または工程全体",
+      "interpretation": "制作条件またはエージェントへの依頼。人間がDRや現物評価を実施した証拠には数えない。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "Q05",
+      "title": "DR実施タイミングの質問",
+      "category": "DR実施タイミングの質問",
+      "target": "初期案または工程全体",
+      "interpretation": "制作条件またはエージェントへの依頼。人間がDRや現物評価を実施した証拠には数えない。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "S01",
+      "title": "小型・簡素化と1時間以内を要望",
+      "category": "設計への指摘・変更要望",
+      "target": "v06-simple",
+      "interpretation": "小さく簡素な別案の設計要望と1時間以内という目安。実際に印刷せよという指示ではない。 版の対応は会話内の成果物ラベルに基づく。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "S02",
+      "title": "別のアイデアとして作成してね",
+      "category": "設計への指摘・変更要望",
+      "target": "v06-simple",
+      "interpretation": "既存案と別案として作る要望。 版の対応は会話内の成果物ラベルに基づく。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "S03",
+      "title": "バンブーラボのサンプルの船は30分くらいだったよ！",
+      "category": "参考情報",
+      "target": "v06-simple",
+      "interpretation": "船サンプルの所要時間を設計目標の参考として示した。印刷の指示ではない。 版の対応は会話内の成果物ラベルに基づく。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "S04",
+      "title": "いや、バスをシンプルにしてってこと！",
+      "category": "設計への指摘・変更要望",
+      "target": "v06-simple",
+      "interpretation": "バス自体を簡素化する修正要望。最終データへの承認ではない。 版の対応は会話内の成果物ラベルに基づく。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "S05",
+      "title": "床もなしでいいよ！",
+      "category": "設計への指摘・変更要望",
+      "target": "v07",
+      "interpretation": "後続の床なし・空洞・2色案に対する仕様変更。 版の対応は会話内の成果物ラベルに基づく。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "S06",
+      "title": "上下逆にして、中身空洞にしたら？？船を参考にして！",
+      "category": "設計への指摘・変更要望",
+      "target": "v07",
+      "interpretation": "向き、空洞、色、タイヤの具体的な設計変更要望。 版の対応は会話内の成果物ラベルに基づく。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "S07",
+      "title": "現状のモデルの画像欲しい",
+      "category": "画像提示の依頼",
+      "target": "v07",
+      "interpretation": "モデル画像の提示依頼。画像を見た後の評価・現物レビューは記録されていない。 版の対応は会話内の成果物ラベルに基づく。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "S08",
+      "title": "DRの前とあとはちゃんとデータ残してね",
+      "category": "エージェントへの制作・DR・記録依頼",
+      "target": "v07",
+      "interpretation": "記録保存の指示。DR実施そのものや承認ではない。 版の対応は会話内の成果物ラベルに基づく。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "S09",
+      "title": "これで、freecadで設計してみて！",
+      "category": "エージェントへの制作・DR・記録依頼",
+      "target": "v07",
+      "interpretation": "FreeCAD制作とAI側での全DR再実施の依頼。最終CADの採用承認、印刷指示、本人によるDR実施ではない。 版の対応は会話内の成果物ラベルに基づく。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "P01",
+      "title": "参照写真をもとにした試作を依頼",
+      "category": "初期の制作依頼",
+      "target": "v08-photo",
+      "interpretation": "写真を参考にした試作とFreeCADでの所要時間確認を依頼。レビュー実施や採用承認ではない。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "P02",
+      "title": "逆さ印刷とボンネットの支持材を質問",
+      "category": "設計レビューの質問",
+      "target": "v08 → v09",
+      "interpretation": "逆さ印刷時のサポート要否と、ボンネットを滑らかにする方針を確認。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "P03",
+      "title": "ボンネット全体を滑らかな傾斜にするよう提案",
+      "category": "設計変更の提案と意図の訂正",
+      "target": "v08 → v09",
+      "interpretation": "角を丸めるだけでなく、ボンネット全体を滑らかな傾斜にしてサポート不要を狙う提案だと訂正。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "P04",
+      "title": "支持材なしで成立するか検証を要求",
+      "category": "エージェントへの検証要求",
+      "target": "v09-sloped",
+      "interpretation": "提案形状が実際に造形可能か検証するよう要求。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "P05",
+      "title": "v09の試し刷りを指示",
+      "category": "試し刷りの指示",
+      "target": "v09-sloped",
+      "interpretation": "検証済み修正版の試し刷りを指示。試し刷りの承認として読めるが、印刷物の完成品質を認めた発言ではない。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "U01",
+      "title": "印刷したのは2つと本人が報告",
+      "category": "本人による印刷実績の報告",
+      "target": "v06赤タイヤ版・v09",
+      "interpretation": "直前まで扱っていた印刷2件の実績を本人報告で更新。機械履歴とは出典を分け、完成品の品質評価とは扱わない。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_statement_summary"
+      }
+    },
+    {
+      "id": "U02",
+      "title": "印刷後の支持材除去に関する報告",
+      "category": "印刷後の品質報告",
+      "target": "v06赤タイヤ版（写真の配色から高確度で一致。印刷ジョブIDの直接照合なし）",
+      "interpretation": "本人から、サポートを取り外しにくく、サポートがほぼ全部外れなかったとの報告があった。これは寸法・強度を含む正式なDR3現物試験や合格記録ではない。",
+      "author_role": "human",
+      "source": {
+        "kind": "human_report"
+      }
+    }
+  ],
+  "human_summaries": [
+    {
+      "target": "v01 → v02",
+      "feedback": "写真と外観が違いすぎると指摘。サポート材も活用してよいと指定。",
+      "approval": "なし",
+      "event_ids": [
+        "R01"
+      ]
+    },
+    {
+      "target": "v02 → v03",
+      "feedback": "使える色は赤白のみ。大きいのでサンプルの船程度に小型化してほしいと要望。v03提示には肯定的な反応を示した。",
+      "approval": "なし",
+      "event_ids": [
+        "R03",
+        "R04",
+        "R11"
+      ]
+    },
+    {
+      "target": "v04とv05の60mm案",
+      "feedback": "3Dプリンターで実現できるか、内部空間をどう作るかを質問。v05の製造性検討中に半分への縮小を提案。30mm版の製作はなし。",
+      "approval": "なし",
+      "event_ids": [
+        "R05",
+        "R06"
+      ]
+    },
+    {
+      "target": "v05 → v06・60mm空洞",
+      "feedback": "床なし・内部を空洞・逆さ印刷で作りやすくし、2色にしてほしいと提案。",
+      "approval": "なし",
+      "event_ids": [
+        "R07",
+        "R08"
+      ]
+    },
+    {
+      "target": "v06・40mmシンプル案",
+      "feedback": "より小さく簡素なバスを別案で作り、1時間以内を目指すよう要望。より簡素なバスを意図したと補足。",
+      "approval": "なし",
+      "event_ids": [
+        "S01",
+        "S04"
+      ]
+    },
+    {
+      "target": "v06・空洞 → 赤タイヤ",
+      "feedback": "タイヤの色違いを要望。",
+      "approval": "採用を表明し、印刷を指示。",
+      "event_ids": [
+        "R09",
+        "R10"
+      ]
+    },
+    {
+      "target": "v06-simple → v07",
+      "feedback": "上下逆・空洞・2色・タイヤの見直し・床なしを要望。",
+      "approval": "なし",
+      "event_ids": [
+        "S06",
+        "S05"
+      ]
+    },
+    {
+      "target": "v08 → v09",
+      "feedback": "逆さ印刷時のボンネットを指摘。滑らかな傾斜なら支持材なしにできるのでは、という提案を明確化し検証を要求。",
+      "approval": "v09の試し刷りを指示。",
+      "event_ids": [
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ]
+    },
+    {
+      "target": "DR・保存手順",
+      "feedback": "未実施の工程を実施すること、全DRの再実施、DR前後のデータ保存を依頼。人間自身によるDR実施とは区別。",
+      "approval": "なし",
+      "event_ids": [
+        "Q04",
+        "S09",
+        "S08"
+      ]
+    },
+    {
+      "target": "v06赤タイヤ版の印刷後評価",
+      "feedback": "本人から、サポートを取り外しにくく、サポートがほぼ全部外れなかったとの報告。写真の配色から版は高確度で一致するが、印刷ジョブIDの直接照合はない。",
+      "approval": "なし",
+      "event_ids": [
+        "U02"
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "folder": "school-bus-v01",
+      "label": "v01・大型一体",
+      "human_feedback": [
+        "R01"
+      ],
+      "human_approval": [],
+      "human_feedback_label": "○ 外観修正",
+      "human_approval_label": "なし",
+      "human_design_inputs": [],
+      "human_process_requests": [],
+      "agent_review": "recorded",
+      "sliced": "recorded",
+      "print_started": "not_performed",
+      "print_completed": "not_performed",
+      "print_completion_source": "none",
+      "print_confirmation_events": [],
+      "human_physical_review": "no_record"
+    },
+    {
+      "folder": "school-bus-v02",
+      "label": "v02・大型3部品",
+      "human_feedback": [
+        "R03",
+        "R04"
+      ],
+      "human_approval": [],
+      "human_feedback_label": "○ 赤白・小型化",
+      "human_approval_label": "なし",
+      "human_design_inputs": [
+        "R01",
+        "R02"
+      ],
+      "human_process_requests": [],
+      "agent_review": "recorded",
+      "sliced": "recorded",
+      "print_started": "not_performed",
+      "print_completed": "not_performed",
+      "print_completion_source": "none",
+      "print_confirmation_events": [],
+      "human_physical_review": "no_record"
+    },
+    {
+      "folder": "school-bus-v03-mini",
+      "label": "v03・60mm組立",
+      "human_feedback": [
+        "R11"
+      ],
+      "human_approval": [],
+      "human_feedback_label": "○ 肯定的反応",
+      "human_approval_label": "なし",
+      "human_design_inputs": [
+        "R03",
+        "R04"
+      ],
+      "human_process_requests": [
+        "Q04"
+      ],
+      "agent_review": "recorded",
+      "sliced": "recorded",
+      "print_started": "not_performed",
+      "print_completed": "not_performed",
+      "print_completion_source": "none",
+      "print_confirmation_events": [],
+      "human_physical_review": "no_record"
+    },
+    {
+      "folder": "school-bus-v04-dr",
+      "label": "v04・60mm一体",
+      "human_feedback": [
+        "R05"
+      ],
+      "human_approval": [],
+      "human_feedback_label": "○ 製造性の質問",
+      "human_approval_label": "なし",
+      "human_design_inputs": [],
+      "human_process_requests": [],
+      "agent_review": "recorded",
+      "sliced": "recorded",
+      "print_started": "not_performed",
+      "print_completed": "not_performed",
+      "print_completion_source": "none",
+      "print_confirmation_events": [],
+      "human_physical_review": "no_record"
+    },
+    {
+      "folder": "school-bus-v05-dfam",
+      "label": "v05・底面開口候補",
+      "human_feedback": [
+        "R07",
+        "R08"
+      ],
+      "human_approval": [],
+      "human_feedback_label": "○ 床なし・空洞の提案",
+      "human_approval_label": "なし",
+      "human_design_inputs": [],
+      "human_process_requests": [],
+      "agent_review": "partial",
+      "sliced": "not_performed",
+      "print_started": "not_performed",
+      "print_completed": "not_performed",
+      "print_completion_source": "none",
+      "print_confirmation_events": [],
+      "human_physical_review": "no_record"
+    },
+    {
+      "folder": "school-bus-v06-simple",
+      "label": "v06・40mmシンプル",
+      "human_feedback": [
+        "S04"
+      ],
+      "human_approval": [],
+      "human_feedback_label": "○ 簡素化の要望",
+      "human_approval_label": "なし",
+      "human_design_inputs": [
+        "S01"
+      ],
+      "human_process_requests": [],
+      "agent_review": "recorded",
+      "sliced": "recorded",
+      "print_started": "not_performed",
+      "print_completed": "not_performed",
+      "print_completion_source": "none",
+      "print_confirmation_events": [],
+      "human_physical_review": "no_record"
+    },
+    {
+      "folder": "school-bus-v06-empty-inverted",
+      "label": "v06・60mm空洞",
+      "human_feedback": [
+        "R09"
+      ],
+      "human_approval": [],
+      "human_feedback_label": "○ タイヤ色違いの要望",
+      "human_approval_label": "なし",
+      "human_design_inputs": [
+        "R07",
+        "R08",
+        "R09"
+      ],
+      "human_process_requests": [],
+      "agent_review": "recorded",
+      "sliced": "recorded",
+      "print_started": "not_performed",
+      "print_completed": "not_performed",
+      "print_completion_source": "none",
+      "print_confirmation_events": [],
+      "human_physical_review": "no_record"
+    },
+    {
+      "folder": "school-bus-v06-empty-inverted",
+      "label": "v06・赤タイヤ",
+      "human_feedback": [],
+      "human_approval": [
+        "R10"
+      ],
+      "human_feedback_label": "色違いは元案で要望",
+      "human_approval_label": "○ 採用・印刷指示",
+      "human_design_inputs": [
+        "R07",
+        "R08",
+        "R09"
+      ],
+      "human_process_requests": [],
+      "agent_review": "recorded",
+      "sliced": "recorded",
+      "print_started": "recorded",
+      "print_completed": "recorded",
+      "print_completion_source": "human_report",
+      "print_confirmation_events": [
+        "U01"
+      ],
+      "human_physical_review": "recorded",
+      "human_physical_review_events": [
+        "U02"
+      ]
+    },
+    {
+      "folder": "school-bus-v07-open-bottom",
+      "label": "v07・40mm床なし",
+      "human_feedback": [
+        "S06",
+        "S05"
+      ],
+      "human_approval": [],
+      "human_feedback_label": "○ 床なし・空洞等の要望",
+      "human_approval_label": "なし",
+      "human_design_inputs": [],
+      "human_process_requests": [
+        "S09",
+        "S08"
+      ],
+      "agent_review": "recorded",
+      "sliced": "recorded",
+      "print_started": "not_performed",
+      "print_completed": "not_performed",
+      "print_completion_source": "none",
+      "print_confirmation_events": [],
+      "human_physical_review": "no_record"
+    },
+    {
+      "folder": "school-bus-v08-photo",
+      "label": "v08・写真型",
+      "human_feedback": [
+        "P02",
+        "P03"
+      ],
+      "human_approval": [],
+      "human_feedback_label": "○ ボンネット変更提案",
+      "human_approval_label": "なし",
+      "human_design_inputs": [],
+      "human_process_requests": [],
+      "agent_review": "recorded",
+      "sliced": "recorded",
+      "print_started": "not_performed",
+      "print_completed": "not_performed",
+      "print_completion_source": "none",
+      "print_confirmation_events": [],
+      "human_physical_review": "no_record"
+    },
+    {
+      "folder": "school-bus-v09-sloped",
+      "label": "v09・傾斜ボンネット",
+      "human_feedback": [],
+      "human_approval": [
+        "P05"
+      ],
+      "human_feedback_label": "傾斜案はv08で提案",
+      "human_approval_label": "○ 試し刷り指示",
+      "human_design_inputs": [
+        "P03"
+      ],
+      "human_process_requests": [
+        "P04"
+      ],
+      "agent_review": "recorded",
+      "sliced": "recorded",
+      "print_started": "recorded",
+      "print_completed": "recorded",
+      "print_completion_source": "machine_and_human_report",
+      "print_confirmation_events": [
+        "U01"
+      ],
+      "human_physical_review": "no_record"
+    }
+  ],
+  "agent_scopes": {
+    "school-bus-v01": "DR1は条件付きの設計方針確認。DR2はCAD・メッシュ・スライス確認。DR3現物試験は未実施、DR4は未判定。",
+    "school-bus-v02": "CAD・組立形状とスライス後の確認。段階別の正式なDR判定表は主要資料で確認できない。",
+    "school-bus-v03-mini": "DR0・DR1は一部実施、DR2はデータ上の確認。DR0〜2の完了・合格判定はなく、DR3・DR4は未実施。",
+    "school-bus-v04-dr": "DR0の要求・試験計画を確認。DR1・DR2は成人評価用試作に限る条件付き判定。DR3・DR4は未実施。既存のCADハッシュ不一致も残る。",
+    "school-bus-v05-dfam": "開口候補のCAD形状を確認。候補本体のスライスと正式なDR0〜4は未実施。比較用のv04スライスと区別する。",
+    "school-bus-v06-simple": "DR0〜2の要求・形状・印刷データを確認。DR3はNOT_RUN、DR4はHOLD。",
+    "school-bus-v06-empty-inverted": "CADと姿勢・支持材・配色のスライス比較。正式な全DRの完了記録とは区別する。赤タイヤ版のジョブ開始は機械記録で確認する。",
+    "school-bus-v07-open-bottom": "DR0〜2の要求・形状・印刷データを確認。DR3はNOT_RUN、DR4はHOLD。",
+    "school-bus-v08-photo": "形状・配色・スライス・ボンネットの確認。全DRの再実施はしていない。",
+    "school-bus-v09-sloped": "ボンネット断面とG-codeの前層との重なりを確認。選定した範囲の検証であり、印刷完了や全体の現物品質合格とは区別する。"
+  },
+  "machine_evidence": {
+    "v06-red-tyres": {
+      "kind": "human_report",
+      "summary": "本人の報告で印刷済み。印刷ジョブIDの直接照合はない。"
+    },
+    "v09": {
+      "kind": "machine_record",
+      "status": "FINISH",
+      "progress_percent": 100,
+      "layers": 119
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "revision": "v04-dr",
+  "status": "failed",
+  "failed_check": "再梱包時の保存CADハッシュ照合で不一致",
+  "cad_sha256_expected": "bb2f3410e3309f2c70d113ef16cb7ceabf0b3698645bec7ce687cfa8ca5a2ee5",
+  "cad_sha256_actual": "6406aeccd604a9cc6378633f347676d0cfcb1acec338533ead4ac582ca3e639b",
+  "step_sha256_match": true
+}

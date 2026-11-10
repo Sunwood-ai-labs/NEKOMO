@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "stage_names": {
+    "DR0": "要求",
+    "DR1": "設計",
+    "DR2": "工程",
+    "DR3": "現物試験",
+    "DR4": "使用判定"
+  },
+  "rows": {
+    "v01・大型一体": {
+      "summary": "DR1・2審査",
+      "stages": {
+        "DR0": "なし",
+        "DR1": "条件付き",
+        "DR2": "データ確認",
+        "DR3": "なし",
+        "DR4": "なし"
+      },
+      "checks": [
+        "一体構造・固定輪の設計方針を審査。",
+        "CADの有効性、STLの閉鎖性と接続、単色・2色のスライスを確認。",
+        "リア窓上端の長い橋渡しを検出し、検証片を用意。現物試験はなし。"
+      ],
+      "brief_checks": "一体・固定輪、CAD・STL、2色スライス、橋渡し検証片",
+      "sources": [
+        "../designs/school-bus-v01/safety-review.md",
+        "../designs/school-bus-v01/evidence/after-slice-review.md"
+      ]
+    },
+    "v02・大型3部品": {
+      "summary": "個別検査：形状・嵌合・スライス",
+      "stages": {
+        "DR0": "なし",
+        "DR1": "なし",
+        "DR2": "なし",
+        "DR3": "なし",
+        "DR4": "なし"
+      },
+      "checks": [
+        "車体・シャーシ・屋根の形状、干渉と位置決めを確認。",
+        "各部品の姿勢・支持材・スライスを比較し、保存した印刷ファイルを検査。",
+        "固定輪まわりの支持材除去を現物の確認課題として記録。"
+      ],
+      "brief_checks": "3部品の干渉・位置決め、姿勢・支持材、3MF",
+      "sources": [
+        "../designs/school-bus-v02/README.md",
+        "../designs/school-bus-v02/evidence/after-slice-review.md"
+      ]
+    },
+    "v03・60mm組立": {
+      "summary": "DR0〜2を一部実施",
+      "stages": {
+        "DR0": "一部",
+        "DR1": "一部",
+        "DR2": "データ確認",
+        "DR3": "なし",
+        "DR4": "なし"
+      },
+      "checks": [
+        "赤白・60mm・固定輪の要求を反映。外観と位置決め部の肉厚を調整。",
+        "3部品の再読込・干渉、STEPとSTLの形状を確認。",
+        "支持材と材料割当、スライスとG-codeを確認。DR0〜2の完了・合格判定はなし。"
+      ],
+      "brief_checks": "要求の一部、3部品の再読込・干渉、材料・G-code"
+    },
+    "v04・60mm一体": {
+      "summary": "DR0〜2審査・1と2は条件付き",
+      "stages": {
+        "DR0": "審査済み",
+        "DR1": "条件付き",
+        "DR2": "条件付き",
+        "DR3": "なし",
+        "DR4": "なし"
+      },
+      "checks": [
+        "要求仕様、設計FMEA16項目、工程FMEA12項目、試験計画を整理・審査。",
+        "別体の屋根・底板を一体化し、幅と補強部を見直す。CAD・メッシュ・色領域を確認。",
+        "材料割当・支持材除去計画・スライスと出力経路を確認。",
+        "整理時の再照合では保存CADのハッシュ不一致が残る。現在の再梱包は停止。"
+      ],
+      "brief_checks": "要求・FMEA、一体化・色境界、印刷経路。現在CAD照合不一致",
+      "sources": [
+        "../designs/school-bus-v04-dr/quality/preprint-review/dr-review.md"
+      ]
+    },
+    "v05・底面開口候補": {
+      "summary": "個別検査：CAD・底面開口",
+      "stages": {
+        "DR0": "なし",
+        "DR1": "なし",
+        "DR2": "なし",
+        "DR3": "なし",
+        "DR4": "なし"
+      },
+      "checks": [
+        "底面2開口、残す側レール・横桟・座席の接続と、有効な単一ソリッドを確認。",
+        "中央窓の支持材除去用検証片を準備。",
+        "開口候補本体のスライスはなし。時間比較用のv04基準形状のスライスとは区別する。"
+      ],
+      "brief_checks": "底面開口・横桟・座席接続・検証片。候補のスライスなし",
+      "sources": [
+        "../designs/school-bus-v05-dfam/coupon/README.md"
+      ]
+    },
+    "v06・40mmシンプル": {
+      "summary": "DR0〜2審査",
+      "stages": {
+        "DR0": "審査済み",
+        "DR1": "データ確認",
+        "DR2": "データ確認",
+        "DR3": "なし",
+        "DR4": "保留"
+      },
+      "checks": [
+        "小型・単色・一体の要求を確認し、DR前後のデータを保存。",
+        "r00・r01のソース、CAD・STEP・STLの再読込と代表断面を確認。前面・窓位置を修正。",
+        "3MFの材料・設定・G-code・時間を確認。予測27分6秒、支持材・色替え・警告なし。"
+      ],
+      "brief_checks": "要求、ソース・CAD・STL・断面、3MF・G-code",
+      "sources": [
+        "../designs/school-bus-v06-simple/quality/preprint-review/dr-review.md",
+        "../designs/school-bus-v06-simple/evidence/DR1-r00-findings.md"
+      ]
+    },
+    "v06・60mm空洞": {
+      "summary": "個別検査：姿勢・支持・配色",
+      "stages": {
+        "DR0": "なし",
+        "DR1": "なし",
+        "DR2": "なし",
+        "DR3": "なし",
+        "DR4": "なし"
+      },
+      "checks": [
+        "床・座席を抜いた形状と空洞を確認。",
+        "正立・逆さ、支持材なし・tree・normalをスライス比較。",
+        "赤屋根・白車体の2色案について、色替え・時間・支持材とG-codeを確認。"
+      ],
+      "brief_checks": "客室の空洞、姿勢・支持材・配色の比較",
+      "sources": [
+        "../designs/school-bus-v06-empty-inverted/evidence/after-slice-review.md"
+      ]
+    },
+    "v06・赤タイヤ": {
+      "summary": "個別検査：色領域・色替え・経路",
+      "stages": {
+        "DR0": "なし",
+        "DR1": "なし",
+        "DR2": "なし",
+        "DR3": "なし",
+        "DR4": "なし"
+      },
+      "checks": [
+        "赤い屋根・タイヤと白い車体・ハブの色分けを確認。",
+        "逆さ姿勢・通常支持材のスライス、色替え40回・予測時間・材料量を確認。",
+        "印刷ファイル・G-codeとAMS割当を確認。印刷済みは本人報告で記録し、現物試験の合格とは区別。"
+      ],
+      "brief_checks": "色領域、色替え40回、G-code・AMS割当",
+      "sources": [
+        "../designs/school-bus-v06-empty-inverted/two-color-red-tyres/README.md",
+        "../designs/school-bus-v06-empty-inverted/two-color-red-tyres/after-slice-review.md"
+      ]
+    },
+    "v07・40mm床なし": {
+      "summary": "DR0〜2審査",
+      "stages": {
+        "DR0": "審査済み",
+        "DR1": "データ確認",
+        "DR2": "データ確認",
+        "DR3": "なし",
+        "DR4": "保留"
+      },
+      "checks": [
+        "床なし・中空・逆さ・2色・固定輪の要求を審査し、DR前後を保存。",
+        "窓の切り抜きと輪の張り出しを修正。CAD・STEP・STL、局所厚さ、色境界と空洞を確認。",
+        "タワー位置の失敗を修正して再スライス。G-codeで空洞中央を横切る押出がないことなどを確認。予測28分41秒、色替え1回、支持材なし。"
+      ],
+      "brief_checks": "窓・輪の修正、厚さ・色境界、スライス・G-code",
+      "sources": [
+        "../designs/school-bus-v07-open-bottom/evidence/design-review-r00.md"
+      ]
+    },
+    "v08・写真型": {
+      "summary": "個別検査：形状・配色・スライス",
+      "stages": {
+        "DR0": "なし",
+        "DR1": "なし",
+        "DR2": "なし",
+        "DR3": "なし",
+        "DR4": "なし"
+      },
+      "checks": [
+        "CAD再読込、単一ソリッド、床開口、色領域の重複と欠落を確認。",
+        "白タイヤと赤タイヤの配色をスライス比較し、色替え・時間・材料量を確認。",
+        "逆さ印刷でボンネットが空中から始まる問題を確認。全DRの再実施はなし。"
+      ],
+      "brief_checks": "単一ソリッド・床開口・色領域、白タイヤと赤タイヤの比較",
+      "sources": [
+        "../designs/school-bus-v08-photo/README.md"
+      ]
+    },
+    "v09・傾斜ボンネット": {
+      "summary": "個別検証：断面・G-code",
+      "stages": {
+        "DR0": "なし",
+        "DR1": "なし",
+        "DR2": "なし",
+        "DR3": "なし",
+        "DR4": "なし"
+      },
+      "checks": [
+        "傾斜ボンネットへ変更し、保存CADの再読込と床開口を確認。",
+        "CADの層ごとの断面と、実G-codeの押出線幅を用いて前層との重なりを確認。検査範囲はボンネット中央の抽出点。",
+        "保存3MFの設定・警告・支持材・色替えを確認。実機のFINISH・100%・119層完了も記録。寸法・強度などの現物試験の合格記録はなし。"
+      ],
+      "brief_checks": "層断面、前層との経路重なり、保存3MF、印刷完了記録",
+      "sources": [
+        "../designs/school-bus-v09-sloped/README.md"
+      ]
+    }
+  }
+}

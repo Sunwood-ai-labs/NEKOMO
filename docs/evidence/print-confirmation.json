@@ -1,0 +1,20 @@
+{
+  "kind": "human_report",
+  "summary": "本人が印刷したものは2件と報告。",
+  "versions": [
+    {
+      "id": "v06-red-tyres",
+      "label": "v06赤タイヤ版"
+    },
+    {
+      "id": "v09",
+      "label": "v09傾斜ボンネット版"
+    }
+  ],
+  "machine_record": {
+    "version": "v09",
+    "status": "FINISH",
+    "progress_percent": 100,
+    "layers": 119
+  }
+}

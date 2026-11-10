@@ -1,0 +1,907 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-11-10",
+  "note": "SHA-256 covers every published file except this manifest itself. It verifies snapshot integrity, not model safety or print quality.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 103,
+      "sha256": "8ca782ac97d92525f67cef0fff3182121d7653ecec79bbbecaf504ae48f790c8"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 5130,
+      "sha256": "ab6d1826300301c05bf2a0941d2fcfd109c899029cf212f21a0bd61ce457de20"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2514,
+      "sha256": "f42422f9b5eba6a953e0657b83a7184b90b6e8407b586d4d0e083e322430400b"
+    },
+    {
+      "path": "designs/school-bus-v01/build_bus.py",
+      "bytes": 43492,
+      "sha256": "6a54446fc451eb00238904fb0fb32678d5afe04381bb9c4a3d08bdaa1202fb37"
+    },
+    {
+      "path": "designs/school-bus-v01/cad/nekomo-school-bus-v01.FCStd",
+      "bytes": 1380953,
+      "sha256": "28f5a6d4c48ca524da4bbc1f4521cab6c255ba8796f241dda3590655f4deb4a7"
+    },
+    {
+      "path": "designs/school-bus-v01/cad/rear-window-bridge-coupon.FCStd",
+      "bytes": 21103,
+      "sha256": "d36a748cf6420a6a69860d281527327c10c195656fb3a0237a0c84c01644f387"
+    },
+    {
+      "path": "designs/school-bus-v01/design-spec.json",
+      "bytes": 2554,
+      "sha256": "f3f288418d824ea23c36dcd49286a867c935d6fd7b48f6b1f09bf39eac34c362"
+    },
+    {
+      "path": "designs/school-bus-v01/exports/nekomo-school-bus-v01-solid.stl",
+      "bytes": 3407384,
+      "sha256": "e28064cab4bdf973f779aeba3ef9d95601be57aec46a757d11b2448fb7c6e52e"
+    },
+    {
+      "path": "designs/school-bus-v01/exports/nekomo-school-bus-v01.step",
+      "bytes": 709225,
+      "sha256": "a8e650219f65447ad91965549701868a16c1d215a6d0abbf0f8754dfb6edc47d"
+    },
+    {
+      "path": "designs/school-bus-v01/inspect_bridges.py",
+      "bytes": 2577,
+      "sha256": "2ad2af42d443384b62032183f80dc6b78fd808c2bf4672e8f591fbd4cf3b361a"
+    },
+    {
+      "path": "designs/school-bus-v01/make_drawing.py",
+      "bytes": 3101,
+      "sha256": "4237fdab18db3034f3e0fc323cf97221f5dea38d3ed2b9342be04a388bbdbd13"
+    },
+    {
+      "path": "designs/school-bus-v01/print/nekomo-school-bus-v01-red-prototype-sliced.3mf",
+      "bytes": 8799733,
+      "sha256": "63153ed766c1ab05ef3791cbc55d6f5c2fdb3912318c0fc1423886936c08fbac"
+    },
+    {
+      "path": "designs/school-bus-v01/print/nekomo-school-bus-v01-two-color-sliced.3mf",
+      "bytes": 9968847,
+      "sha256": "bcb4a7eea61d7d3d12d09fff942f53f041d3adc029a5de274549dc5b95def744"
+    },
+    {
+      "path": "designs/school-bus-v01/verify_meshes.py",
+      "bytes": 3651,
+      "sha256": "18c45cdddbb93dfa0f159681af00a690503958af92f44616af68409e2c1b57da"
+    },
+    {
+      "path": "designs/school-bus-v02/build_bus_v02.py",
+      "bytes": 10186,
+      "sha256": "a1c8bddb7e3bb07c5c42bfea4cc8c17f7d3b6e0ff61212b87e3b041cf83efb19"
+    },
+    {
+      "path": "designs/school-bus-v02/cad/nekomo-school-bus-v02.FCStd",
+      "bytes": 1814965,
+      "sha256": "e99ba58401bf9907a985e6d43a8db37d7c5e32985a9f02619dfdaece128c985e"
+    },
+    {
+      "path": "designs/school-bus-v02/cad_helpers.py",
+      "bytes": 21845,
+      "sha256": "44e746901f8a6b4acf46c0db29b5bc8e542e88582318cfa4fa3755510d8d8f5b"
+    },
+    {
+      "path": "designs/school-bus-v02/evidence/model-v02-isometric.png",
+      "bytes": 132353,
+      "sha256": "251779c4a3a7fe15edff435cb37443f055a85e0eee8e3f6bac0a13f9f540c5d6"
+    },
+    {
+      "path": "designs/school-bus-v02/exports/school-bus-v02-assembly.step",
+      "bytes": 999098,
+      "sha256": "60808f4b36ec6ab2ee8a9ecdd90c5cb5bd533ccb442b3a86f96cc74bb7373d7b"
+    },
+    {
+      "path": "designs/school-bus-v02/exports/school-bus-v02-body-assembled.stl",
+      "bytes": 2238284,
+      "sha256": "ce581b60ad119becf8bb41854072a446835814380fa109470200aaa26fd7142e"
+    },
+    {
+      "path": "designs/school-bus-v02/exports/school-bus-v02-chassis-assembled.stl",
+      "bytes": 5443484,
+      "sha256": "580daa4036040d4cbb01e0827322aaa6954c42b273ae40b1df3732db326bb7da"
+    },
+    {
+      "path": "designs/school-bus-v02/exports/school-bus-v02-roof-assembled.stl",
+      "bytes": 549884,
+      "sha256": "9516d777d95282c75f86945825f45cab4deb3748cd767fb9f597a920015ee5b1"
+    },
+    {
+      "path": "designs/school-bus-v02/prepare_projects.py",
+      "bytes": 3082,
+      "sha256": "d55f745dff390554c63725074040357f98ab3ca1476175d4798faf3da8cd1e70"
+    },
+    {
+      "path": "designs/school-bus-v02/print/final-body-sliced.3mf",
+      "bytes": 5418002,
+      "sha256": "19c14771324295453a839cfc6b739f38b3200f85db9955c4cb72b92e4503e644"
+    },
+    {
+      "path": "designs/school-bus-v02/print/final-chassis-sliced.3mf",
+      "bytes": 7871536,
+      "sha256": "2b19ba517f91f4176aab9e00b229f9d22eac8cf9e9f0c85b01cdb2640c1cb82f"
+    },
+    {
+      "path": "designs/school-bus-v02/print/final-roof-sliced.3mf",
+      "bytes": 2565023,
+      "sha256": "469084e00cf8667f1e7399a58d5da92e3a0fd7daae9b02783386610f6707a819"
+    },
+    {
+      "path": "designs/school-bus-v02/verify_meshes.py",
+      "bytes": 3651,
+      "sha256": "18c45cdddbb93dfa0f159681af00a690503958af92f44616af68409e2c1b57da"
+    },
+    {
+      "path": "designs/school-bus-v03-mini/build_bus_v03.py",
+      "bytes": 11271,
+      "sha256": "e9469c08a0d07f8fab3ddd03e2f9357e1df30be6edee601f891d7068b6dac6cb"
+    },
+    {
+      "path": "designs/school-bus-v03-mini/cad/nekomo-school-bus-v03.FCStd",
+      "bytes": 1571127,
+      "sha256": "df853814e7f7e065e0fbe8b601a383085e7e7303e16f72c23785ddfee5ff6acc"
+    },
+    {
+      "path": "designs/school-bus-v03-mini/cad_helpers.py",
+      "bytes": 21845,
+      "sha256": "44e746901f8a6b4acf46c0db29b5bc8e542e88582318cfa4fa3755510d8d8f5b"
+    },
+    {
+      "path": "designs/school-bus-v03-mini/evidence/model-v03-isometric.png",
+      "bytes": 102668,
+      "sha256": "d1041380f0455621e99decd8809d77b8076ad1844086fd3bac622d540ff0e8bb"
+    },
+    {
+      "path": "designs/school-bus-v03-mini/exports/school-bus-v03-assembly.step",
+      "bytes": 1058162,
+      "sha256": "dd502a58958fe020371b8f7b396dbd11022e2b5693ddf6c21a2ee61fc0a7e98d"
+    },
+    {
+      "path": "designs/school-bus-v03-mini/exports/school-bus-v03-body-assembled.stl",
+      "bytes": 2233584,
+      "sha256": "741e6aa34c67c217e4a81e47b4b7b4d87429efe6babdb5a36dea8942fb6427b7"
+    },
+    {
+      "path": "designs/school-bus-v03-mini/exports/school-bus-v03-chassis-assembled.stl",
+      "bytes": 4919284,
+      "sha256": "debb1b1f5115fb8533edd929b6af900f0c8d6d3025204651246bd7752c4a644b"
+    },
+    {
+      "path": "designs/school-bus-v03-mini/exports/school-bus-v03-roof-assembled.stl",
+      "bytes": 377784,
+      "sha256": "b827d7d71879d84eddad4aa3606fa418388ef008295ee9829eed00e1ee758d26"
+    },
+    {
+      "path": "designs/school-bus-v03-mini/prepare_projects.py",
+      "bytes": 3119,
+      "sha256": "b821955735c060f9a5d6e51fceb18bc6e08ceecfa587197342218dc44516203e"
+    },
+    {
+      "path": "designs/school-bus-v03-mini/print/final-body-sliced.3mf",
+      "bytes": 1851916,
+      "sha256": "51d555d05876e734bc6ab344ca6160e6d962c69ece808dc7c842012394642857"
+    },
+    {
+      "path": "designs/school-bus-v03-mini/print/final-chassis-sliced.3mf",
+      "bytes": 1982517,
+      "sha256": "68dcc6d91af17894265a94d9100b739a0a8426478894dae742a5145611e50973"
+    },
+    {
+      "path": "designs/school-bus-v03-mini/print/final-roof-sliced.3mf",
+      "bytes": 435276,
+      "sha256": "9d6a758c22cb7f9e8968336a92b5bab397e7530ca57028b2139a4bc552e2a272"
+    },
+    {
+      "path": "designs/school-bus-v03-mini/verify_meshes.py",
+      "bytes": 3651,
+      "sha256": "18c45cdddbb93dfa0f159681af00a690503958af92f44616af68409e2c1b57da"
+    },
+    {
+      "path": "designs/school-bus-v04-dr/build_bus_v04.py",
+      "bytes": 16442,
+      "sha256": "b95e20409150cb542f3fb97ba3d5b4752f2318c7907baac12ec46087e9062e59"
+    },
+    {
+      "path": "designs/school-bus-v04-dr/cad/nekomo-school-bus-v04.FCStd",
+      "bytes": 4322553,
+      "sha256": "6406aeccd604a9cc6378633f347676d0cfcb1acec338533ead4ac582ca3e639b"
+    },
+    {
+      "path": "designs/school-bus-v04-dr/check_hull_margin.py",
+      "bytes": 3001,
+      "sha256": "835ec5e503e58e3b6f8dc984a03f2e676b59736df1524206e7a89f5cbfde1b7d"
+    },
+    {
+      "path": "designs/school-bus-v04-dr/evidence/model-v04-isometric.png",
+      "bytes": 105068,
+      "sha256": "765ab533fceff5b18663e727f1c8ef55eecc8f8cd7b2f7e9f5141cdd549c6c07"
+    },
+    {
+      "path": "designs/school-bus-v04-dr/exports/bus-v04-red.stl",
+      "bytes": 7302784,
+      "sha256": "4d873b29186073a7b59ed66dffdf2d72bac5478e16a15d372de370e416c2f2e8"
+    },
+    {
+      "path": "designs/school-bus-v04-dr/exports/bus-v04-solid.stl",
+      "bytes": 7767284,
+      "sha256": "6530b5f46ac4780ba498e98d9d7793e0c94cdab60ae353eef07792a361c44595"
+    },
+    {
+      "path": "designs/school-bus-v04-dr/exports/bus-v04-white.stl",
+      "bytes": 3864384,
+      "sha256": "196727c92cecdd0913caf3c9d479f331add4fb28e28fd7ca00e77dcb82ef46a8"
+    },
+    {
+      "path": "designs/school-bus-v04-dr/exports/bus-v04.step",
+      "bytes": 1736116,
+      "sha256": "23cf5d80f4f7490d908357f945d43a851d1c34d16a53e994f05e8634e7689b31"
+    },
+    {
+      "path": "designs/school-bus-v04-dr/prepare_projects.py",
+      "bytes": 3132,
+      "sha256": "31a5a5fccd288fdda5f121b1e3df5ed1ae2d37c23cace0a9de087272910f2b5d"
+    },
+    {
+      "path": "designs/school-bus-v04-dr/print/final-bus-sliced.3mf",
+      "bytes": 5104242,
+      "sha256": "091ca2dc03d3282b376b05e8730e346c1cca4a7eb72a385b7f3b5304bd830921"
+    },
+    {
+      "path": "designs/school-bus-v04-dr/source/nekomo-school-bus-v03.FCStd",
+      "bytes": 1571371,
+      "sha256": "f4344764441bb828c8aa1d3399384c70cf652e27e7b96bf7e258623dc8dd2c2b"
+    },
+    {
+      "path": "designs/school-bus-v04-dr/verify_meshes.py",
+      "bytes": 3651,
+      "sha256": "18c45cdddbb93dfa0f159681af00a690503958af92f44616af68409e2c1b57da"
+    },
+    {
+      "path": "designs/school-bus-v05-dfam/build_variants.py",
+      "bytes": 14077,
+      "sha256": "b151273be50a0249257e4655ca14c7645405d281ac8f7e93657a82fb36ff29a7"
+    },
+    {
+      "path": "designs/school-bus-v05-dfam/cad/nekomo-school-bus-v05-open-underside.FCStd",
+      "bytes": 1177069,
+      "sha256": "6257bf4afbb3ecf21fa9a5ff1277e44adce2ba91d7b697ac3a065739a4e1f470"
+    },
+    {
+      "path": "designs/school-bus-v05-dfam/cad/source-nekomo-school-bus-v04.FCStd",
+      "bytes": 4322971,
+      "sha256": "bb2f3410e3309f2c70d113ef16cb7ceabf0b3698645bec7ce687cfa8ca5a2ee5"
+    },
+    {
+      "path": "designs/school-bus-v05-dfam/coupon/build_coupon.py",
+      "bytes": 11071,
+      "sha256": "3cfa78fa5de6b3be6c069bdc167c3e768215aa75819893cc76b6aacfd3b87e0a"
+    },
+    {
+      "path": "designs/school-bus-v05-dfam/coupon/v04-middle-window-support-removal-coupon.FCStd",
+      "bytes": 193575,
+      "sha256": "1c4c6fe2ecd1c0bf526dbccf2b12b99ca825cfca4a8be1135b24c64c575b41ea"
+    },
+    {
+      "path": "designs/school-bus-v05-dfam/prepare_projects.py",
+      "bytes": 3109,
+      "sha256": "7a006d6763948a1521ac21cbbdf444264c1c37d2c383ef76411515bbcab57221"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/build_candidate.py",
+      "bytes": 15774,
+      "sha256": "2145919a646d0cea5846a2328680b728d7bf73dc1c0350c85f588c23fb95f699"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/build_clear_cabin.py",
+      "bytes": 2351,
+      "sha256": "bc2555b58c69089271c60a81d680676ef8c89ebc8cad01869f5b85ce4221b14e"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/build_red_tyres.py",
+      "bytes": 3121,
+      "sha256": "976f1c73e109e4cdd8c587f26449c9e01ec2875904693b6d8fc3a8f97be5ef3e"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/build_two_color.py",
+      "bytes": 2156,
+      "sha256": "c63d34c6988711a367ec8d5be314a9656d46bfd1c137e204448615c8c5357bee"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/cad/nekomo-school-bus-v06-empty-inverted.FCStd",
+      "bytes": 1389532,
+      "sha256": "87490e9c137a0467646cf117faca1db14e37b723e9a10eb2c75092a244db0fe2"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/corrected/clear-cabin-inverted.stl",
+      "bytes": 6795984,
+      "sha256": "67666d52b12cbea3ec024e9d006a1bb0a39ce5db83b23706ee79962598a502b1"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/corrected/clear-cabin.step",
+      "bytes": 1470399,
+      "sha256": "62bf38dbf61bcde5ffbbe923b1b37ee8a08af82f99e1d6ded7a9937c17dd2d1b"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/corrected/nekomo-v06-clear-cabin.FCStd",
+      "bytes": 1019247,
+      "sha256": "b8adc38894bc2a8963bec6716ef1e3f68cd99248048c280ae15229f98496c54a"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/prepare_profiles.py",
+      "bytes": 814,
+      "sha256": "9199206d669bc685e3c1f9061cc089ccd4b3e8d835653a3e1045cfe91de6d7b8"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/print/clear-inverted-normal-support-sliced.3mf",
+      "bytes": 2728359,
+      "sha256": "7e92318bb77141c50830534938756da1ccf18fe021382839831e7bc44a902f38"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/summarize_slices.py",
+      "bytes": 1858,
+      "sha256": "2d46bcec61e77546fef4d5790630a5b3cea3b6525c4de6c8ec01b6a0a8323ce1"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/two-color-red-tyres/nekomo-v06-red-tyres.FCStd",
+      "bytes": 1083028,
+      "sha256": "a5b531701e0cb4b92e7062ce2e416c7635bb91ebaee79693e6fb0ce35405b272"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/two-color-red-tyres/red-roof-tyres-inverted.stl",
+      "bytes": 2911484,
+      "sha256": "e293df549a35dcded6b343a12e9218e1c07bf69c801ffa00b2676202c8b9b23f"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/two-color-red-tyres/red-tyres-inverted-sliced.3mf",
+      "bytes": 3017392,
+      "sha256": "abeb576ae657ca6edf25355696f14735eca15ae2bf9eb246b380fc9cb66381e5"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/two-color-red-tyres/white-body-hubs-inverted.stl",
+      "bytes": 4727584,
+      "sha256": "8097eb6c090f23d0d5e4151272cfc7b3d058789c521125fb962735ebe6a561c6"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/two-color/nekomo-v06-red-white.FCStd",
+      "bytes": 1023754,
+      "sha256": "a9d6d4687c367d63c55e68c46f64a004b1855e952312943c0ccfd2ba6271f1d7"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/two-color/red-roof-inverted.stl",
+      "bytes": 392284,
+      "sha256": "290ffe8543c3d2f9caa3c40b0f4530877d72fb5a7ee0cdc148ad2105beb5dc79"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/two-color/red-white-inverted-sliced.3mf",
+      "bytes": 2760941,
+      "sha256": "5dade7106499109618c6480c22eb60fa7084710d8dca1de80d03d5e104501532"
+    },
+    {
+      "path": "designs/school-bus-v06-empty-inverted/two-color/white-body-inverted.stl",
+      "bytes": 6456884,
+      "sha256": "2a589c818c1831b3df6d51cacbe715564d6dbe799495e9aaacd0efa75708ac30"
+    },
+    {
+      "path": "designs/school-bus-v06-simple/build_bus.py",
+      "bytes": 13674,
+      "sha256": "62e910068b7fa8508319fcc40d80550fe416baf6fa2cd9a48530b3aed8ddfa58"
+    },
+    {
+      "path": "designs/school-bus-v06-simple/candidate-r00/cad/school-bus-r00.FCStd",
+      "bytes": 130008,
+      "sha256": "bd46a10d2c9c16234ea636d410013373b0a307d3cedeaceebca6939a7e5e795d"
+    },
+    {
+      "path": "designs/school-bus-v06-simple/candidate-r01/build_bus.py",
+      "bytes": 13674,
+      "sha256": "62e910068b7fa8508319fcc40d80550fe416baf6fa2cd9a48530b3aed8ddfa58"
+    },
+    {
+      "path": "designs/school-bus-v06-simple/candidate-r01/cad/final-bus-r01.FCStd",
+      "bytes": 129600,
+      "sha256": "0021da9d1f65efa3654ad630c7007d5e68976a915a8407d743a2c811e1da9e34"
+    },
+    {
+      "path": "designs/school-bus-v06-simple/candidate-r01/cad/school-bus-r01.FCStd",
+      "bytes": 114311,
+      "sha256": "9713b22eb43b0c3b8ec898ab62e9bda99b9b0ecc47aeea884aa942957f57b940"
+    },
+    {
+      "path": "designs/school-bus-v06-simple/candidate-r01/exports/school-bus-r01.step",
+      "bytes": 151205,
+      "sha256": "b363e45ef83cb18a5e9211e935c1b491c0e8ad37a739c0f5cf62df51b11e96ee"
+    },
+    {
+      "path": "designs/school-bus-v06-simple/candidate-r01/exports/school-bus-r01.stl",
+      "bytes": 145884,
+      "sha256": "d949bedefb02860686c559185235ed5c48ad832b5f9e7e6b3358331181a0d41e"
+    },
+    {
+      "path": "designs/school-bus-v06-simple/candidate-r01/print/school-bus-r01-sliced.3mf",
+      "bytes": 224925,
+      "sha256": "bf89c88cf0c595884269e19fa72f046ac1cf2b403c5aee0f23116c543841c490"
+    },
+    {
+      "path": "designs/school-bus-v07-open-bottom/build_bus.py",
+      "bytes": 17757,
+      "sha256": "ff928f8ea067c7dfb96caaf74751296d09afa7dd88e42ff65002227990d9ed5c"
+    },
+    {
+      "path": "designs/school-bus-v07-open-bottom/candidate-r00/build_bus.py",
+      "bytes": 17757,
+      "sha256": "ff928f8ea067c7dfb96caaf74751296d09afa7dd88e42ff65002227990d9ed5c"
+    },
+    {
+      "path": "designs/school-bus-v07-open-bottom/candidate-r00/cad/final-bus-v07.FCStd",
+      "bytes": 73081,
+      "sha256": "a54b03b078bc624a7916c2c43dc8fe009aefa64a858d86e8044116e950015c6d"
+    },
+    {
+      "path": "designs/school-bus-v07-open-bottom/candidate-r00/cad/nekomo-bus-v07-final.FCStd",
+      "bytes": 75420,
+      "sha256": "bbc693eec7f1e8fdd79529f76f7f21daf22cb125fc04e73b6c1a55910ecb5e56"
+    },
+    {
+      "path": "designs/school-bus-v07-open-bottom/candidate-r00/cad/nekomo-bus-v07-r00.FCStd",
+      "bytes": 70744,
+      "sha256": "03346c52880d41b2a043ccc324cd49fb63b1015f1037c11a5a639403923e1b07"
+    },
+    {
+      "path": "designs/school-bus-v07-open-bottom/candidate-r00/cad/school-bus-r00.FCStd",
+      "bytes": 63400,
+      "sha256": "af2dfeed8ab81198d8e32967dff75704f833a26155f1686638b7e79bcb6ee1af"
+    },
+    {
+      "path": "designs/school-bus-v07-open-bottom/candidate-r00/evidence/final-underside-r03.png",
+      "bytes": 24298,
+      "sha256": "0b16c76ef8f7c7343b5a6a79ec5fd6dae92be3c4d40cc0002fa202ed2ed37dfa"
+    },
+    {
+      "path": "designs/school-bus-v07-open-bottom/candidate-r00/evidence/final-view-r03.png",
+      "bytes": 19147,
+      "sha256": "520dba234bf369da6f73f04a2cd599e392b723ed58e413b41cc974b4c2ff6232"
+    },
+    {
+      "path": "designs/school-bus-v07-open-bottom/candidate-r00/exports/school-bus-r00-assembled.step",
+      "bytes": 119469,
+      "sha256": "fb0f6ff948d2baa0b3ca47480717eb5052188f2c8250a2a75d5905075307c179"
+    },
+    {
+      "path": "designs/school-bus-v07-open-bottom/candidate-r00/exports/school-bus-r00-assembled.stl",
+      "bytes": 121084,
+      "sha256": "dbce8f6a58e4929afddd7cab47e83fb920141df554a229697e7011a055805fde"
+    },
+    {
+      "path": "designs/school-bus-v07-open-bottom/candidate-r00/exports/school-bus-r00-red-print-oriented.stl",
+      "bytes": 112484,
+      "sha256": "12f27f2b4bdad75031a58b8bcf566dbeeac6bdc19d0ba173f63f3ddb1eef25ff"
+    },
+    {
+      "path": "designs/school-bus-v07-open-bottom/candidate-r00/exports/school-bus-r00-white-print-oriented.stl",
+      "bytes": 10284,
+      "sha256": "88e5c097ace19932b7c37fb78331a570c38db443cbeb7a2469b5868de66352ef"
+    },
+    {
+      "path": "designs/school-bus-v07-open-bottom/candidate-r00/print/bus-two-colour-final.3mf",
+      "bytes": 155347,
+      "sha256": "b01192f5fc242fd223f18319f0e3bf2e8eb3c330052c7ddfeaa3d5df8ebed31c"
+    },
+    {
+      "path": "designs/school-bus-v08-photo/build_photo_bus.py",
+      "bytes": 4032,
+      "sha256": "41bec04925c9479d10e4554af39e74d8b6503ceaa5abc333d4f4decc08cc9bc6"
+    },
+    {
+      "path": "designs/school-bus-v08-photo/cad/photo-bus-fast.FCStd",
+      "bytes": 62500,
+      "sha256": "d044ebee409223c5a81edb0abf77d4c96afdf35399e4b1dffb5615f268745410"
+    },
+    {
+      "path": "designs/school-bus-v08-photo/cad/photo-bus-print-orientation.FCStd",
+      "bytes": 83657,
+      "sha256": "21b9c998911dee3259142147da6989183fa194efb247b08aae8e55b6ba44762e"
+    },
+    {
+      "path": "designs/school-bus-v08-photo/cad/photo-bus.FCStd",
+      "bytes": 72888,
+      "sha256": "cedb5f6b73dfe2db6ecf01484de022843a8aeead5b4cbeecaa2ae62b355a8734"
+    },
+    {
+      "path": "designs/school-bus-v08-photo/exports/Body-inverted.stl",
+      "bytes": 334884,
+      "sha256": "8f3eda65e3e9e6d497ce88793fccad09db09223df42ff9b29e1ec68d2ce60659"
+    },
+    {
+      "path": "designs/school-bus-v08-photo/exports/FastRed.stl",
+      "bytes": 531884,
+      "sha256": "f650988fa06020449f792c0b96957cc3326eb002fdbf1d786882aab36c689483"
+    },
+    {
+      "path": "designs/school-bus-v08-photo/exports/FastWhite.stl",
+      "bytes": 107084,
+      "sha256": "5bc1fefe63b2e5a80443c94f4cf2702bfae8b3d1a21ddcc9ebf89dfe897b7630"
+    },
+    {
+      "path": "designs/school-bus-v08-photo/exports/RoofAndWheels-inverted.stl",
+      "bytes": 365284,
+      "sha256": "b865b05198110aac44b301cba7aebcd735c082bff5e37fcd26adea567678062b"
+    },
+    {
+      "path": "designs/school-bus-v08-photo/exports/fast-two-color-sliced.3mf",
+      "bytes": 335074,
+      "sha256": "11315178ff5a41b5633e5f367d01b2751a1071809c76d9a2d95ec6f7648dffc5"
+    },
+    {
+      "path": "designs/school-bus-v08-photo/exports/photo-bus.step",
+      "bytes": 236898,
+      "sha256": "1aae9e7f9145a93ceb3a3f331ff47900da02640e0f5df33e6ec7d39bfb15fc4c"
+    },
+    {
+      "path": "designs/school-bus-v08-photo/exports/photo-two-color-sliced.3mf",
+      "bytes": 383949,
+      "sha256": "fcba53ba4776ea10fe06503bea18d969aae9fcca89b927808175fe02e09e2a39"
+    },
+    {
+      "path": "designs/school-bus-v08-photo/exports/whole-inverted.stl",
+      "bytes": 629284,
+      "sha256": "81b16736c5bf7f0acad084293c5c2a6ebb6d474a55b6f5a283d0d2b7492b92b2"
+    },
+    {
+      "path": "designs/school-bus-v09-sloped/build_sloped.py",
+      "bytes": 4146,
+      "sha256": "95b70aca2dae82ac2ef79be84be45eea1b606d4c87988f6541df85baf3dadb79"
+    },
+    {
+      "path": "designs/school-bus-v09-sloped/cad/sloped-bus-print.FCStd",
+      "bytes": 66999,
+      "sha256": "af2d00d3bfc7a19f79022ad571c59daafdb9456a8944297ef9b08f3cc6d5a0ba"
+    },
+    {
+      "path": "designs/school-bus-v09-sloped/cad/sloped-bus.FCStd",
+      "bytes": 54988,
+      "sha256": "64be26f0e6b08e5e358cafc0d55a773856b0b69b5c9b548441e18f3a3a1a6324"
+    },
+    {
+      "path": "designs/school-bus-v09-sloped/evidence/sloped-front.png",
+      "bytes": 59910,
+      "sha256": "d19a9a6bf075861effe7b94474bff11d981011cf8b3d5b8e1516a025d82ebe72"
+    },
+    {
+      "path": "designs/school-bus-v09-sloped/evidence/sloped-inverted.png",
+      "bytes": 51504,
+      "sha256": "91be55fbed6d45d3e1fd75c42973b105ea6f02f62556950d3e31077ae5db069e"
+    },
+    {
+      "path": "designs/school-bus-v09-sloped/exports/RedBodyAndTires-inverted.stl",
+      "bytes": 921284,
+      "sha256": "54d33ce32e0a241c5bdc5ed407ec3c3c19d26f8e9e1f55e8820fb4662dc4a41b"
+    },
+    {
+      "path": "designs/school-bus-v09-sloped/exports/WhiteRoof-inverted.stl",
+      "bytes": 367884,
+      "sha256": "edd6871ec372b1bcff0d081f88d8afdcc6a407a850b17f9e9d501926eeb637ca"
+    },
+    {
+      "path": "designs/school-bus-v09-sloped/exports/sloped-bus.step",
+      "bytes": 201800,
+      "sha256": "fca611e1189bad876012036b6d6f5d060752a81b163429372aa57c1e08fda69b"
+    },
+    {
+      "path": "designs/school-bus-v09-sloped/exports/sloped-two-color-sliced.3mf",
+      "bytes": 495537,
+      "sha256": "8d5d67a2f5b1e82bc515695f25fbf38a3032e873c3b65f4652d0e1e7d04bbe60"
+    },
+    {
+      "path": "designs/school-bus-v09-sloped/exports/whole-inverted.stl",
+      "bytes": 1271884,
+      "sha256": "21dd2e73b6f918dcacfe718aa1efb41a446df68e6b3ae824868a858800564402"
+    },
+    {
+      "path": "designs/school-bus-v09-sloped/verify_toolpaths.py",
+      "bytes": 5377,
+      "sha256": "d9eb4a3b521a45f07cb3224bf5facfabac7477eb0936ea4c6fa8a78d8c76edb5"
+    },
+    {
+      "path": "docs/NEKOMO-concept-and-quality.md",
+      "bytes": 28641,
+      "sha256": "8cda70353f26e85b94c99de79c51c5e1efb0da2332368927e48e74b8d81e7761"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 382,
+      "sha256": "481d255434ea7d8fab72884e9697123b37d07e3c749d4d443101389e27f265cb"
+    },
+    {
+      "path": "docs/data/bus-agent-reviews.json",
+      "bytes": 9350,
+      "sha256": "ebfa4aa74a166e7d7a53571f8a812f0e07f269b785687c1c95f9c39ca58af597"
+    },
+    {
+      "path": "docs/data/bus-review-status.json",
+      "bytes": 26839,
+      "sha256": "f1f0277501eec97490712ed1be94358d01825c287946fe7a5e1399dbafde5a6f"
+    },
+    {
+      "path": "docs/data/bus-versions.json",
+      "bytes": 6248,
+      "sha256": "5f393406163eedf12ecaf4fdc6adc4f57c8c3527dff49b1c6f1655a10bb6e18a"
+    },
+    {
+      "path": "docs/designs/school-bus-v01/README.md",
+      "bytes": 8939,
+      "sha256": "cf7583c12d24cd53c8a8bc5b69fa31adaf5c2ab13bc3e0b434c90965260e2a0e"
+    },
+    {
+      "path": "docs/designs/school-bus-v01/evidence/after-slice-review.md",
+      "bytes": 2409,
+      "sha256": "50d66793fd01775762f623083c50d80774cb2f781d126b7b6b7690a45646a3f0"
+    },
+    {
+      "path": "docs/designs/school-bus-v01/safety-review.md",
+      "bytes": 9615,
+      "sha256": "7c3e3510371ba69099c4ab5281a6b47b1d072b304af406cf172ff2da5dc11517"
+    },
+    {
+      "path": "docs/designs/school-bus-v01/版の案内.md",
+      "bytes": 2470,
+      "sha256": "6e39ef52c3b309b50155d850e9da17da9163a10af6b4adc9def1d593f914c08d"
+    },
+    {
+      "path": "docs/designs/school-bus-v02/README.md",
+      "bytes": 5290,
+      "sha256": "7f8fef2890d136035a556596baffc9cc97df1b32b58a62f32cf38f32afeab036"
+    },
+    {
+      "path": "docs/designs/school-bus-v02/evidence/after-slice-review.md",
+      "bytes": 868,
+      "sha256": "53cbb80a7aff69ec6644d3161b3e2b4d7ce8a246e939c5fd6325247422e3afae"
+    },
+    {
+      "path": "docs/designs/school-bus-v02/版の案内.md",
+      "bytes": 2909,
+      "sha256": "70c0c6abfcd966cf9baaa139befaefb9d02cebd67a36efdb12f5a04159260c2e"
+    },
+    {
+      "path": "docs/designs/school-bus-v03-mini/README.md",
+      "bytes": 2747,
+      "sha256": "fd4c0a6e9b8f90c1f4bd8207eadfedfadb902c98c2f34f72f0f1c530213e6c99"
+    },
+    {
+      "path": "docs/designs/school-bus-v03-mini/evidence/after-slice-review.md",
+      "bytes": 690,
+      "sha256": "b99bcd2bf2e495cc08e7c7466317481f81da5b28e65780041d9ba1dbbc77582f"
+    },
+    {
+      "path": "docs/designs/school-bus-v03-mini/版の案内.md",
+      "bytes": 3025,
+      "sha256": "08e0f55b6df734ef6c86c7d7f7502b4c0f27bfcb8503ad310415bf59210ec9d8"
+    },
+    {
+      "path": "docs/designs/school-bus-v04-dr/README.md",
+      "bytes": 3870,
+      "sha256": "f2161f805ee43130797470efa1682f055c66d0db1bde12a8a656043900851c02"
+    },
+    {
+      "path": "docs/designs/school-bus-v04-dr/evidence/after-slice-review.md",
+      "bytes": 2657,
+      "sha256": "7e909c77df627bce590fbb595bd926fd6569e8a51c062fe84d520b59c28592ee"
+    },
+    {
+      "path": "docs/designs/school-bus-v04-dr/quality/preprint-review/dfmea.md",
+      "bytes": 16522,
+      "sha256": "56007213e8a36534981ba9bd826b87066d66ece6cd489ee7f4544b7057b45ec4"
+    },
+    {
+      "path": "docs/designs/school-bus-v04-dr/quality/preprint-review/dr-review.md",
+      "bytes": 5361,
+      "sha256": "b71f7973ca09ff6f9608cab566e9567a7ec7b02a7e2dbcf9fcc37d04fe1d8bcd"
+    },
+    {
+      "path": "docs/designs/school-bus-v04-dr/quality/preprint-review/pfmea.md",
+      "bytes": 5618,
+      "sha256": "3897452b79e8d01a144a6a20c54b7156595c5e00b0989f4cd8edb21bc1eb8532"
+    },
+    {
+      "path": "docs/designs/school-bus-v04-dr/quality/preprint-review/requirements.md",
+      "bytes": 9138,
+      "sha256": "3d40674888d71157f96da786a8fe08dc69cc966c55c179d0b0a48d4a4e31ff46"
+    },
+    {
+      "path": "docs/designs/school-bus-v04-dr/quality/preprint-review/sources.md",
+      "bytes": 10926,
+      "sha256": "9b4d6a4c991bee7a1ba39eb49a343e299012886b492c855b269d0be5ab176c6b"
+    },
+    {
+      "path": "docs/designs/school-bus-v04-dr/quality/preprint-review/test-plan.md",
+      "bytes": 20701,
+      "sha256": "e4059bca68428971d533fbb994057b8f83ab9d32b623d133bbbcd8bf402c1b50"
+    },
+    {
+      "path": "docs/designs/school-bus-v04-dr/版の案内.md",
+      "bytes": 2820,
+      "sha256": "784795919fa66772e5efa28e7cf6b7d85b3e3b8620b7472a86e740b0134b8ee4"
+    },
+    {
+      "path": "docs/designs/school-bus-v05-dfam/coupon/README.md",
+      "bytes": 2360,
+      "sha256": "8230bbfe803c1dcf0c9a225b2ed2c36e9a2499ebb15c0da255228740f5b84ea5"
+    },
+    {
+      "path": "docs/designs/school-bus-v05-dfam/版の案内.md",
+      "bytes": 2264,
+      "sha256": "5016ce3ab286c42780ad35f3aef923eeee230eab0272af932ab1e6b29923b3f0"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-empty-inverted/evidence/after-slice-review.md",
+      "bytes": 5783,
+      "sha256": "1ecf0a8b706f6a4e126a458ce815633367a630188f3e95a07cd6468ffc8c8010"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-empty-inverted/two-color-red-tyres/README.md",
+      "bytes": 2097,
+      "sha256": "a66519893d3ab255a314f06527f4de04e3e1d7b5dade573762f71a3657f8b847"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-empty-inverted/two-color-red-tyres/after-slice-review.md",
+      "bytes": 1858,
+      "sha256": "bd871bd72d58cd1413cb12834cfc01de4ce52cca1b27a250fb599725de42f534"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-empty-inverted/版の案内.md",
+      "bytes": 4048,
+      "sha256": "e4efbb04ea5e7331e36457378428b4c939a0a3c2b7a4bf8aedc8776197a91ee3"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-simple/evidence/DR1-r00-findings.md",
+      "bytes": 1238,
+      "sha256": "7b5972c9076d6d5c0f09a62b0dcf97fc1f5425835214ba0cd29ca869ccc0b48b"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-simple/evidence/DR1-source-findings.md",
+      "bytes": 862,
+      "sha256": "f1a52c3f87a1212494e7793506cc6cdd53a670a1d50917a36a66a638ee8aae92"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-simple/evidence/after-slice-review.md",
+      "bytes": 1584,
+      "sha256": "d86abac0d5d5aca886f385d1f5d6a7ce273d19803f659666deb80eec02f2aa50"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-simple/quality/preprint-review/dfmea.md",
+      "bytes": 4472,
+      "sha256": "a5007538310c98d2ab4122a262e022999f5b11d9b56db94c91d3d015ecb9b09a"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-simple/quality/preprint-review/dr-review.md",
+      "bytes": 1297,
+      "sha256": "98bc3d9f07bf916c5c5fd7891774dd9ff7e30935c51d43c166ceec862363ac94"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-simple/quality/preprint-review/pfmea.md",
+      "bytes": 3825,
+      "sha256": "383de849d8278fc8907576c7c2e6271f3ae842442ba79355ae7307939dce7044"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-simple/quality/preprint-review/requirements.md",
+      "bytes": 5361,
+      "sha256": "5d5eb61feb30e7256fcef630f7db0729eba271a1981480ccbb9e42baeb291d15"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-simple/quality/preprint-review/revision-register.md",
+      "bytes": 4170,
+      "sha256": "12f6a8d011b8e1dafa4553834cec4a856a551deb620c20058e682a140ef30d88"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-simple/quality/preprint-review/test-plan.md",
+      "bytes": 4242,
+      "sha256": "e54c0da847213d4086c03c0c9658026daa7dccf8d62b33a7de26bf7466a65106"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-simple/reviews/DR1/after/cad-r01/evidence/DR1-r00-findings.md",
+      "bytes": 1238,
+      "sha256": "7b5972c9076d6d5c0f09a62b0dcf97fc1f5425835214ba0cd29ca869ccc0b48b"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-simple/reviews/DR1/after/cad-r01/evidence/DR1-source-findings.md",
+      "bytes": 862,
+      "sha256": "f1a52c3f87a1212494e7793506cc6cdd53a670a1d50917a36a66a638ee8aae92"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-simple/reviews/DR2/after/final-r01/evidence/after-slice-review.md",
+      "bytes": 1584,
+      "sha256": "d86abac0d5d5aca886f385d1f5d6a7ce273d19803f659666deb80eec02f2aa50"
+    },
+    {
+      "path": "docs/designs/school-bus-v06-simple/版の案内.md",
+      "bytes": 2661,
+      "sha256": "8cb9d21cae4bfb55d4a21bcb0c58da1228aec1731366fbca3a109515014a8566"
+    },
+    {
+      "path": "docs/designs/school-bus-v07-open-bottom/README.md",
+      "bytes": 2882,
+      "sha256": "93642a3e1ba4d38e9eb3ccfd7fe7eda89356fe8ab6355c3a4ea15d7173861972"
+    },
+    {
+      "path": "docs/designs/school-bus-v07-open-bottom/evidence/DR1-source-findings-r00.md",
+      "bytes": 1140,
+      "sha256": "280127c4f41d83e0194ce10cf65944583ab1afccf695c0617020f437e4366be5"
+    },
+    {
+      "path": "docs/designs/school-bus-v07-open-bottom/evidence/design-review-r00.md",
+      "bytes": 5810,
+      "sha256": "55c9b078596190a58de8432c1de9f693da0d41f47de1c15e6286f6e56fabf4a7"
+    },
+    {
+      "path": "docs/designs/school-bus-v07-open-bottom/reviews/DR1/after/cad-reviewed/evidence/DR1-source-findings-r00.md",
+      "bytes": 1140,
+      "sha256": "280127c4f41d83e0194ce10cf65944583ab1afccf695c0617020f437e4366be5"
+    },
+    {
+      "path": "docs/designs/school-bus-v07-open-bottom/reviews/DR1/after/independent-review/evidence/design-review-r00.md",
+      "bytes": 5700,
+      "sha256": "a2414aaf91a641a9ef1537041e322a250b9e07dc96395a8ff57d6dbef082c4f1"
+    },
+    {
+      "path": "docs/designs/school-bus-v07-open-bottom/版の案内.md",
+      "bytes": 2913,
+      "sha256": "5cd233deeae53a1980ace4a033e9f3dee90e5862fea0eae72b8456a43059c790"
+    },
+    {
+      "path": "docs/designs/school-bus-v08-photo/README.md",
+      "bytes": 3710,
+      "sha256": "d6383659c9ed38c5d314488b4c67d1d0d9b4656122259eedd86dad7419a38590"
+    },
+    {
+      "path": "docs/designs/school-bus-v08-photo/版の案内.md",
+      "bytes": 2382,
+      "sha256": "fb4a39a21c710699e9b1d8c6f67d4fb55c521c042747dfa7427e98ea25ac806c"
+    },
+    {
+      "path": "docs/designs/school-bus-v09-sloped/README.md",
+      "bytes": 3074,
+      "sha256": "ee8a7a83689e99a9d850682e3b69e4662b3cd93b8204f44ddc04332bb1f1eadb"
+    },
+    {
+      "path": "docs/designs/school-bus-v09-sloped/版の案内.md",
+      "bytes": 3176,
+      "sha256": "c6babc4c153defa048e3bbcde03b895df8ccb07d5244a4fa37ef0e2ae3bd5c3a"
+    },
+    {
+      "path": "docs/evidence/print-confirmation.json",
+      "bytes": 407,
+      "sha256": "79ee44066b39ecb694247201f099daa12e751a590f00942a08d91123ddc51f88"
+    },
+    {
+      "path": "docs/evidence/print-quality-feedback.json",
+      "bytes": 464,
+      "sha256": "93a5a01cdc19aba5079dc06116eeaaaa2fa6a7d9f3acd27a62e618773c6a5232"
+    },
+    {
+      "path": "docs/evidence/v04-packaging-check.json",
+      "bytes": 346,
+      "sha256": "447e6fad24398086d52eb8948c2283e92a16ef566ccdea167af0a074ab54a8d1"
+    },
+    {
+      "path": "docs/バスの版一覧.md",
+      "bytes": 10104,
+      "sha256": "35302c18d8960948fad5e2396b1be0d584f4d216099fd96845962eb1d6d30a6c"
+    },
+    {
+      "path": "docs/人間のレビュー記録.md",
+      "bytes": 2228,
+      "sha256": "9e1a68abac36e1576ae6a656eeaca15d79397cad3b08d5db69f20f5eee28c0c9"
+    },
+    {
+      "path": "tools/verify_snapshot.py",
+      "bytes": 4316,
+      "sha256": "dee6c98a8ab3fcb2333bca65701fa70a774ef93023336abb87c5f236d83e98f4"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "human_report",
+  "target_version": "v06-red-tyres",
+  "target_label": "v06赤タイヤ版",
+  "summary": "本人から、サポートを取り外しにくく、サポートがほぼ全部外れなかったとの報告。",
+  "photo_count": 6,
+  "version_match": {
+    "confidence": "high",
+    "basis": "写真の配色が一致",
+    "job_id_direct_match": false
+  },
+  "formal_dr3_test_recorded": false,
+  "dr3_pass_recorded": false
+}

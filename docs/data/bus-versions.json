@@ -1,0 +1,157 @@
+[
+  {
+    "folder": "school-bus-v01",
+    "version": "v01",
+    "description": "大型・一体固定輪",
+    "status_as_of_2026_11_10": "未印刷。ブリッジ検証片を準備。",
+    "artifacts": [
+      "cad/nekomo-school-bus-v01.FCStd",
+      "print/nekomo-school-bus-v01-two-color-sliced.3mf",
+      "print/nekomo-school-bus-v01-red-prototype-sliced.3mf",
+      "cad/rear-window-bridge-coupon.FCStd"
+    ],
+    "records": [
+      "../designs/school-bus-v01/README.md",
+      "../designs/school-bus-v01/safety-review.md",
+      "../designs/school-bus-v01/evidence/after-slice-review.md"
+    ]
+  },
+  {
+    "folder": "school-bus-v02",
+    "version": "v02",
+    "description": "大型・車体／シャーシ／屋根の3部品",
+    "status_as_of_2026_11_10": "未印刷。実組立・保持力・支持材除去は未確認。",
+    "artifacts": [
+      "cad/nekomo-school-bus-v02.FCStd",
+      "print/final-body-sliced.3mf",
+      "print/final-chassis-sliced.3mf",
+      "print/final-roof-sliced.3mf"
+    ],
+    "records": [
+      "../designs/school-bus-v02/README.md",
+      "../designs/school-bus-v02/evidence/after-slice-review.md"
+    ]
+  },
+  {
+    "folder": "school-bus-v03-mini",
+    "version": "v03",
+    "description": "60mm級・赤白の3部品",
+    "status_as_of_2026_11_10": "未印刷。DR0・DR1は一部実施、DR2はデータ確認、DR3・DR4は未実施。",
+    "artifacts": [
+      "cad/nekomo-school-bus-v03.FCStd",
+      "print/final-body-sliced.3mf",
+      "print/final-chassis-sliced.3mf",
+      "print/final-roof-sliced.3mf"
+    ],
+    "records": [
+      "../designs/school-bus-v03-mini/README.md",
+      "../designs/school-bus-v03-mini/evidence/after-slice-review.md"
+    ]
+  },
+  {
+    "folder": "school-bus-v04-dr",
+    "version": "v04",
+    "description": "60mm級・幅34mm・赤白一体構造",
+    "status_as_of_2026_11_10": "未印刷。DR0を審査、DR1・DR2は条件付き。DR3・DR4は未実施。整理前からCADと再読込記録のハッシュが一致せず、再梱包は停止。",
+    "artifacts": [
+      "cad/nekomo-school-bus-v04.FCStd",
+      "print/final-bus-sliced.3mf"
+    ],
+    "records": [
+      "../designs/school-bus-v04-dr/README.md",
+      "../designs/school-bus-v04-dr/quality/preprint-review/dr-review.md",
+      "../designs/school-bus-v04-dr/quality/preprint-review/requirements.md",
+      "../designs/school-bus-v04-dr/quality/preprint-review/test-plan.md",
+      "../designs/school-bus-v04-dr/evidence/after-slice-review.md"
+    ]
+  },
+  {
+    "folder": "school-bus-v05-dfam",
+    "version": "v05",
+    "description": "v04から派生・底面2開口と支持材除去の検討",
+    "status_as_of_2026_11_10": "開口候補はCAD確認まで。正式な全DR記録なし。比較用スライスは別のv04基準形状。",
+    "artifacts": [
+      "cad/nekomo-school-bus-v05-open-underside.FCStd",
+      "coupon/v04-middle-window-support-removal-coupon.FCStd"
+    ],
+    "records": [
+      "../designs/school-bus-v05-dfam/coupon/README.md"
+    ]
+  },
+  {
+    "folder": "school-bus-v06-simple",
+    "version": "v06・小型一体",
+    "description": "40×20×22mm・単色・車内空間なし",
+    "status_as_of_2026_11_10": "未印刷。DR0〜2はデータ審査、DR3はNOT_RUN、DR4はHOLD。",
+    "artifacts": [
+      "candidate-r01/cad/final-bus-r01.FCStd",
+      "candidate-r01/print/school-bus-r01-sliced.3mf"
+    ],
+    "records": [
+      "../designs/school-bus-v06-simple/quality/preprint-review/dr-review.md",
+      "../designs/school-bus-v06-simple/evidence/after-slice-review.md"
+    ]
+  },
+  {
+    "folder": "school-bus-v06-empty-inverted",
+    "version": "v06・60mm空洞",
+    "description": "床・座席を抜く60mm級。単色、赤屋根、赤タイヤの派生",
+    "status_as_of_2026_11_10": "単色・赤屋根版はスライス比較まで。赤タイヤ版は本人報告で印刷済み。",
+    "artifacts": [
+      "corrected/nekomo-v06-clear-cabin.FCStd",
+      "print/clear-inverted-normal-support-sliced.3mf",
+      "two-color/nekomo-v06-red-white.FCStd",
+      "two-color/red-white-inverted-sliced.3mf",
+      "two-color-red-tyres/nekomo-v06-red-tyres.FCStd",
+      "two-color-red-tyres/red-tyres-inverted-sliced.3mf"
+    ],
+    "records": [
+      "../designs/school-bus-v06-empty-inverted/evidence/after-slice-review.md",
+      "../designs/school-bus-v06-empty-inverted/two-color-red-tyres/README.md",
+      "../designs/school-bus-v06-empty-inverted/two-color-red-tyres/after-slice-review.md"
+    ]
+  },
+  {
+    "folder": "school-bus-v07-open-bottom",
+    "version": "v07",
+    "description": "40mm級・床なし空洞・赤白・立体固定輪",
+    "status_as_of_2026_11_10": "未印刷。DR0〜2はデータ審査、DR3はNOT_RUN、DR4はHOLD。",
+    "artifacts": [
+      "candidate-r00/cad/nekomo-bus-v07-final.FCStd",
+      "candidate-r00/print/bus-two-colour-final.3mf"
+    ],
+    "records": [
+      "../designs/school-bus-v07-open-bottom/README.md",
+      "../designs/school-bus-v07-open-bottom/evidence/design-review-r00.md"
+    ]
+  },
+  {
+    "folder": "school-bus-v08-photo",
+    "version": "v08",
+    "description": "42×21×24mm・参照写真に寄せたボンネット付き",
+    "status_as_of_2026_11_10": "白タイヤと赤タイヤを比較。未印刷。全DRの再実施はしていない。",
+    "artifacts": [
+      "cad/photo-bus.FCStd",
+      "exports/photo-two-color-sliced.3mf",
+      "cad/photo-bus-fast.FCStd",
+      "exports/fast-two-color-sliced.3mf"
+    ],
+    "records": [
+      "../designs/school-bus-v08-photo/README.md"
+    ]
+  },
+  {
+    "folder": "school-bus-v09-sloped",
+    "version": "v09",
+    "description": "42×21×24mm・支持材なしを狙う傾斜ボンネット",
+    "status_as_of_2026_11_10": "実機記録はFINISH・100%・119層完了。取り外し後の仕上がりと強度は未確認。",
+    "artifacts": [
+      "cad/sloped-bus.FCStd",
+      "cad/sloped-bus-print.FCStd",
+      "exports/sloped-two-color-sliced.3mf"
+    ],
+    "records": [
+      "../designs/school-bus-v09-sloped/README.md"
+    ]
+  }
+]
