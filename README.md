@@ -28,6 +28,7 @@ CAD（`.FCStd`）、STEP・STL、最終3MFを成果物として収録します�
 
 ## 関連資料
 
+- [NEKOMO専用のDRレビュースキル](.agents/skills/nekomo-dr-review/SKILL.md)：家庭での観察と設備が必要な試験を分けて、DR0〜4を進めます。
 - [バスの版一覧](docs/バスの版一覧.md)
 - [人間のレビュー記録](docs/人間のレビュー記録.md)
 - [コンセプトと品質方針](docs/NEKOMO-concept-and-quality.md)

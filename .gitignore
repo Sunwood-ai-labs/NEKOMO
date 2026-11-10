@@ -6,6 +6,11 @@
 !/tools/
 !/designs/
 !/public-manifest.json
+!/.agents/
+/.agents/*
+!/.agents/skills/
+/.agents/skills/*
+!/.agents/skills/nekomo-dr-review/
 
 /designs/*
 !/designs/school-bus-v01/

@@ -1,0 +1,4 @@
+interface:
+  display_name: "NEKOMOのDRレビュー"
+  short_description: "家庭で可能な確認と設備試験を分け、版ごとのDR0〜4を証拠付きで審査する"
+  default_prompt: "$nekomo-dr-review を使い、対象版のDRを家で確認できる範囲で進め、人間の報告とデータ検査、未実施の試験を分けて記録して。"

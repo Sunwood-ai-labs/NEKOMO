@@ -1,8 +1,28 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-10",
+  "snapshot_date": "2026-11-11",
   "note": "SHA-256 covers every published file except this manifest itself. It verifies snapshot integrity, not model safety or print quality.",
   "files": [
+    {
+      "path": ".agents/skills/nekomo-dr-review/SKILL.md",
+      "bytes": 8595,
+      "sha256": "fa0dd68d6d569b8c146a9a0b10739fe4e9a7d6fbfc785a5d787b69513deb469d"
+    },
+    {
+      "path": ".agents/skills/nekomo-dr-review/agents/openai.yaml",
+      "bytes": 365,
+      "sha256": "db3802a7a43488d76fa8019daa2fe23f9e6183c7706d8f8aaddd530d6b7ae22d"
+    },
+    {
+      "path": ".agents/skills/nekomo-dr-review/assets/review-record.md",
+      "bytes": 1956,
+      "sha256": "8febfebf2f7f752a6884541a2d9fe017bfe004c3a95a785d9d44a7dd66dc7743"
+    },
+    {
+      "path": ".agents/skills/nekomo-dr-review/references/stages.md",
+      "bytes": 9483,
+      "sha256": "d6b0fd2be051099df194fb033e85aa1844752bf0cbf025beb92d7a43dab7cf97"
+    },
     {
       "path": ".gitattributes",
       "bytes": 103,
@@ -10,13 +30,13 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 5130,
-      "sha256": "ab6d1826300301c05bf2a0941d2fcfd109c899029cf212f21a0bd61ce457de20"
+      "bytes": 5228,
+      "sha256": "e2a324b725f768ba4d2c92d32e70763db33ad144ca959cbfc83973d329955c76"
     },
     {
       "path": "README.md",
-      "bytes": 2514,
-      "sha256": "f42422f9b5eba6a953e0657b83a7184b90b6e8407b586d4d0e083e322430400b"
+      "bytes": 2688,
+      "sha256": "603d32aa2786a74e897dc1e34120ecc78265d7a7c3ad8e16e322b0d1c3ac6f29"
     },
     {
       "path": "designs/school-bus-v01/build_bus.py",
