@@ -45,8 +45,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 12182,
-      "sha256": "c52ed81e407070fd848f9138c81568101933a2b79f265421f39ba05d401e29c0"
+      "bytes": 12203,
+      "sha256": "3229dea0804fcb9a0da9a77a7c27cba973468f878455a11d5cbbaa18e689125a"
     },
     {
       "path": "designs/school-bus-v01/build_bus.py",
@@ -645,18 +645,23 @@
     },
     {
       "path": "docs/README.md",
-      "bytes": 997,
-      "sha256": "b853a632f1870fa9d5ea0863c2b9e93860147c878601d4f6c533cd19b42a18c4"
+      "bytes": 1020,
+      "sha256": "193dba028e6db2ab9deb6caadfc429c88142fd911e67670c6f8a50b9a26de045"
     },
     {
       "path": "docs/brand/README.md",
-      "bytes": 3672,
-      "sha256": "2e08afeb4cd7b3eaedfdf5de1b810d857e6834649ed7d4c010bb4bb9ca416da4"
+      "bytes": 3757,
+      "sha256": "c64c3160aa6f35bebb3c322794eeb91bf9ff36bdaf24422ad30a08bc32c4ee0c"
     },
     {
       "path": "docs/brand/boat-logo-concepts.md",
-      "bytes": 3219,
-      "sha256": "4b6f7a4cfb7effbb6003c5f3e9c5d5bcc2e3448a2ce1f10fc4f7ee3a0c493429"
+      "bytes": 3337,
+      "sha256": "64341d97752f89ca73f78965c1b496fa3b51c7a883e4e65555697141f4e93483"
+    },
+    {
+      "path": "docs/brand/land-sea-air-logo-concepts.md",
+      "bytes": 3392,
+      "sha256": "d14c9861f1149abb4823af6c4ab9fc124bf6e68dcb7b6a9d893c9b0e33db91cf"
     },
     {
       "path": "docs/brand/logo-concepts/01-workshop.png",
@@ -784,6 +789,36 @@
       "sha256": "da16cee9aafa2925bed2cb28a426783d623dac27a954f4a0f29188e19d93405e"
     },
     {
+      "path": "docs/brand/logo-concepts/26-all-terrain-wonder-r02.png",
+      "bytes": 1121957,
+      "sha256": "2e071df3b66c32e76f3d1a1531aa40ad1ae5e2665b26d31d9d7a99fdae560073"
+    },
+    {
+      "path": "docs/brand/logo-concepts/26-all-terrain-wonder.png",
+      "bytes": 1129287,
+      "sha256": "a57577a6752c256d91d485f945aa6c01b73dd8df2404a2a3037088e1520f3f28"
+    },
+    {
+      "path": "docs/brand/logo-concepts/27-three-toys.png",
+      "bytes": 1020872,
+      "sha256": "1d60dd9fc0b4825586f3a05f1a0fa1148042f42f47519f75fbae9b30aa097902"
+    },
+    {
+      "path": "docs/brand/logo-concepts/28-three-windows.png",
+      "bytes": 975690,
+      "sha256": "1c99f4d2a51e80ebf492c2fcd85bf88a16dae39ecdda0c2a088aee488074dc66"
+    },
+    {
+      "path": "docs/brand/logo-concepts/29-play-triangle.png",
+      "bytes": 1024076,
+      "sha256": "2028de6c8d2eeaa45750b960384f8d8ba6fddf186ff1eeae5c177fb23bd23cd5"
+    },
+    {
+      "path": "docs/brand/logo-concepts/30-one-journey.png",
+      "bytes": 1075319,
+      "sha256": "e88415c5839181adb8af9158ee1d4867bd23dd6a51193637d300266e5a26b389"
+    },
+    {
       "path": "docs/brand/logo-concepts/prompts01-02.md",
       "bytes": 3250,
       "sha256": "d064b979f4b31acc5664c0fc694afa9f43efbfa4866054963b2d9795be5e132c"
@@ -834,9 +869,19 @@
       "sha256": "7ccda422f15e14c17372cdd8c65a295c2302e8774816163c96e32446c80b7104"
     },
     {
+      "path": "docs/brand/logo-concepts/prompts26-27.md",
+      "bytes": 4690,
+      "sha256": "5eb863c3fb3014e5588edbc538197e6be946079ac70a6224e5914525d8d9a16b"
+    },
+    {
+      "path": "docs/brand/logo-concepts/prompts28-30.md",
+      "bytes": 6469,
+      "sha256": "d126a7f5649a5b49b790e10932fdba350bbb543bd16d45e27d65a4ee7f9a8d9d"
+    },
+    {
       "path": "docs/brand/minimal-logo-concepts.md",
-      "bytes": 3386,
-      "sha256": "25a2e0665ebcf746c625de7580cf6d65e4e705b16022c899b10720f74caf5e45"
+      "bytes": 3409,
+      "sha256": "b4d393454ab75be543531a55badb74cfe84bceb4c5c6b32b79139b11c2cf5b04"
     },
     {
       "path": "docs/brand/mission-logo-concepts.md",

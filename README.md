@@ -14,11 +14,11 @@
 
 ## ロゴ案を比べる
 
-船が伝わるシンプルな[追加5案（21〜25）](docs/brand/boat-logo-concepts.md)を制作しました。抽象的な[16〜20案は保留](docs/brand/minimal-logo-concepts.md)とし、商品を連想しやすい船の案を優先して比較しています。[01〜05案](docs/brand/README.md)、[06〜10案](docs/brand/mission-logo-concepts.md)、[11〜15案](docs/brand/wonder-to-go-logo-concepts.md)も保存しています。正式採用はまだ決まっていません。
+車・船・飛行機をまとめた[追加5案（26〜30）](docs/brand/land-sea-air-logo-concepts.md)を制作しました。[船を中心にした21〜25案](docs/brand/boat-logo-concepts.md)と[それ以前の案](docs/brand/README.md)も保存しています。抽象的な[16〜20案は保留](docs/brand/minimal-logo-concepts.md)です。正式採用はまだ決まっていません。
 
-| 21 ねこの帆船 | 22 ひと折りの舟 | 23 小さなタグボート | 24 波と帆 | 25 車輪付きの遊び舟 |
+| 26 陸海空のおもちゃ | 27 ならぶ乗り物 | 28 みっつの窓 | 29 遊びのトライアングル | 30 ひと続きの旅 |
 | --- | --- | --- | --- | --- |
-| <img src="docs/brand/logo-concepts/21-cat-sailboat.png" alt="ねこの耳にも見える二つの帆を持つ船" width="170"> | <img src="docs/brand/logo-concepts/22-origami-boat.png" alt="少ない面で表した折り紙の舟" width="170"> | <img src="docs/brand/logo-concepts/23-little-tug.png" alt="丸窓のある小さなタグボート" width="170"> | <img src="docs/brand/logo-concepts/24-wave-sail.png" alt="帆と波の二つの形による船" width="170"> | <img src="docs/brand/logo-concepts/25-anywhere-boat.png" alt="車輪で走る空想の帆船" width="170"> |
+| <img src="docs/brand/logo-concepts/26-all-terrain-wonder-r02.png" alt="船体・車輪・飛行機の翼を組み合わせた空想のおもちゃ" width="170"> | <img src="docs/brand/logo-concepts/27-three-toys.png" alt="車・船・飛行機が横に並ぶ案" width="170"> | <img src="docs/brand/logo-concepts/28-three-windows.png" alt="3つの窓に車・船・飛行機を白抜きした案" width="170"> | <img src="docs/brand/logo-concepts/29-play-triangle.png" alt="飛行機・車・船を三角形に配置した案" width="170"> | <img src="docs/brand/logo-concepts/30-one-journey.png" alt="車・船・飛行機の輪郭を一本の線でつなぐ案" width="170"> |
 
 ## 現在のバス試作
 
