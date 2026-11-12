@@ -1,108 +1,111 @@
-# NEKOMO
+# ネコネコインダストリー
 
-「ねこのAI職人たちのおもちゃ工場」。FreeCADとA1 miniを使い、バス型のおもちゃを設計・試作し、人間のレビューと造形結果から改良するプロジェクトです。
+**NEKONEKO INDUSTRIES**
 
-![v09の設計レンダ。白い屋根、赤い車体と固定輪、傾斜したボンネット](designs/school-bus-v09-sloped/evidence/sloped-front.png)
+製品ブランド: **NEKOMO**
 
-**v09・傾斜ボンネット**。外形42 × 21 × 24 mm。写真型のバスから、逆さ印刷時に前層へ重なるようボンネットの形状を見直しました。[FreeCADモデル](designs/school-bus-v09-sloped/cad/sloped-bus.FCStd) · [STEP](designs/school-bus-v09-sloped/exports/sloped-bus.step) · [スライス済み3MF](designs/school-bus-v09-sloped/exports/sloped-two-color-sliced.3mf) · [設計コード](designs/school-bus-v09-sloped/build_sloped.py)
+ねこのAI職人たちが乗り物のおもちゃを作る工場をテーマに、FreeCADとA1 miniで設計・試作するプロジェクトです。人間のレビューと造形結果を記録し、次の設計に生かしています。
 
-[版別の設計・DR星取表](docs/バスの版一覧.md) · [人間のレビュー](docs/人間のレビュー記録.md) · [取得後の検証と再現手順](docs/reproduce.md)
+現在はバス型のおもちゃを試作しています。車・船・飛行機・潜水艦は今後の構想で、製作済みの製品ではありません。NEKOMOは、これまでの設計データや記録で使ってきた識別子として残しています。
 
-## 🚌 形状と構造の変遷
+## ロゴ案を比べる
 
-大型の3部品構造、60 mm級への小型化、一体化、床を抜いた空洞構造、傾斜ボンネットを比較しています。画像は各版のCADレンダです。
+社名ロゴのコンセプトを5案まとめました。どの案も正式採用前です。各案の意図と比較は[ロゴ案の紹介](docs/brand/README.md)をご覧ください。
+
+| 01 工房のモノグラム | 02 陸海空の航路 | 03 組み替える玩具 | 04 重工メーカー | 05 和の印章 |
+| --- | --- | --- | --- | --- |
+| <img src="docs/brand/logo-concepts/01-workshop.png" alt="ねこの輪郭とNを組み合わせた工房のモノグラム案" width="170"> | <img src="docs/brand/logo-concepts/02-navigation.png" alt="波と進行方向の線に、ねこの耳を重ねた航路案" width="170"> | <img src="docs/brand/logo-concepts/03-modular-play.png" alt="文字を玩具ブロックのように組み立てる案" width="170"> | <img src="docs/brand/logo-concepts/04-heavy-industry.png" alt="ねこの耳を思わせる工業的な紋章案" width="170"> | <img src="docs/brand/logo-concepts/05-japanese-seal.png" alt="ねこと積層を組み合わせた和の印章案" width="170"> |
+
+## 現在のバス試作
+
+![v09のCADレンダ。白い屋根、赤い車体と固定輪、傾斜したボンネット](designs/school-bus-v09-sloped/evidence/sloped-front.png)
+
+**v09・傾斜ボンネット案**は、42 × 21 × 24 mmの床なしバスです。ボンネットの形を見直し、逆さ姿勢での造形経路を調べました。画像はCADレンダです。
+
+[v09のFreeCADモデル](designs/school-bus-v09-sloped/cad/sloped-bus.FCStd) · [STEP](designs/school-bus-v09-sloped/exports/sloped-bus.step) · [スライス済み3MF](designs/school-bus-v09-sloped/exports/sloped-two-color-sliced.3mf) · [設計スクリプト](designs/school-bus-v09-sloped/build_sloped.py) · [版の案内](docs/designs/school-bus-v09-sloped/版の案内.md)
+
+### 印刷と現物の記録
+
+公開記録で印刷完了を確認しているのは2件です。
+
+| 版 | 印刷の根拠 | 現物について確認できること |
+| --- | --- | --- |
+| v06・赤タイヤ | 本人の完了報告 | サポートがほぼ全部外れなかったとの報告があります。写真の配色は一致しますが、印刷ジョブIDは直接照合されていません。[品質記録](docs/evidence/print-quality-feedback.json) |
+| v09・傾斜ボンネット | 実機のFINISH・100%・119層と本人の完了報告 | 完成品の品質レビューは記録されていません。[印刷記録](docs/evidence/print-confirmation.json) |
+
+印刷完了は、外観・強度・耐久性・浮力や子どもの使用可否を確認したことを意味しません。公開記録に、子どもの使用を承認した版はありません。v04には保存CADのハッシュ不一致が残り、再梱包は停止しています。[照合記録](docs/evidence/v04-packaging-check.json)
+
+## 設計ギャラリー
+
+画像は各版のCADレンダです。形状の違いと設計記録を見比べられます。
 
 | v02・大型3部品 | v03・60 mm級の3部品 |
 | --- | --- |
 | ![v02のCADレンダ](designs/school-bus-v02/evidence/model-v02-isometric.png) | ![v03のCADレンダ](designs/school-bus-v03-mini/evidence/model-v03-isometric.png) |
-| 車体・シャーシ・屋根を分け、位置決めと部品の干渉を確認。[CAD](designs/school-bus-v02/cad/nekomo-school-bus-v02.FCStd) · [設計記録](docs/designs/school-bus-v02/版の案内.md) | 赤白の配色と60 mm級の大きさに合わせ、肉厚と組立形状を調整。[CAD](designs/school-bus-v03-mini/cad/nekomo-school-bus-v03.FCStd) · [設計記録](docs/designs/school-bus-v03-mini/版の案内.md) |
+| 車体・シャーシ・屋根を分け、位置決めと部品の干渉を確認しました。[CAD](designs/school-bus-v02/cad/nekomo-school-bus-v02.FCStd) · [設計記録](docs/designs/school-bus-v02/版の案内.md) | 赤白の配色と60 mm級の大きさに合わせ、肉厚と組立形状を調整しました。[CAD](designs/school-bus-v03-mini/cad/nekomo-school-bus-v03.FCStd) · [設計記録](docs/designs/school-bus-v03-mini/版の案内.md) |
 
 | v04・60 mm級の一体構造 | v07・40 mm級の床なし構造 |
 | --- | --- |
 | ![v04のCADレンダ](designs/school-bus-v04-dr/evidence/model-v04-isometric.png) | ![v07のCADレンダ](designs/school-bus-v07-open-bottom/candidate-r00/evidence/final-view-r03.png) |
-| 屋根と底板を一体化し、幅34 mmの形状と内部の補強を検討。[CAD](designs/school-bus-v04-dr/cad/nekomo-school-bus-v04.FCStd) · [設計記録](docs/designs/school-bus-v04-dr/版の案内.md) | 床をなくし、窓の開口、輪の張り出し、赤白の色境界を見直し。[CAD](designs/school-bus-v07-open-bottom/candidate-r00/cad/nekomo-bus-v07-final.FCStd) · [設計記録](docs/designs/school-bus-v07-open-bottom/版の案内.md) |
+| 屋根と底板を一体化し、幅34 mmの形状と内部の補強を検討しました。[CAD](designs/school-bus-v04-dr/cad/nekomo-school-bus-v04.FCStd) · [設計記録](docs/designs/school-bus-v04-dr/版の案内.md) | 床をなくし、窓の開口、輪の張り出し、赤白の色境界を見直しました。[CAD](designs/school-bus-v07-open-bottom/candidate-r00/cad/nekomo-bus-v07-final.FCStd) · [設計記録](docs/designs/school-bus-v07-open-bottom/版の案内.md) |
 
 | v07・底側から見る空洞 | v09・逆さ姿勢で見るボンネット |
 | --- | --- |
 | ![v07の底面と車内の空洞](designs/school-bus-v07-open-bottom/candidate-r00/evidence/final-underside-r03.png) | ![v09を逆さ姿勢にしたCADレンダ](designs/school-bus-v09-sloped/evidence/sloped-inverted.png) |
-| 開いた底面と車内の形状を確認。G-codeでも空洞中央を横切る押出経路を検査しました。[レビュー記録](docs/designs/school-bus-v07-open-bottom/evidence/design-review-r00.md) | 前層との経路の重なりをボンネット中央で検査しました。[検査コード](designs/school-bus-v09-sloped/verify_toolpaths.py) · [比較の再実行](docs/reproduce.md) |
+| 開いた底面と車内の形状を確認しました。G-codeでも空洞中央を横切る押出経路を調べています。[レビュー記録](docs/designs/school-bus-v07-open-bottom/evidence/design-review-r00.md) | 前層との経路の重なりをボンネット中央で調べました。[検査コード](designs/school-bus-v09-sloped/verify_toolpaths.py) · [比較手順](docs/reproduce.md) |
 
-## 📐 版ごとの設計と成果物
+## バス各版の設計データ
 
-10個の版フォルダーがあります。v06は40 mmのシンプル版と60 mm級の空洞版を別系統で保存し、赤タイヤ版は空洞版の派生として扱います。
+v06は40 mmのシンプル版と60 mm級の空洞版が別系統です。赤タイヤ版は60 mm級の空洞版から派生しています。各行からCAD、造形データまたは版ごとの記録へ進めます。
 
-| 版・派生 | 設計の内容 | FreeCAD | 印刷データ・記録 |
+| 版・派生 | 設計の違い | FreeCAD | 造形データ・記録 |
 | --- | --- | --- | --- |
-| v01 | 大型・一体固定輪。外観と窓上端の橋渡しを検討 | [CAD](designs/school-bus-v01/cad/nekomo-school-bus-v01.FCStd) | [2色3MF](designs/school-bus-v01/print/nekomo-school-bus-v01-two-color-sliced.3mf) · [案内](docs/designs/school-bus-v01/版の案内.md) |
-| v02 | 車体・シャーシ・屋根の3部品 | [CAD](designs/school-bus-v02/cad/nekomo-school-bus-v02.FCStd) | [部品別3MFと記録](docs/designs/school-bus-v02/版の案内.md) |
-| v03 | 60 mm級・赤白・3部品 | [CAD](designs/school-bus-v03-mini/cad/nekomo-school-bus-v03.FCStd) | [部品別3MFと記録](docs/designs/school-bus-v03-mini/版の案内.md) |
-| v04 | 60 mm級・幅34 mm・一体構造 | [CAD](designs/school-bus-v04-dr/cad/nekomo-school-bus-v04.FCStd) | [3MF](designs/school-bus-v04-dr/print/final-bus-sliced.3mf) · [案内](docs/designs/school-bus-v04-dr/版の案内.md) |
-| v05 | 底面2開口とサポート除去の検討 | [CAD](designs/school-bus-v05-dfam/cad/nekomo-school-bus-v05-open-underside.FCStd) | 候補本体のスライスなし · [検証片と記録](docs/designs/school-bus-v05-dfam/版の案内.md) |
-| v06・シンプル | 40 × 20 × 22 mm・単色・一体 | [CAD](designs/school-bus-v06-simple/candidate-r01/cad/final-bus-r01.FCStd) | [3MF](designs/school-bus-v06-simple/candidate-r01/print/school-bus-r01-sliced.3mf) · [案内](docs/designs/school-bus-v06-simple/版の案内.md) |
-| v06・空洞 | 60 mm級・床と座席を抜いた車内 | [CAD](designs/school-bus-v06-empty-inverted/corrected/nekomo-v06-clear-cabin.FCStd) | [姿勢・サポート・配色の記録](docs/designs/school-bus-v06-empty-inverted/版の案内.md) |
-| v06・赤タイヤ | 赤い屋根・タイヤ、白い車体・ハブ | [CAD](designs/school-bus-v06-empty-inverted/two-color-red-tyres/nekomo-v06-red-tyres.FCStd) | [3MF](designs/school-bus-v06-empty-inverted/two-color-red-tyres/red-tyres-inverted-sliced.3mf) · [不具合報告](docs/evidence/print-quality-feedback.json) |
-| v07 | 40 mm級・床なし・空洞・2色 | [CAD](designs/school-bus-v07-open-bottom/candidate-r00/cad/nekomo-bus-v07-final.FCStd) | [3MF](designs/school-bus-v07-open-bottom/candidate-r00/print/bus-two-colour-final.3mf) · [案内](docs/designs/school-bus-v07-open-bottom/版の案内.md) |
-| v08 | 42 × 21 × 24 mm・写真型のボンネット | [CAD](designs/school-bus-v08-photo/cad/photo-bus-fast.FCStd) | [3MF](designs/school-bus-v08-photo/exports/fast-two-color-sliced.3mf) · [案内](docs/designs/school-bus-v08-photo/版の案内.md) |
-| v09 | 42 × 21 × 24 mm・連続した傾斜ボンネット | [CAD](designs/school-bus-v09-sloped/cad/sloped-bus.FCStd) | [3MF](designs/school-bus-v09-sloped/exports/sloped-two-color-sliced.3mf) · [案内](docs/designs/school-bus-v09-sloped/版の案内.md) |
+| v01 | 大型・一体固定輪。外観と窓上端の橋渡しを検討 | [CAD](designs/school-bus-v01/cad/nekomo-school-bus-v01.FCStd) | [2色3MF](designs/school-bus-v01/print/nekomo-school-bus-v01-two-color-sliced.3mf) · [版の案内](docs/designs/school-bus-v01/版の案内.md) |
+| v02 | 車体・シャーシ・屋根の3部品 | [CAD](designs/school-bus-v02/cad/nekomo-school-bus-v02.FCStd) | [3部品の造形データと記録](docs/designs/school-bus-v02/版の案内.md) |
+| v03 | 60 mm級・赤白・3部品 | [CAD](designs/school-bus-v03-mini/cad/nekomo-school-bus-v03.FCStd) | [3部品の造形データと記録](docs/designs/school-bus-v03-mini/版の案内.md) |
+| v04 | 60 mm級・幅34 mm・一体構造 | [CAD](designs/school-bus-v04-dr/cad/nekomo-school-bus-v04.FCStd) | [3MF](designs/school-bus-v04-dr/print/final-bus-sliced.3mf) · [版の案内](docs/designs/school-bus-v04-dr/版の案内.md) |
+| v05 | 底面2開口とサポート除去の検討 | [CAD](designs/school-bus-v05-dfam/cad/nekomo-school-bus-v05-open-underside.FCStd) | 本体のスライスなし · [検証片と記録](docs/designs/school-bus-v05-dfam/版の案内.md) |
+| v06・シンプル | 40 × 20 × 22 mm・単色・一体 | [CAD](designs/school-bus-v06-simple/candidate-r01/cad/final-bus-r01.FCStd) | [3MF](designs/school-bus-v06-simple/candidate-r01/print/school-bus-r01-sliced.3mf) · [版の案内](docs/designs/school-bus-v06-simple/版の案内.md) |
+| v06・空洞 | 60 mm級・床と座席を抜いた車内 | [CAD](designs/school-bus-v06-empty-inverted/corrected/nekomo-v06-clear-cabin.FCStd) | [設計・造形記録](docs/designs/school-bus-v06-empty-inverted/版の案内.md) |
+| v06・赤タイヤ | 赤い屋根・タイヤ、白い車体・ハブ | [CAD](designs/school-bus-v06-empty-inverted/two-color-red-tyres/nekomo-v06-red-tyres.FCStd) | [スライス済み3MF](designs/school-bus-v06-empty-inverted/two-color-red-tyres/red-tyres-inverted-sliced.3mf) · [不具合記録](docs/evidence/print-quality-feedback.json) |
+| v07 | 40 mm級・床なし・空洞・2色 | [CAD](designs/school-bus-v07-open-bottom/candidate-r00/cad/nekomo-bus-v07-final.FCStd) | [3MF](designs/school-bus-v07-open-bottom/candidate-r00/print/bus-two-colour-final.3mf) · [版の案内](docs/designs/school-bus-v07-open-bottom/版の案内.md) |
+| v08 | 42 × 21 × 24 mm・写真型のボンネット | [CAD](designs/school-bus-v08-photo/cad/photo-bus-fast.FCStd) | [3MF](designs/school-bus-v08-photo/exports/fast-two-color-sliced.3mf) · [版の案内](docs/designs/school-bus-v08-photo/版の案内.md) |
+| v09 | 42 × 21 × 24 mm・連続した傾斜ボンネット | [CAD](designs/school-bus-v09-sloped/cad/sloped-bus.FCStd) | [STEP](designs/school-bus-v09-sloped/exports/sloped-bus.step) · [3MF](designs/school-bus-v09-sloped/exports/sloped-two-color-sliced.3mf) · [設計スクリプト](designs/school-bus-v09-sloped/build_sloped.py) · [版の案内](docs/designs/school-bus-v09-sloped/版の案内.md) |
 
-## 🔧 設計で確認していること
+## 設計審査と品質方針
 
-| 設計課題 | 確認内容・参照先 |
-| --- | --- |
-| 組立から一体構造へ | v02・v03の3部品から、v04で屋根・底板を一体化。要求、形状、色領域を[DR記録](docs/designs/school-bus-v04-dr/quality/preprint-review/dr-review.md)に保存 |
-| 床をなくして空洞を作る | 底面開口、窓、輪、補強部の接続を確認。v06空洞系とv07小型系で比較 |
-| 赤白の色を形状として扱う | 色領域の重複・欠落、3MFの材料設定、実際の押出経路を確認 |
-| ボンネットを逆さに造形する | v08からv09へ傾斜を変更。保存G-codeの抽出点による[比較手順](docs/reproduce.md)を公開 |
-| サポートを取り外せる構造 | 取り出す方向、工具の通り道、窓枠や屋根端の破損リスクを審査。専用材の界面割当を[preflight](quality/support-removal-preflight.py)で確認 |
+[バスの版一覧](docs/バスの版一覧.md)には、版ごとの設計差、当時の要望、DRの審査履歴、印刷・現物の記録があります。DR番号と判定は記録当時の履歴として保持し、別の定義へ読み替えていません。審査の進め方と記録様式は[NEKOMOのDRレビュー手順](.agents/skills/nekomo-dr-review/SKILL.md)を参照してください。
 
-## 🧪 レビューと印刷の記録
+PLAモデルにサポートが必要な場合は、専用のSupport for PLAを本体との接触面へ明示的に割り当てます。スライス後の界面経路と本体への材料混入がないことをファイルで確認し、送信前に実物AMSとの対応を確かめます。工具の通り道や破損リスクを設計で検討し、代表形状の検証片で実際の除去を確認します。ファイル検査と実物での除去確認は別の記録です。[サポート材のファイル検査](quality/support-removal-preflight.py)
 
-公開記録で印刷完了を確認しているのは2件です。
+人間の要望、エージェントの検査、機械記録、実物の報告を分けて保存しています。[人間のレビュー記録](docs/人間のレビュー記録.md) · [公開データ](docs/data/) · [v06赤タイヤ版の品質記録](docs/evidence/print-quality-feedback.json)。ファイル検査や印刷完了だけで、製品の品質や子どもの使用可否を判定しません。
 
-| 版 | 印刷完了の根拠 | 人間による現物の報告 |
-| --- | --- | --- |
-| v06赤タイヤ | 本人報告 | サポートがほぼ全部外れなかったとの報告。写真の配色から版を照合し、ジョブIDとの直接照合はなし |
-| v09 | 実機のFINISH・100%・119層と本人報告 | 完成品の品質レビューなし |
+## 取得して検証する
 
-v04には保存CADのハッシュ不一致が残っています。[照合記録](docs/evidence/v04-packaging-check.json)を確認してください。
+GitとPython 3.12を用意し、リポジトリのルートで実行します。
 
-人間の設計コメント、エージェントによる検査、機械の記録を保存しています。正式なDR3現物試験の実施記録と、DR4の子ども使用に合格した版はありません。各版の状態は[DR0〜4の星取表](docs/バスの版一覧.md)で確認できます。
-
-| 段階 | レビューする内容 |
-| --- | --- |
-| DR0 要求 | 用途・対象年齢・形状や工程の要求 |
-| DR1 設計 | 保存CAD、断面、肉厚、空洞、色領域 |
-| DR2 工程 | 姿勢、保存3MF、G-code、材料、サポート経路 |
-| DR3 現物 | 外観や除去結果の報告、測定・試験の記録 |
-| DR4 判断 | 改善継続、造形開始、子どもへの使用可否 |
-
-家庭で確認できる範囲を進めるために、[NEKOMO専用のDRスキル](.agents/skills/nekomo-dr-review/SKILL.md)と[記録ひな形](.agents/skills/nekomo-dr-review/assets/review-record.md)を用意しています。設備が必要な未実施の試験は「なし」で残します。
-
-## ▶️ 取得して検証する
-
-GitとPython 3.12を用意し、リポジトリ直下で実行します。
-
-```sh
-git clone https://github.com/Sunwood-ai-labs/NEKOMO.git
-cd NEKOMO
+~~~sh
+git clone https://github.com/Sunwood-ai-labs/NEKONEKO-INDUSTRIES.git
+cd NEKONEKO-INDUSTRIES
 python tools/update_manifest.py --check
 python tools/verify_snapshot.py
-```
+~~~
 
-[再現手順](docs/reproduce.md)には、サポート材のファイル検査、v08とv09の経路比較、v09のCAD生成とスライス、公開ファイルの更新方法をまとめています。GitHub Actionsでもマニフェスト、ファイルのハッシュ・リンク、保存3MFの検査を実行します。[自動検証](https://github.com/Sunwood-ai-labs/NEKOMO/actions/workflows/verify.yml)
+[取得後の検証と再現手順](docs/reproduce.md)では、公開ファイルの照合、サポート材の検査、v08とv09の経路比較、v09のCAD生成を案内しています。[GitHub Actionsの検証結果](https://github.com/Sunwood-ai-labs/NEKONEKO-INDUSTRIES/actions/workflows/verify.yml)
 
-## 📁 リポジトリの構成
+## リポジトリの中身
 
-```text
-designs/                         版ごとのCAD・STEP・STL・3MF・制作コード
-docs/                            版の案内、人間レビュー、設計審査、再現手順
-.agents/skills/nekomo-dr-review/  DR0〜4の方法と記録ひな形
-quality/                         サポート材のファイル検査ツール
-tools/                           マニフェスト更新・スナップショット検証
-```
+~~~text
+designs/                          版ごとのCAD・STEP・STL・3MF・設計コード
+docs/                             設計記録、人間のレビュー、再現手順
+docs/brand/                       社名ロゴの5つの比較案
+.agents/skills/nekomo-dr-review/  DRの審査方法と記録様式
+quality/                          サポート材のファイル検査
+tools/                            マニフェスト更新・スナップショット検証
+~~~
 
-活動の背景と品質方針は[NEKOMOのコンセプト](docs/NEKOMO-concept-and-quality.md)にまとめています。
+活動の背景と品質方針は[NEKOMOのコンセプト](docs/NEKOMO-concept-and-quality.md)にあります。
 
-## 📄 ライセンス
+## ライセンス
 
 [MITライセンス](LICENSE)の適用範囲は、NEKOMOで作成したCADモデルとそのSTEP・STL出力、および制作・検証コードです。

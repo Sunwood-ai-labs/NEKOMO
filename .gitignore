@@ -76,6 +76,7 @@ node_modules/
 !/tools/*.json
 !/designs/school-bus-v01/design-spec.json
 *.png
+!/docs/brand/logo-concepts/*.png
 *.svg
 *.3mf
 !/designs/school-bus-v01/print/nekomo-school-bus-v01-two-color-sliced.3mf

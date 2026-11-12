@@ -7,8 +7,8 @@
 GitとPython 3.12を用意し、リポジトリの直下で実行します。
 
 ```powershell
-git clone https://github.com/Sunwood-ai-labs/NEKOMO.git
-cd NEKOMO
+git clone https://github.com/Sunwood-ai-labs/NEKONEKO-INDUSTRIES.git
+cd NEKONEKO-INDUSTRIES
 python tools/update_manifest.py --check
 python tools/verify_snapshot.py
 ```
