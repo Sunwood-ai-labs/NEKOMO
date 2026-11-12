@@ -45,8 +45,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11917,
-      "sha256": "984f037b1378b151e7304483cbdbb0542f2a52556f20f2b7aec02c4d84eac089"
+      "bytes": 11998,
+      "sha256": "14540a37878821885c26ea08a00028406447d5006cecfd13922bb8cebc25790f"
     },
     {
       "path": "designs/school-bus-v01/build_bus.py",
@@ -645,13 +645,13 @@
     },
     {
       "path": "docs/README.md",
-      "bytes": 833,
-      "sha256": "79fe9c3138ece08bfa46a47e9dc39275b4a5faade90aad9ce1a072fe3f2f6536"
+      "bytes": 983,
+      "sha256": "cabe57b56592194a58d26e2e723baf1569c6580a2809c230811eb331398d732e"
     },
     {
       "path": "docs/brand/README.md",
-      "bytes": 3119,
-      "sha256": "d7841a4902ebafd8b7a2d598fc7a545ed578253fa21a9db13240a44854add943"
+      "bytes": 3357,
+      "sha256": "3166adc529c7324fa4e4ba0826c1e6ee196d23c01671dd5ca475f89035cf19e8"
     },
     {
       "path": "docs/brand/logo-concepts/01-workshop.png",
@@ -679,6 +679,31 @@
       "sha256": "8e4774885eae71efbf10d236e6325c2e3e62a25aab42cbb0e882244e76fad0f1"
     },
     {
+      "path": "docs/brand/logo-concepts/06-pocket-wonder.png",
+      "bytes": 1119421,
+      "sha256": "9643d931e7b2fe161e183862e581def1b4860589b4e8dd352d6c07c62a9c4d22"
+    },
+    {
+      "path": "docs/brand/logo-concepts/07-little-companion.png",
+      "bytes": 1144024,
+      "sha256": "df0ce803dd168451c42c4e0d7752d47025d73aeae1ecd0dbcbcb72ccfda4b5bb"
+    },
+    {
+      "path": "docs/brand/logo-concepts/08-adventure-door.png",
+      "bytes": 1125075,
+      "sha256": "3ba61d8b666c76a760e45623fb500cebe62977afccd55d2c41576d81dfe4aa54"
+    },
+    {
+      "path": "docs/brand/logo-concepts/09-held-wonder.png",
+      "bytes": 1134603,
+      "sha256": "61df6ed1805303f3d10b82c2fa1ccff802f88e3c2e956fd25fa4ea0cd2914de1"
+    },
+    {
+      "path": "docs/brand/logo-concepts/10-wonder-motion.png",
+      "bytes": 1119582,
+      "sha256": "270967bb15d37c5760be5cf4da6b7c0a956b5ebfac89899dd4a92afbd707b91a"
+    },
+    {
       "path": "docs/brand/logo-concepts/prompts01-02.md",
       "bytes": 3250,
       "sha256": "d064b979f4b31acc5664c0fc694afa9f43efbfa4866054963b2d9795be5e132c"
@@ -687,6 +712,21 @@
       "path": "docs/brand/logo-concepts/prompts03-05.md",
       "bytes": 5055,
       "sha256": "c3b451063ea3def2d6b1031573acd59a30151ca9f1b951d819bc1e45c18530e3"
+    },
+    {
+      "path": "docs/brand/logo-concepts/prompts06-07.md",
+      "bytes": 2981,
+      "sha256": "11258fb54299e8c0b925be6def2967151e2ea564134ca70683c604eba3bbf3c2"
+    },
+    {
+      "path": "docs/brand/logo-concepts/prompts08-10.md",
+      "bytes": 4424,
+      "sha256": "a96f815d5d49d64b12286b61f5dd940eb689d7aef62a63ed61bf6944596381bc"
+    },
+    {
+      "path": "docs/brand/mission-logo-concepts.md",
+      "bytes": 3398,
+      "sha256": "667f99a31896018499a29645f1204c6f36f4aa571355f19ae5604b742a9d9f35"
     },
     {
       "path": "docs/data/bus-agent-reviews.json",

@@ -4,17 +4,21 @@
 
 製品ブランド: **NEKOMO**
 
+> **わくわくを、どこへでも。**
+>
+> Wonder to Go.
+
 ねこのAI職人たちが乗り物のおもちゃを作る工場をテーマに、FreeCADとA1 miniで設計・試作するプロジェクトです。人間のレビューと造形結果を記録し、次の設計に生かしています。
 
 現在はバス型のおもちゃを試作しています。車・船・飛行機・潜水艦は今後の構想で、製作済みの製品ではありません。NEKOMOは、これまでの設計データや記録で使ってきた識別子として残しています。
 
 ## ロゴ案を比べる
 
-社名ロゴのコンセプトを5案まとめました。どの案も正式採用前です。各案の意図と比較は[ロゴ案の紹介](docs/brand/README.md)をご覧ください。
+ミッションを反映した[追加5案（06〜10）](docs/brand/mission-logo-concepts.md)を制作しました。[初回の5案（01〜05）](docs/brand/README.md)も残しており、計10案を比較できます。正式採用はまだ決まっていません。
 
-| 01 工房のモノグラム | 02 陸海空の航路 | 03 組み替える玩具 | 04 重工メーカー | 05 和の印章 |
+| 06 ポケットのわくわく | 07 いつもの相棒 | 08 冒険への小さな扉 | 09 手のひらの発見 | 10 はずむW |
 | --- | --- | --- | --- | --- |
-| <img src="docs/brand/logo-concepts/01-workshop.png" alt="ねこの輪郭とNを組み合わせた工房のモノグラム案" width="170"> | <img src="docs/brand/logo-concepts/02-navigation.png" alt="波と進行方向の線に、ねこの耳を重ねた航路案" width="170"> | <img src="docs/brand/logo-concepts/03-modular-play.png" alt="文字を玩具ブロックのように組み立てる案" width="170"> | <img src="docs/brand/logo-concepts/04-heavy-industry.png" alt="ねこの耳を思わせる工業的な紋章案" width="170"> | <img src="docs/brand/logo-concepts/05-japanese-seal.png" alt="ねこと積層を組み合わせた和の印章案" width="170"> |
+| <img src="docs/brand/logo-concepts/06-pocket-wonder.png" alt="ポケットからきらめきがのぞく案" width="170"> | <img src="docs/brand/logo-concepts/07-little-companion.png" alt="バッグを持って出かけるねこの案" width="170"> | <img src="docs/brand/logo-concepts/08-adventure-door.png" alt="小さな扉の向こうに景色が広がる案" width="170"> | <img src="docs/brand/logo-concepts/09-held-wonder.png" alt="手のひらにきらめきを包む案" width="170"> | <img src="docs/brand/logo-concepts/10-wonder-motion.png" alt="Wを思わせるリボンの案" width="170"> |
 
 ## 現在のバス試作
 
