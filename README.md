@@ -14,11 +14,11 @@
 
 ## ロゴ案を比べる
 
-ミッションを反映した[追加5案（06〜10）](docs/brand/mission-logo-concepts.md)を制作しました。[初回の5案（01〜05）](docs/brand/README.md)も残しており、計10案を比較できます。正式採用はまだ決まっていません。
+Wonder to Go.を直感で伝える[追加5案（11〜15）](docs/brand/wonder-to-go-logo-concepts.md)を制作しました。[初回の5案（01〜05）](docs/brand/README.md)と[ミッションを反映した5案（06〜10）](docs/brand/mission-logo-concepts.md)も残しており、計15案を比較できます。正式採用はまだ決まっていません。
 
-| 06 ポケットのわくわく | 07 いつもの相棒 | 08 冒険への小さな扉 | 09 手のひらの発見 | 10 はずむW |
+| 11 走るわくわく | 12 想像を飛ばす | 13 冒険の切符 | 14 持ち歩く冒険地図 | 15 言葉が出発する |
 | --- | --- | --- | --- | --- |
-| <img src="docs/brand/logo-concepts/06-pocket-wonder.png" alt="ポケットからきらめきがのぞく案" width="170"> | <img src="docs/brand/logo-concepts/07-little-companion.png" alt="バッグを持って出かけるねこの案" width="170"> | <img src="docs/brand/logo-concepts/08-adventure-door.png" alt="小さな扉の向こうに景色が広がる案" width="170"> | <img src="docs/brand/logo-concepts/09-held-wonder.png" alt="手のひらにきらめきを包む案" width="170"> | <img src="docs/brand/logo-concepts/10-wonder-motion.png" alt="Wを思わせるリボンの案" width="170"> |
+| <img src="docs/brand/logo-concepts/11-rolling-wonder.png" alt="車輪を付けて走り出す星の案" width="170"> | <img src="docs/brand/logo-concepts/12-paper-plane.png" alt="星を組み込んだ紙飛行機の案" width="170"> | <img src="docs/brand/logo-concepts/13-adventure-ticket.png" alt="星を抜いた冒険の切符の案" width="170"> | <img src="docs/brand/logo-concepts/14-pocket-map.png" alt="折りたたみ地図ときらめきの案" width="170"> | <img src="docs/brand/logo-concepts/15-wonder-go-wordmark.png" alt="Wonder to Go.の文字を中心にした案" width="170"> |
 
 ## 現在のバス試作
 

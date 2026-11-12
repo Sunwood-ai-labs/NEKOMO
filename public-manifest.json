@@ -45,8 +45,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11998,
-      "sha256": "14540a37878821885c26ea08a00028406447d5006cecfd13922bb8cebc25790f"
+      "bytes": 12085,
+      "sha256": "df99a74879ca7c59b52390334dcdec854e37ec5ae7ff6ee030dc0f4dd83d58ec"
     },
     {
       "path": "designs/school-bus-v01/build_bus.py",
@@ -645,13 +645,13 @@
     },
     {
       "path": "docs/README.md",
-      "bytes": 983,
-      "sha256": "cabe57b56592194a58d26e2e723baf1569c6580a2809c230811eb331398d732e"
+      "bytes": 1027,
+      "sha256": "cb51aeba230545ad5a2139572af46e920532d9cf97ae25268349dafc335624a3"
     },
     {
       "path": "docs/brand/README.md",
-      "bytes": 3357,
-      "sha256": "3166adc529c7324fa4e4ba0826c1e6ee196d23c01671dd5ca475f89035cf19e8"
+      "bytes": 3473,
+      "sha256": "50dfe6b1e11f75bfb0539ff4370445e10f26d706d120c5a055b648f66dea338b"
     },
     {
       "path": "docs/brand/logo-concepts/01-workshop.png",
@@ -704,6 +704,31 @@
       "sha256": "270967bb15d37c5760be5cf4da6b7c0a956b5ebfac89899dd4a92afbd707b91a"
     },
     {
+      "path": "docs/brand/logo-concepts/11-rolling-wonder.png",
+      "bytes": 1047889,
+      "sha256": "903c9b1cabd4f56d2cbc7a1d57af32ce514d02fcbf4c20d879824b50e821e1d0"
+    },
+    {
+      "path": "docs/brand/logo-concepts/12-paper-plane.png",
+      "bytes": 1122512,
+      "sha256": "26cc01a5dae2b502520f1dd25099a5b13e3c96a0bb4fbd881ab1d97a40d2de91"
+    },
+    {
+      "path": "docs/brand/logo-concepts/13-adventure-ticket.png",
+      "bytes": 1108515,
+      "sha256": "8290b5e7e3aa67e1b5eed7dadbcea50f55d461366748439524516a30f209c7be"
+    },
+    {
+      "path": "docs/brand/logo-concepts/14-pocket-map.png",
+      "bytes": 1202807,
+      "sha256": "74fe5bb674aef6ebac8a852b178e89e0cb0cec24c119996fec157629cb96eb64"
+    },
+    {
+      "path": "docs/brand/logo-concepts/15-wonder-go-wordmark.png",
+      "bytes": 1135380,
+      "sha256": "62c255d7a77ad9cdae9f80eeaf0731b61ae1eb67f7f3e1377d242ca280fc6265"
+    },
+    {
       "path": "docs/brand/logo-concepts/prompts01-02.md",
       "bytes": 3250,
       "sha256": "d064b979f4b31acc5664c0fc694afa9f43efbfa4866054963b2d9795be5e132c"
@@ -724,9 +749,24 @@
       "sha256": "a96f815d5d49d64b12286b61f5dd940eb689d7aef62a63ed61bf6944596381bc"
     },
     {
+      "path": "docs/brand/logo-concepts/prompts11-12.md",
+      "bytes": 3262,
+      "sha256": "5245c5b4d60ded957da89399069bd605a31d93b82d91e35f1900894460436427"
+    },
+    {
+      "path": "docs/brand/logo-concepts/prompts13-15.md",
+      "bytes": 4571,
+      "sha256": "9605218613d5c084fc77fb7f8f74fdc056fb5e3fceffcb5d77ee036973125dc2"
+    },
+    {
       "path": "docs/brand/mission-logo-concepts.md",
-      "bytes": 3398,
-      "sha256": "667f99a31896018499a29645f1204c6f36f4aa571355f19ae5604b742a9d9f35"
+      "bytes": 3514,
+      "sha256": "7d467ddc641c340f5160eff6d8fbbf20818f733dbba7701b11708681c4a88d82"
+    },
+    {
+      "path": "docs/brand/wonder-to-go-logo-concepts.md",
+      "bytes": 3221,
+      "sha256": "a22dcc4e7b3e5cf5e178afc0ed85127a4d7f344d84cd1ae9d2514024c06f4556"
     },
     {
       "path": "docs/data/bus-agent-reviews.json",
