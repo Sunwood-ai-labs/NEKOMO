@@ -1,5 +1,7 @@
 # ネコネコインダストリー
 
+[![ネコネコインダストリーの採用ロゴ「ねこ船長」](docs/brand/logo.png)](docs/brand/identity.md)
+
 **NEKONEKO INDUSTRIES**
 
 製品ブランド: **NEKOMO**
@@ -10,15 +12,15 @@
 
 ねこのAI職人たちが乗り物のおもちゃを作る工場をテーマに、FreeCADとA1 miniで設計・試作するプロジェクトです。人間のレビューと造形結果を記録し、次の設計に生かしています。
 
-現在はバス型のおもちゃを試作しています。車・船・飛行機・潜水艦は今後の構想で、製作済みの製品ではありません。NEKOMOは、これまでの設計データや記録で使ってきた識別子として残しています。
+現在はNEKOMOブランドでバス型のおもちゃを試作しています。車・船・飛行機・潜水艦にも、遊びと発見を広げていく構想です。これらは今後の候補で、製作済みの製品ではありません。既存の設計データと記録のNEKOMO表記は、そのまま引き継いでいます。
 
-## ロゴ案を比べる
+## ねこ船長と、次の冒険へ
 
-ネコと帆船を組み合わせた[追加5案（36〜40）](docs/brand/cat-sailship-logo-concepts.md)を制作しました。[帆船だけの31〜35案](docs/brand/sailship-logo-concepts.md)、[車・船・飛行機をまとめた26〜30案](docs/brand/land-sea-air-logo-concepts.md)、[それ以前の案](docs/brand/README.md)も保存しています。抽象的な[16〜20案は保留](docs/brand/minimal-logo-concepts.md)です。正式採用はまだ決まっていません。
+2026年11月13日、猫と帆船を組み合わせた38「ねこ船長」を正式ロゴに採用しました。小さな船に乗って出かける猫の姿に、身近なおもちゃから冒険が始まる楽しさを重ねています。
 
-| 36 耳が帆になるねこ舟 | 37 しっぽで進む帆船 | 38 ねこ船長 | 39 帆の中のネコ | 40 ふたりのネコの帆 |
-| --- | --- | --- | --- | --- |
-| <img src="docs/brand/logo-concepts/36-cat-face-boat.png" alt="耳を帆、顔の下部を船体にしたねこ舟" width="170"> | <img src="docs/brand/logo-concepts/37-tail-hull.png" alt="ネコの横顔としっぽを船体にした帆船" width="170"> | <img src="docs/brand/logo-concepts/38-cat-captain.png" alt="小さなねこ船長が乗る帆船" width="170"> | <img src="docs/brand/logo-concepts/39-cat-in-sail.png" alt="大きな帆をネコの頭の形に白抜きした案" width="170"> | <img src="docs/brand/logo-concepts/40-twin-cat-sails.png" alt="向かい合う二匹のネコを帆にした案" width="170"> |
+[ブランドの基本情報・採用ロゴ](docs/brand/identity.md) · [01〜40案の比較履歴](docs/brand/README.md) · [採用案を含む36〜40案](docs/brand/cat-sailship-logo-concepts.md)
+
+設計の変化は下のギャラリーと版別データから確認できます。審査や印刷の結果は、[バスの版一覧](docs/バスの版一覧.md)と[人間のレビュー記録](docs/人間のレビュー記録.md)にまとめています。
 
 ## 現在のバス試作
 
@@ -102,7 +104,7 @@ python tools/verify_snapshot.py
 ~~~text
 designs/                          版ごとのCAD・STEP・STL・3MF・設計コード
 docs/                             設計記録、人間のレビュー、再現手順
-docs/brand/                       社名ロゴの5つの比較案
+docs/brand/                       採用ロゴ、ブランドの基本情報、01〜40案の比較履歴
 .agents/skills/nekomo-dr-review/  DRの審査方法と記録様式
 quality/                          サポート材のファイル検査
 tools/                            マニフェスト更新・スナップショット検証

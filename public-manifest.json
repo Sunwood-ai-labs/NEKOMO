@@ -35,8 +35,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 5383,
-      "sha256": "9433f46406e1131f1b614225af4af760f1d105e17d39f8ff79624f032c12ef45"
+      "bytes": 5406,
+      "sha256": "7ecbd4687c0309c592ff9f1da44cbe8970d18ff0e635bb55e0e364ed6298a031"
     },
     {
       "path": "LICENSE",
@@ -45,8 +45,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 12243,
-      "sha256": "1463cb5f140ad0b30da1da51cadcd7b1bb0bd09d35816d9bf2110c3cdfd45433"
+      "bytes": 11900,
+      "sha256": "cba8b06f00987a892fd5684e2524ad10246b901da37c1eaa4cfb3d9a36f9bdb5"
     },
     {
       "path": "designs/school-bus-v01/build_bus.py",
@@ -640,33 +640,38 @@
     },
     {
       "path": "docs/NEKOMO-concept-and-quality.md",
-      "bytes": 29290,
-      "sha256": "54fa66d5b5d2226a0c67a5264197eaadb329116a371e131612780da20a7fca78"
+      "bytes": 29537,
+      "sha256": "ac80accb887891e8e550e99ddfb33a4ea3d6746f75f2df01cf472d7da20a81b6"
     },
     {
       "path": "docs/README.md",
-      "bytes": 1020,
-      "sha256": "af37d14d538f8842c898fc53990dae272541243aeae31afb4a063dd30630f9bf"
+      "bytes": 1113,
+      "sha256": "9d53cecd398c1f4cb11599fb035c478376e67b2a96b7e870b794d63c17c8b1cb"
     },
     {
       "path": "docs/brand/README.md",
-      "bytes": 3896,
-      "sha256": "6c26eb25679639f4757ce5b367be31fb22588df37c04be23b7a4a58f41b2a282"
+      "bytes": 4445,
+      "sha256": "2a1dff75bc43084cfb2422af1d00eb2f7a236f7a2162e11b7222780b85be4faf"
     },
     {
       "path": "docs/brand/boat-logo-concepts.md",
-      "bytes": 3390,
-      "sha256": "c5b6f64aa79fffe4a462d6b283998e22f76bc834b5f3d46616cc16d144bf43de"
+      "bytes": 3603,
+      "sha256": "44aeab22d4a329adbb56c4bcf13178205b4e7963aaecb0406279aa43ee75d2a0"
     },
     {
       "path": "docs/brand/cat-sailship-logo-concepts.md",
-      "bytes": 3115,
-      "sha256": "34b48639a27814a7a35eba84f3e2eb8a185dc48dc045e7f32055a13cdcce238d"
+      "bytes": 3482,
+      "sha256": "8e7ac586570c71b056197f724946c355e1a11b34996f7382d8820825834d4a6a"
+    },
+    {
+      "path": "docs/brand/identity.md",
+      "bytes": 1258,
+      "sha256": "07f445efdd8f66067840bf5669299d726687e9fead49daf1a31df9a39dfee47a"
     },
     {
       "path": "docs/brand/land-sea-air-logo-concepts.md",
-      "bytes": 3494,
-      "sha256": "a7e2c3602309713f8ba83f4c77a723ceed710450976f41a37b358bc1262f7a49"
+      "bytes": 3716,
+      "sha256": "bf30934f7dddcfe265df4fd22292f453a023900156bc3550512c47f19261044d"
     },
     {
       "path": "docs/brand/logo-concepts/01-workshop.png",
@@ -969,24 +974,29 @@
       "sha256": "b216f6eda2fa03523477cbbfafca373012115860f49accc0222102549322f93f"
     },
     {
+      "path": "docs/brand/logo.png",
+      "bytes": 1023094,
+      "sha256": "c0ba90f4628d922add61108951ac155bfcd9b022deda85f56534bf5996059a71"
+    },
+    {
       "path": "docs/brand/minimal-logo-concepts.md",
-      "bytes": 3409,
-      "sha256": "11ced8d069fb071e94e6ba9e187221dc15687db7542d1065967b84603827a800"
+      "bytes": 3649,
+      "sha256": "b2386f1c69be26367b8d70fe150ec04b3792e0824383d6d04833ea120591ebfa"
     },
     {
       "path": "docs/brand/mission-logo-concepts.md",
-      "bytes": 3514,
-      "sha256": "7d467ddc641c340f5160eff6d8fbbf20818f733dbba7701b11708681c4a88d82"
+      "bytes": 3733,
+      "sha256": "5f31f6450c1875eb766583b791674a3e431a124a4a65ab8e00bce11ba643962d"
     },
     {
       "path": "docs/brand/sailship-logo-concepts.md",
-      "bytes": 3344,
-      "sha256": "475ea2af76db5baaee65ece63e9e858ccf1f0f381b0f586f67560085033be2d1"
+      "bytes": 3554,
+      "sha256": "f7033741c326b803e67d33d2c68c894606654ef6637ce23ef769057f3803dfc6"
     },
     {
       "path": "docs/brand/wonder-to-go-logo-concepts.md",
-      "bytes": 3384,
-      "sha256": "7eaf5f37392c95757413b197098a724237ad20955dddfb293556dfb138555cc5"
+      "bytes": 3645,
+      "sha256": "f8c9d0540f274ed32e6c34993ebaa22553384b46ccfb38e0af149d0973dd7636"
     },
     {
       "path": "docs/data/bus-agent-reviews.json",

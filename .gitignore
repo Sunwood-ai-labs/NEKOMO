@@ -76,6 +76,7 @@ node_modules/
 !/tools/*.json
 !/designs/school-bus-v01/design-spec.json
 *.png
+!/docs/brand/logo.png
 !/docs/brand/logo-concepts/*.png
 *.svg
 *.3mf
