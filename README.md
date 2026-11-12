@@ -14,11 +14,11 @@
 
 ## ロゴ案を比べる
 
-車・船・飛行機をまとめた[追加5案（26〜30）](docs/brand/land-sea-air-logo-concepts.md)を制作しました。[船を中心にした21〜25案](docs/brand/boat-logo-concepts.md)と[それ以前の案](docs/brand/README.md)も保存しています。抽象的な[16〜20案は保留](docs/brand/minimal-logo-concepts.md)です。正式採用はまだ決まっていません。
+帆船だけに絞った[追加5案（31〜35）](docs/brand/sailship-logo-concepts.md)を制作しました。[車・船・飛行機をまとめた26〜30案](docs/brand/land-sea-air-logo-concepts.md)、[船を中心にした21〜25案](docs/brand/boat-logo-concepts.md)、[それ以前の案](docs/brand/README.md)も保存しています。抽象的な[16〜20案は保留](docs/brand/minimal-logo-concepts.md)です。正式採用はまだ決まっていません。
 
-| 26 陸海空のおもちゃ | 27 ならぶ乗り物 | 28 みっつの窓 | 29 遊びのトライアングル | 30 ひと続きの旅 |
+| 31 二本マストの帆船 | 32 大きな一枚帆 | 33 絵本のような二枚帆 | 34 ねこの耳の帆 | 35 波につながる帆船 |
 | --- | --- | --- | --- | --- |
-| <img src="docs/brand/logo-concepts/26-all-terrain-wonder-r02.png" alt="船体・車輪・飛行機の翼を組み合わせた空想のおもちゃ" width="170"> | <img src="docs/brand/logo-concepts/27-three-toys.png" alt="車・船・飛行機が横に並ぶ案" width="170"> | <img src="docs/brand/logo-concepts/28-three-windows.png" alt="3つの窓に車・船・飛行機を白抜きした案" width="170"> | <img src="docs/brand/logo-concepts/29-play-triangle.png" alt="飛行機・車・船を三角形に配置した案" width="170"> | <img src="docs/brand/logo-concepts/30-one-journey.png" alt="車・船・飛行機の輪郭を一本の線でつなぐ案" width="170"> |
+| <img src="docs/brand/logo-concepts/31-pure-tallship.png" alt="二本のマストと四角い帆を持つ帆船" width="170"> | <img src="docs/brand/logo-concepts/32-single-sail.png" alt="大きな一枚の三角帆を持つ帆船" width="170"> | <img src="docs/brand/logo-concepts/33-openbook-sails-r02.png" alt="絵本を開くような二枚の帆の船" width="170"> | <img src="docs/brand/logo-concepts/34-cat-ear-sails-r02.png" alt="ねこの耳にも見える二枚帆の船" width="170"> | <img src="docs/brand/logo-concepts/35-wave-sailboat-r02.png" alt="帆と波につながる船体の案" width="170"> |
 
 ## 現在のバス試作
 
