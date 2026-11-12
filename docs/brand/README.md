@@ -6,7 +6,7 @@
 
 [Wonder to Go.を直感で伝える追加5案（11〜15）](wonder-to-go-logo-concepts.md)も制作しました。
 
-[帆船だけに絞った追加5案（31〜35）](sailship-logo-concepts.md)を優先して比較しています。[車・船・飛行機をまとめた26〜30案](land-sea-air-logo-concepts.md)と[船を中心にした21〜25案](boat-logo-concepts.md)も保存しています。[抽象的な16〜20案](minimal-logo-concepts.md)は保留です。
+[ネコと帆船を組み合わせた追加5案（36〜40）](cat-sailship-logo-concepts.md)を優先して比較しています。[帆船だけの31〜35案](sailship-logo-concepts.md)、[車・船・飛行機をまとめた26〜30案](land-sea-air-logo-concepts.md)、[船を中心にした21〜25案](boat-logo-concepts.md)も保存しています。[抽象的な16〜20案](minimal-logo-concepts.md)は保留です。
 
 以下は、異なるコンセプトで制作した5つの比較案です。正式なロゴはまだ選んでいません。現在のバス試作に加え、車・船・飛行機・潜水艦を構想する、ねこのAI職人たちのおもちゃ工場を表現しています。
 

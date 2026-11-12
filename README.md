@@ -14,11 +14,11 @@
 
 ## ロゴ案を比べる
 
-帆船だけに絞った[追加5案（31〜35）](docs/brand/sailship-logo-concepts.md)を制作しました。[車・船・飛行機をまとめた26〜30案](docs/brand/land-sea-air-logo-concepts.md)、[船を中心にした21〜25案](docs/brand/boat-logo-concepts.md)、[それ以前の案](docs/brand/README.md)も保存しています。抽象的な[16〜20案は保留](docs/brand/minimal-logo-concepts.md)です。正式採用はまだ決まっていません。
+ネコと帆船を組み合わせた[追加5案（36〜40）](docs/brand/cat-sailship-logo-concepts.md)を制作しました。[帆船だけの31〜35案](docs/brand/sailship-logo-concepts.md)、[車・船・飛行機をまとめた26〜30案](docs/brand/land-sea-air-logo-concepts.md)、[それ以前の案](docs/brand/README.md)も保存しています。抽象的な[16〜20案は保留](docs/brand/minimal-logo-concepts.md)です。正式採用はまだ決まっていません。
 
-| 31 二本マストの帆船 | 32 大きな一枚帆 | 33 絵本のような二枚帆 | 34 ねこの耳の帆 | 35 波につながる帆船 |
+| 36 耳が帆になるねこ舟 | 37 しっぽで進む帆船 | 38 ねこ船長 | 39 帆の中のネコ | 40 ふたりのネコの帆 |
 | --- | --- | --- | --- | --- |
-| <img src="docs/brand/logo-concepts/31-pure-tallship.png" alt="二本のマストと四角い帆を持つ帆船" width="170"> | <img src="docs/brand/logo-concepts/32-single-sail.png" alt="大きな一枚の三角帆を持つ帆船" width="170"> | <img src="docs/brand/logo-concepts/33-openbook-sails-r02.png" alt="絵本を開くような二枚の帆の船" width="170"> | <img src="docs/brand/logo-concepts/34-cat-ear-sails-r02.png" alt="ねこの耳にも見える二枚帆の船" width="170"> | <img src="docs/brand/logo-concepts/35-wave-sailboat-r02.png" alt="帆と波につながる船体の案" width="170"> |
+| <img src="docs/brand/logo-concepts/36-cat-face-boat.png" alt="耳を帆、顔の下部を船体にしたねこ舟" width="170"> | <img src="docs/brand/logo-concepts/37-tail-hull.png" alt="ネコの横顔としっぽを船体にした帆船" width="170"> | <img src="docs/brand/logo-concepts/38-cat-captain.png" alt="小さなねこ船長が乗る帆船" width="170"> | <img src="docs/brand/logo-concepts/39-cat-in-sail.png" alt="大きな帆をネコの頭の形に白抜きした案" width="170"> | <img src="docs/brand/logo-concepts/40-twin-cat-sails.png" alt="向かい合う二匹のネコを帆にした案" width="170"> |
 
 ## 現在のバス試作
 

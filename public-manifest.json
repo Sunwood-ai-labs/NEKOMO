@@ -45,8 +45,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 12223,
-      "sha256": "16a9842e70cebcd660b152f30c5e6a9a917e462712f13c414786d1a2279bd18e"
+      "bytes": 12243,
+      "sha256": "1463cb5f140ad0b30da1da51cadcd7b1bb0bd09d35816d9bf2110c3cdfd45433"
     },
     {
       "path": "designs/school-bus-v01/build_bus.py",
@@ -645,18 +645,23 @@
     },
     {
       "path": "docs/README.md",
-      "bytes": 1004,
-      "sha256": "fa22623d6f3400b4a7405347ba94956d15568c7ef8db9784a87dec9708e9c713"
+      "bytes": 1020,
+      "sha256": "af37d14d538f8842c898fc53990dae272541243aeae31afb4a063dd30630f9bf"
     },
     {
       "path": "docs/brand/README.md",
-      "bytes": 3823,
-      "sha256": "9fa66df9f08f6f700ced5f1c6b79aaa8842346b225a0c0de390f35948e2685ce"
+      "bytes": 3896,
+      "sha256": "6c26eb25679639f4757ce5b367be31fb22588df37c04be23b7a4a58f41b2a282"
     },
     {
       "path": "docs/brand/boat-logo-concepts.md",
       "bytes": 3390,
       "sha256": "c5b6f64aa79fffe4a462d6b283998e22f76bc834b5f3d46616cc16d144bf43de"
+    },
+    {
+      "path": "docs/brand/cat-sailship-logo-concepts.md",
+      "bytes": 3115,
+      "sha256": "34b48639a27814a7a35eba84f3e2eb8a185dc48dc045e7f32055a13cdcce238d"
     },
     {
       "path": "docs/brand/land-sea-air-logo-concepts.md",
@@ -859,6 +864,31 @@
       "sha256": "7b56bd433c1a26294c74131acda1d139504b01278db6ddfb6ba0de7e6fd50e13"
     },
     {
+      "path": "docs/brand/logo-concepts/36-cat-face-boat.png",
+      "bytes": 1098371,
+      "sha256": "6a3801f3e9e1f65723f8912ca16f65ee440f4ac937734a77df0a260d30aeff14"
+    },
+    {
+      "path": "docs/brand/logo-concepts/37-tail-hull.png",
+      "bytes": 1057998,
+      "sha256": "e8837aa2b1482e74fa0d194e5486c0cbaf26a90bf263d4e8b8effe89f720f0c9"
+    },
+    {
+      "path": "docs/brand/logo-concepts/38-cat-captain.png",
+      "bytes": 1023094,
+      "sha256": "c0ba90f4628d922add61108951ac155bfcd9b022deda85f56534bf5996059a71"
+    },
+    {
+      "path": "docs/brand/logo-concepts/39-cat-in-sail.png",
+      "bytes": 1020449,
+      "sha256": "f245ddc6f19889f373bc30298a3ca0d192be6bc863131bb774ae111b313d5142"
+    },
+    {
+      "path": "docs/brand/logo-concepts/40-twin-cat-sails.png",
+      "bytes": 1008372,
+      "sha256": "2bbe15cb114f577317d8fc35850c46a0085c238d0f2d89597043ee492dbf3037"
+    },
+    {
       "path": "docs/brand/logo-concepts/prompts01-02.md",
       "bytes": 3250,
       "sha256": "d064b979f4b31acc5664c0fc694afa9f43efbfa4866054963b2d9795be5e132c"
@@ -929,9 +959,19 @@
       "sha256": "d4b81da4bf9b8911c5e4a1a0fdfd32b01b71d6ced3bbafd0ca7d3ae9daa509c0"
     },
     {
+      "path": "docs/brand/logo-concepts/prompts36-37.md",
+      "bytes": 3193,
+      "sha256": "499187ded509b2a27749a213f588d0adc20a8023359b3c4548d5256ec00e8d70"
+    },
+    {
+      "path": "docs/brand/logo-concepts/prompts38-40.md",
+      "bytes": 5362,
+      "sha256": "b216f6eda2fa03523477cbbfafca373012115860f49accc0222102549322f93f"
+    },
+    {
       "path": "docs/brand/minimal-logo-concepts.md",
-      "bytes": 3393,
-      "sha256": "2cf610be118826908e76e3510f15a57682b4a40b15933062ced9b6f13deb4049"
+      "bytes": 3409,
+      "sha256": "11ced8d069fb071e94e6ba9e187221dc15687db7542d1065967b84603827a800"
     },
     {
       "path": "docs/brand/mission-logo-concepts.md",
@@ -940,8 +980,8 @@
     },
     {
       "path": "docs/brand/sailship-logo-concepts.md",
-      "bytes": 3226,
-      "sha256": "c15e36a6c29e03fd19879278150acb0cf0b1b4e193b5f3b539ed01f20207c731"
+      "bytes": 3344,
+      "sha256": "475ea2af76db5baaee65ece63e9e858ccf1f0f381b0f586f67560085033be2d1"
     },
     {
       "path": "docs/brand/wonder-to-go-logo-concepts.md",
