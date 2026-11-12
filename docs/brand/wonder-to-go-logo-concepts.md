@@ -8,6 +8,8 @@
 
 [初回の01〜05案](README.md) · [ミッションを反映した06〜10案](mission-logo-concepts.md)
 
+[船を中心にした追加5案（21〜25）](boat-logo-concepts.md)も比較できます。[抽象的な16〜20案](minimal-logo-concepts.md)は保留です。
+
 ## 5案の比較
 
 | 案 | Wonderの表現 | Goの表現 | 主な色 |

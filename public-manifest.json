@@ -45,8 +45,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 12085,
-      "sha256": "df99a74879ca7c59b52390334dcdec854e37ec5ae7ff6ee030dc0f4dd83d58ec"
+      "bytes": 12182,
+      "sha256": "c52ed81e407070fd848f9138c81568101933a2b79f265421f39ba05d401e29c0"
     },
     {
       "path": "designs/school-bus-v01/build_bus.py",
@@ -645,13 +645,18 @@
     },
     {
       "path": "docs/README.md",
-      "bytes": 1027,
-      "sha256": "cb51aeba230545ad5a2139572af46e920532d9cf97ae25268349dafc335624a3"
+      "bytes": 997,
+      "sha256": "b853a632f1870fa9d5ea0863c2b9e93860147c878601d4f6c533cd19b42a18c4"
     },
     {
       "path": "docs/brand/README.md",
-      "bytes": 3473,
-      "sha256": "50dfe6b1e11f75bfb0539ff4370445e10f26d706d120c5a055b648f66dea338b"
+      "bytes": 3672,
+      "sha256": "2e08afeb4cd7b3eaedfdf5de1b810d857e6834649ed7d4c010bb4bb9ca416da4"
+    },
+    {
+      "path": "docs/brand/boat-logo-concepts.md",
+      "bytes": 3219,
+      "sha256": "4b6f7a4cfb7effbb6003c5f3e9c5d5bcc2e3448a2ce1f10fc4f7ee3a0c493429"
     },
     {
       "path": "docs/brand/logo-concepts/01-workshop.png",
@@ -729,6 +734,56 @@
       "sha256": "62c255d7a77ad9cdae9f80eeaf0731b61ae1eb67f7f3e1377d242ca280fc6265"
     },
     {
+      "path": "docs/brand/logo-concepts/16-escape-dot.png",
+      "bytes": 1038911,
+      "sha256": "b352186f83829d11d18a13d68af164d49e4b08b78f7a8c6974f336fa95c86a40"
+    },
+    {
+      "path": "docs/brand/logo-concepts/17-skipping-ears.png",
+      "bytes": 993966,
+      "sha256": "19236508a13ddec7f319f61733b6eb26559e0954635f5dc698ca02a177e2ff84"
+    },
+    {
+      "path": "docs/brand/logo-concepts/18-little-go.png",
+      "bytes": 987259,
+      "sha256": "b5b96ac3ff32dcac081c168fa8b469b4f60e9524e8801b85ebefae447980ef14"
+    },
+    {
+      "path": "docs/brand/logo-concepts/19-hidden-spark.png",
+      "bytes": 985500,
+      "sha256": "5d916dedd777582b0df668fb317f5c21757d0234d829c2f04c006129957b5e51"
+    },
+    {
+      "path": "docs/brand/logo-concepts/20-wonder-step.png",
+      "bytes": 988889,
+      "sha256": "5610fdd87c6304e945f42b98958eceb4b892e3381a2af98ec15e2b2c23daeb77"
+    },
+    {
+      "path": "docs/brand/logo-concepts/21-cat-sailboat.png",
+      "bytes": 969071,
+      "sha256": "2aae7bc46bfcf2c304742d47703c042216646980785c228bf5ff5dfaac1a34c5"
+    },
+    {
+      "path": "docs/brand/logo-concepts/22-origami-boat.png",
+      "bytes": 1011450,
+      "sha256": "cbc6472d38508e704f87b4c3929d033ae31c16ed021121240f3172c28cb19346"
+    },
+    {
+      "path": "docs/brand/logo-concepts/23-little-tug.png",
+      "bytes": 974095,
+      "sha256": "bf5c5e1ebdedde21809eef50f6ba8e243184c8f7fa4d96b384bd02b09595aa76"
+    },
+    {
+      "path": "docs/brand/logo-concepts/24-wave-sail.png",
+      "bytes": 1051398,
+      "sha256": "6b5d4d9b0937228afec7759c25c89debe4f8eddf3605b86be51062bb50c4b8d0"
+    },
+    {
+      "path": "docs/brand/logo-concepts/25-anywhere-boat.png",
+      "bytes": 1079075,
+      "sha256": "da16cee9aafa2925bed2cb28a426783d623dac27a954f4a0f29188e19d93405e"
+    },
+    {
       "path": "docs/brand/logo-concepts/prompts01-02.md",
       "bytes": 3250,
       "sha256": "d064b979f4b31acc5664c0fc694afa9f43efbfa4866054963b2d9795be5e132c"
@@ -759,14 +814,39 @@
       "sha256": "9605218613d5c084fc77fb7f8f74fdc056fb5e3fceffcb5d77ee036973125dc2"
     },
     {
+      "path": "docs/brand/logo-concepts/prompts16-17.md",
+      "bytes": 2106,
+      "sha256": "5405e8d4e3d5a74b8a3270e98e95b9d9c213dbc86920fdfbbeebe9b294f3973c"
+    },
+    {
+      "path": "docs/brand/logo-concepts/prompts18-20.md",
+      "bytes": 5516,
+      "sha256": "cf32185d0d96122f95ecc4a0ce2faf25c924fb60d1979a7f86432c1d5d767233"
+    },
+    {
+      "path": "docs/brand/logo-concepts/prompts21-22.md",
+      "bytes": 3441,
+      "sha256": "924a7ccb4aadbee68543e68d8888697de72bebd70351771799126eda5d826375"
+    },
+    {
+      "path": "docs/brand/logo-concepts/prompts23-25.md",
+      "bytes": 5942,
+      "sha256": "7ccda422f15e14c17372cdd8c65a295c2302e8774816163c96e32446c80b7104"
+    },
+    {
+      "path": "docs/brand/minimal-logo-concepts.md",
+      "bytes": 3386,
+      "sha256": "25a2e0665ebcf746c625de7580cf6d65e4e705b16022c899b10720f74caf5e45"
+    },
+    {
       "path": "docs/brand/mission-logo-concepts.md",
       "bytes": 3514,
       "sha256": "7d467ddc641c340f5160eff6d8fbbf20818f733dbba7701b11708681c4a88d82"
     },
     {
       "path": "docs/brand/wonder-to-go-logo-concepts.md",
-      "bytes": 3221,
-      "sha256": "a22dcc4e7b3e5cf5e178afc0ed85127a4d7f344d84cd1ae9d2514024c06f4556"
+      "bytes": 3384,
+      "sha256": "7eaf5f37392c95757413b197098a724237ad20955dddfb293556dfb138555cc5"
     },
     {
       "path": "docs/data/bus-agent-reviews.json",

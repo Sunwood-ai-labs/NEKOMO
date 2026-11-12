@@ -1,6 +1,6 @@
 # 公開資料
 
-ネコネコインダストリー（NEKONEKO INDUSTRIES）の公開資料です。NEKOMOは乗り物の製品ブランドです。ミッションは「わくわくを、どこへでも。／Wonder to Go.」です。ロゴは[01〜05案](brand/README.md)、[06〜10案](brand/mission-logo-concepts.md)、[Wonder to Go.を直感で伝える11〜15案](brand/wonder-to-go-logo-concepts.md)を比較中で、正式採用は決まっていません。
+ネコネコインダストリー（NEKONEKO INDUSTRIES）の公開資料です。NEKOMOは乗り物の製品ブランドです。ミッションは「わくわくを、どこへでも。／Wonder to Go.」です。ロゴは[船を中心にした21〜25案](brand/boat-logo-concepts.md)を優先して比較しています。[これまでの案](brand/README.md)も保存しており、正式採用は未定です。
 
 ## 設計と品質
 

@@ -14,11 +14,11 @@
 
 ## ロゴ案を比べる
 
-Wonder to Go.を直感で伝える[追加5案（11〜15）](docs/brand/wonder-to-go-logo-concepts.md)を制作しました。[初回の5案（01〜05）](docs/brand/README.md)と[ミッションを反映した5案（06〜10）](docs/brand/mission-logo-concepts.md)も残しており、計15案を比較できます。正式採用はまだ決まっていません。
+船が伝わるシンプルな[追加5案（21〜25）](docs/brand/boat-logo-concepts.md)を制作しました。抽象的な[16〜20案は保留](docs/brand/minimal-logo-concepts.md)とし、商品を連想しやすい船の案を優先して比較しています。[01〜05案](docs/brand/README.md)、[06〜10案](docs/brand/mission-logo-concepts.md)、[11〜15案](docs/brand/wonder-to-go-logo-concepts.md)も保存しています。正式採用はまだ決まっていません。
 
-| 11 走るわくわく | 12 想像を飛ばす | 13 冒険の切符 | 14 持ち歩く冒険地図 | 15 言葉が出発する |
+| 21 ねこの帆船 | 22 ひと折りの舟 | 23 小さなタグボート | 24 波と帆 | 25 車輪付きの遊び舟 |
 | --- | --- | --- | --- | --- |
-| <img src="docs/brand/logo-concepts/11-rolling-wonder.png" alt="車輪を付けて走り出す星の案" width="170"> | <img src="docs/brand/logo-concepts/12-paper-plane.png" alt="星を組み込んだ紙飛行機の案" width="170"> | <img src="docs/brand/logo-concepts/13-adventure-ticket.png" alt="星を抜いた冒険の切符の案" width="170"> | <img src="docs/brand/logo-concepts/14-pocket-map.png" alt="折りたたみ地図ときらめきの案" width="170"> | <img src="docs/brand/logo-concepts/15-wonder-go-wordmark.png" alt="Wonder to Go.の文字を中心にした案" width="170"> |
+| <img src="docs/brand/logo-concepts/21-cat-sailboat.png" alt="ねこの耳にも見える二つの帆を持つ船" width="170"> | <img src="docs/brand/logo-concepts/22-origami-boat.png" alt="少ない面で表した折り紙の舟" width="170"> | <img src="docs/brand/logo-concepts/23-little-tug.png" alt="丸窓のある小さなタグボート" width="170"> | <img src="docs/brand/logo-concepts/24-wave-sail.png" alt="帆と波の二つの形による船" width="170"> | <img src="docs/brand/logo-concepts/25-anywhere-boat.png" alt="車輪で走る空想の帆船" width="170"> |
 
 ## 現在のバス試作
 
