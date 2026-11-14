@@ -93,4 +93,6 @@ https://github.com/Sunwood-ai-labs/NEKONEKO-INDUSTRIES
 
 ただし、サイズを60mm級に戻したり、屋根のRや窓枠を攻めた設計にしたりすると、実機造形ならではの思わぬ壁にぶつかります。次回は、そのリアルな失敗と「断面レビュー」導入のストーリーを紹介します。
 
+https://x.com/hAru_mAki_ch
+
 #AI #3Dプリンター #FreeCAD #BambuLab #ものづくり

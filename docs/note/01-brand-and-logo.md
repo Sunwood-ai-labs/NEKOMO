@@ -88,4 +88,6 @@ https://github.com/Sunwood-ai-labs/NEKONEKO-INDUSTRIES
 
 次回は、いよいよこの工場で初めて作った「40mm級のミニバス試作」と、実機でのタイムラプス撮影の様子をお届けします。
 
+https://x.com/hAru_mAki_ch
+
 #AI #ものづくり #3Dプリンター #ロゴデザイン #個人開発

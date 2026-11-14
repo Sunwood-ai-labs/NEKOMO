@@ -96,4 +96,6 @@ https://github.com/Sunwood-ai-labs/NEKONEKO-INDUSTRIES
 
 AIと一緒にものづくりをするときは、CADを作るだけでなく「失敗を分析して審査スキルを育てる」ところまで回すのがおすすめです。
 
+https://x.com/hAru_mAki_ch
+
 #AI #3Dプリンター #FreeCAD #失敗談 #ものづくり

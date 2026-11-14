@@ -76,4 +76,6 @@ https://github.com/Sunwood-ai-labs/NEKONEKO-INDUSTRIES
 
 「なぜサポートなしで刷れるのか？」を断面と G-code で数値化しておくと、次のオリジナル設計でも「ここは斜面で空洞を狭めればブリッジでいけるな」と判断できるようになります。ベンチマークモデルは刷って終わりではなく、断面を覗いてみると面白い発見がたくさんありますよ。
 
+https://x.com/hAru_mAki_ch
+
 #3Dプリンター #BambuLab #A1mini #3Dモデリング #ものづくり

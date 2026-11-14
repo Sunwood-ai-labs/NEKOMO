@@ -74,4 +74,6 @@ https://github.com/Sunwood-ai-labs/NEKONEKO-INDUSTRIES
 
 「いきなり本体を刷らず、まず数ミリの検証片で試す」という一手間を入れるだけで、失敗時のコストを半分以下に抑えつつ、問題箇所をピンポイントで切り分けられます。次は r02 の実物確認を経て、いよいよ本体の屋根ブリッジ部分の造形へ進む予定です。
 
+https://x.com/hAru_mAki_ch
+
 #3Dプリンター #BambuLab #A1mini #ものづくり #個人開発

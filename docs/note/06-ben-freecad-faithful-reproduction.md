@@ -84,4 +84,6 @@ https://github.com/Sunwood-ai-labs/NEKONEKO-INDUSTRIES
 
 安全性を高めようと焦って見た目を変えてしまうと、愛着のある元のモデルが迷子になってしまいます。まずは元の STL を忠実な基準ソリッドとして FreeCAD に取り込み、改訂した DR ルールに沿って「どこを変えて、どこを残すか」を丁寧に積み上げていくのが近道でした。
 
+https://x.com/hAru_mAki_ch
+
 #FreeCAD #3Dプリンター #3Dモデリング #品質管理 #ものづくり
