@@ -141,3 +141,23 @@ node_modules/
 !/designs/school-bus-v09-sloped/exports/RedBodyAndTires-inverted.stl
 !/designs/school-bus-v09-sloped/exports/WhiteRoof-inverted.stl
 !/designs/school-bus-v09-sloped/exports/whole-inverted.stl
+
+# Confirmed print-knowledge records
+!/quality/print-knowledge/
+!/quality/print-knowledge/**/
+!/quality/print-knowledge/**/*.md
+!/quality/print-knowledge/**/*.json
+!/quality/print-knowledge/**/*.png
+
+# Summarized historical investigation; raw chat logs stay outside the repository.
+!/quality/history-review-20261113/
+!/quality/history-review-20261113/*.md
+!/quality/history-review-20261113/inventory.py
+!/quality/history-review-20261113/source-inventory.json
+!/quality/history-review-20261113/photo-evidence.json
+!/quality/history-review-20261113/photos/
+!/quality/history-review-20261113/photos/*.jpg
+
+# Note articles assets
+!/docs/note/assets/*.png
+!/docs/note/assets/*.jpg
