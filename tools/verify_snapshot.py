@@ -51,7 +51,7 @@ for entry in manifest['files']:
 
 statuses = json.loads((root / 'docs/data/bus-review-status.json').read_text(encoding='utf-8'))
 for required in ('README.md', 'docs/バスの版一覧.md', 'docs/人間のレビュー記録.md',
-                 'docs/NEKOMO-concept-and-quality.md', 'docs/data/bus-review-status.json',
+                 'docs/NEKONEKO-INDUSTRIES-concept-and-quality.md', 'docs/data/bus-review-status.json',
                  'docs/data/bus-agent-reviews.json', 'docs/data/bus-versions.json'):
     if required not in published_paths:
         failures.append({'path': required, 'check': 'required published file'})

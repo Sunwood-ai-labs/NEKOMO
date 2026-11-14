@@ -1,0 +1,4 @@
+interface:
+  display_name: "ネコネコインダストリー 開発コードネーム"
+  short_description: "機体の命名・改名と開発コードネーム配下の設計リビジョンを管理する"
+  default_prompt: "$nekoneko-development-codename を使って機体の名前と保存先を整えてください。"

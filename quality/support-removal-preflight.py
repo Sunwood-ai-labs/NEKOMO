@@ -19,8 +19,8 @@ from typing import Any
 import xml.etree.ElementTree as ET
 
 
-SUPPORT_POLICY_CODE = "NEKOMO-TR-001"
-INPUT_EVIDENCE_CODE = "NEKOMO-TR-002"
+SUPPORT_POLICY_CODE = "NNI-TR-001"
+INPUT_EVIDENCE_CODE = "NNI-TR-002"
 REQUIRED_3MF_ENTRIES = (
     "Metadata/project_settings.config",
     "Metadata/slice_info.config",

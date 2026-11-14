@@ -2,6 +2,7 @@
 !/.gitignore
 !/.gitattributes
 !/README.md
+!/AGENTS.md
 !/docs/
 !/tools/
 !/designs/
@@ -17,7 +18,9 @@
 /.agents/*
 !/.agents/skills/
 /.agents/skills/*
-!/.agents/skills/nekomo-dr-review/
+!/.agents/skills/nekoneko-dr-review/
+!/.agents/skills/nekoneko-development-codename/
+!/.agents/skills/nekoneko-logo-marking/
 
 /designs/*
 !/designs/school-bus-v01/

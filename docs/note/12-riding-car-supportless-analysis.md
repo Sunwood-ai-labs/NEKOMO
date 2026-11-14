@@ -6,7 +6,7 @@
 
 ![サポート材なしで一体印刷できたRiding Car Modelの実物](./assets/12-photo-1.jpg)
 
-開発中の資料や知見をまとめているNEKOMOプロジェクトのリポジトリはこちらです。
+開発中の資料や知見をまとめているネコネコインダストリープロジェクトのリポジトリはこちらです。
 
 https://github.com/Sunwood-ai-labs/NEKONEKO-INDUSTRIES
 

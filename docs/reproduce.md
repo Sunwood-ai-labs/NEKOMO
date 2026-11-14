@@ -1,4 +1,4 @@
-# NEKOMOのデータ検証と再現手順
+# ネコネコインダストリーのデータ検証と再現手順
 
 公開済みのCADとスライスを使って確認します。比較例はv08とv09です。[版一覧](バスの版一覧.md)から他の版の設計と記録も確認できます。
 
@@ -28,7 +28,7 @@ python quality/support-removal-preflight.py designs/school-bus-v06-empty-inverte
 | v09傾斜ボンネット | `PASS_FILE_ONLY`。保存3MFのファイル検査を通過 | 0 |
 | v06赤タイヤ | `BLOCK`。専用サポート材の界面割当が確認できない旧データ | 1 |
 
-検査対象は3MFに含まれる設定とG-codeです。AMSの実際の配置、サポートの除去結果、造形可否は[DR手順](../.agents/skills/nekomo-dr-review/references/stages.md)で個別に扱います。GitHub Actionsもこの2件の結果と、取得直後の検証を確認します。
+検査対象は3MFに含まれる設定とG-codeです。AMSの実際の配置、サポートの除去結果、造形可否は[DR手順](../.agents/skills/nekoneko-dr-review/references/stages.md)で個別に扱います。GitHub Actionsもこの2件の結果と、取得直後の検証を確認します。
 
 ## 3. v08とv09のボンネットの経路を比較
 
@@ -55,8 +55,8 @@ Python 3.12.10とNumPy 2.5.3で再実行し、スクリプトのすき間のし�
 from pathlib import Path
 from tempfile import mkdtemp
 
-source = Path(r'C:\path\to\NEKOMO\designs\school-bus-v09-sloped\build_sloped.py')
-output = Path(mkdtemp(prefix='nekomo-v09-'))
+source = Path(r'C:\path\to\ネコネコインダストリー\designs\school-bus-v09-sloped\build_sloped.py')
+output = Path(mkdtemp(prefix='nni-v09-'))
 for folder in ('cad', 'exports', 'evidence'):
     (output / folder).mkdir()
 code = source.read_text(encoding='utf-8')

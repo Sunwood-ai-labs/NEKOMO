@@ -4,24 +4,44 @@
   "note": "SHA-256 covers every published file except this manifest itself. It verifies snapshot integrity, not model safety or print quality.",
   "files": [
     {
-      "path": ".agents/skills/nekomo-dr-review/SKILL.md",
-      "bytes": 8470,
-      "sha256": "360eac1ad16835ad369587d008cc3f5ab862a5cc69a97afae947651298ba96a0"
+      "path": ".agents/skills/nekoneko-development-codename/SKILL.md",
+      "bytes": 4820,
+      "sha256": "61e44761f06398021f965f4ff4ce1dc9b6cfdc779d8496de4339c150de422c07"
     },
     {
-      "path": ".agents/skills/nekomo-dr-review/agents/openai.yaml",
-      "bytes": 365,
-      "sha256": "db3802a7a43488d76fa8019daa2fe23f9e6183c7706d8f8aaddd530d6b7ae22d"
+      "path": ".agents/skills/nekoneko-development-codename/agents/openai.yaml",
+      "bytes": 326,
+      "sha256": "71a9cc8d81ac8ccfe088672bade2e9c3e6c2c60c512134be5b55c05d8ae7f0ae"
     },
     {
-      "path": ".agents/skills/nekomo-dr-review/assets/review-record.md",
-      "bytes": 1956,
-      "sha256": "8febfebf2f7f752a6884541a2d9fe017bfe004c3a95a785d9d44a7dd66dc7743"
+      "path": ".agents/skills/nekoneko-dr-review/SKILL.md",
+      "bytes": 8526,
+      "sha256": "fc360bb7245fb4a941ef96fecc7585d6a6186371dfed962e11b1ffb8313aebe7"
     },
     {
-      "path": ".agents/skills/nekomo-dr-review/references/stages.md",
-      "bytes": 9476,
-      "sha256": "5d56556b4fe65e27dfe64b455a3da6c2e7b0ab00d2e291311f3e94addb39a060"
+      "path": ".agents/skills/nekoneko-dr-review/agents/openai.yaml",
+      "bytes": 394,
+      "sha256": "d9bf5303f49357f447f28de3a7b6c913781c35b71560b0bc5a2e2846d0a2a583"
+    },
+    {
+      "path": ".agents/skills/nekoneko-dr-review/assets/review-record.md",
+      "bytes": 1983,
+      "sha256": "868ed8b540e12e3c7afeed445e63c1823f256e10a93d620c6372dac36e1d7122"
+    },
+    {
+      "path": ".agents/skills/nekoneko-dr-review/references/stages.md",
+      "bytes": 9503,
+      "sha256": "584ed5399baa94282b223a78faa362774092f9811c01bc1c1df936cf1185edbe"
+    },
+    {
+      "path": ".agents/skills/nekoneko-logo-marking/SKILL.md",
+      "bytes": 3968,
+      "sha256": "c7380c643a3ffd8df47aabd9292b6f601f54bd6829b6ebeea7730f391ab602ab"
+    },
+    {
+      "path": ".agents/skills/nekoneko-logo-marking/agents/openai.yaml",
+      "bytes": 300,
+      "sha256": "7e3aa6b04e921a2fef008b8e17c71fd8a9f056ae9151c540b5269423e4e0f9f4"
     },
     {
       "path": ".gitattributes",
@@ -30,23 +50,28 @@
     },
     {
       "path": ".github/workflows/verify.yml",
-      "bytes": 1550,
-      "sha256": "5c11ba0cab044919ad67dbb043cc7c633b5debb47d31cc89159f9db1d7bd2081"
+      "bytes": 1643,
+      "sha256": "f695f8fb8906408f749801c96753f1fb590f4905c69677f3ca017505c4cea415"
     },
     {
       "path": ".gitignore",
-      "bytes": 5406,
-      "sha256": "7ecbd4687c0309c592ff9f1da44cbe8970d18ff0e635bb55e0e364ed6298a031"
+      "bytes": 6207,
+      "sha256": "055dd9eb0a70709727e6d5348873cbb2021b72d4aa8fb0d4ef82595e279ba17d"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 786,
+      "sha256": "057f561f0f67e0962ce25bc90a5c0be8a58383d39436d38396dac43d33743a45"
     },
     {
       "path": "LICENSE",
-      "bytes": 1076,
-      "sha256": "63662f448f508a4dee056906265d23ae4eb4714209cd1971d978dd0b1287c95c"
+      "bytes": 1089,
+      "sha256": "9213dd53b86b628e0f5ed608e70526052604ea78b7f80de9a186f8a68fa91b3d"
     },
     {
       "path": "README.md",
-      "bytes": 11900,
-      "sha256": "cba8b06f00987a892fd5684e2524ad10246b901da37c1eaa4cfb3d9a36f9bdb5"
+      "bytes": 12073,
+      "sha256": "b9c98b828abcd0f75e4288602fc0fc0ae42ce1b363c6123c1fa06e7681a8e0a1"
     },
     {
       "path": "designs/school-bus-v01/build_bus.py",
@@ -639,19 +664,19 @@
       "sha256": "d9eb4a3b521a45f07cb3224bf5facfabac7477eb0936ea4c6fa8a78d8c76edb5"
     },
     {
-      "path": "docs/NEKOMO-concept-and-quality.md",
-      "bytes": 29537,
-      "sha256": "ac80accb887891e8e550e99ddfb33a4ea3d6746f75f2df01cf472d7da20a81b6"
+      "path": "docs/NEKONEKO-INDUSTRIES-concept-and-quality.md",
+      "bytes": 29805,
+      "sha256": "45763484e7b90d041327b8a0dcee67b4402984524a3f41cce7c851e693f4cb67"
     },
     {
       "path": "docs/README.md",
-      "bytes": 1113,
-      "sha256": "9d53cecd398c1f4cb11599fb035c478376e67b2a96b7e870b794d63c17c8b1cb"
+      "bytes": 1143,
+      "sha256": "1a44322561d7e840724baa24584da5f4f1d712d4c7bf34b7e6178d9005a77d51"
     },
     {
       "path": "docs/brand/README.md",
-      "bytes": 4445,
-      "sha256": "2a1dff75bc43084cfb2422af1d00eb2f7a236f7a2162e11b7222780b85be4faf"
+      "bytes": 4481,
+      "sha256": "626c3bb08ab2969459bc6f7d37ea1534effb69f5b8a9cacd093080367082b28f"
     },
     {
       "path": "docs/brand/boat-logo-concepts.md",
@@ -665,8 +690,8 @@
     },
     {
       "path": "docs/brand/identity.md",
-      "bytes": 1258,
-      "sha256": "07f445efdd8f66067840bf5669299d726687e9fead49daf1a31df9a39dfee47a"
+      "bytes": 1268,
+      "sha256": "cc7366986e69bbfdde7e148b12ce41895afaf8c1bba686bb08cf2a9ab792a9b7"
     },
     {
       "path": "docs/brand/land-sea-air-logo-concepts.md",
@@ -989,6 +1014,11 @@
       "sha256": "5f31f6450c1875eb766583b791674a3e431a124a4a65ab8e00bce11ba643962d"
     },
     {
+      "path": "docs/brand/naming-policy.json",
+      "bytes": 767,
+      "sha256": "72b2f205c4986b1bf6b04e01fa5a9e3c43a2e0fc2be98d23c797b24a458e0b16"
+    },
+    {
       "path": "docs/brand/sailship-logo-concepts.md",
       "bytes": 3554,
       "sha256": "f7033741c326b803e67d33d2c68c894606654ef6637ce23ef769057f3803dfc6"
@@ -1012,6 +1042,11 @@
       "path": "docs/data/bus-versions.json",
       "bytes": 6248,
       "sha256": "5f393406163eedf12ecaf4fdc6adc4f57c8c3527dff49b1c6f1655a10bb6e18a"
+    },
+    {
+      "path": "docs/design-change-records.md",
+      "bytes": 4486,
+      "sha256": "e956972f7477865aa3c0f3fca6b510981ca5ecdb40f2c3dff5d1f0f370b17daa"
     },
     {
       "path": "docs/designs/school-bus-v01/README.md",
@@ -1269,9 +1304,374 @@
       "sha256": "447e6fad24398086d52eb8948c2283e92a16ef566ccdea167af0a074ab54a8d1"
     },
     {
+      "path": "docs/note/01-brand-and-logo.md",
+      "bytes": 5600,
+      "sha256": "c03e71be1d224d9bc5c07721fa8cbd54feac58dec46239b48cef41d559f6bab4"
+    },
+    {
+      "path": "docs/note/02-minibus-prototype-and-timelapse.md",
+      "bytes": 6068,
+      "sha256": "8267db48cf9b1da57b38b8aae92de912d1fc18111f7e67573cfa5d204e0b97cb"
+    },
+    {
+      "path": "docs/note/03-bus-section-dr-and-failures.md",
+      "bytes": 7082,
+      "sha256": "cb0a2143ddb97053dc427a4c3fc3c9cb25adaf6c7a7070ba27bd60fc1f43bb2a"
+    },
+    {
+      "path": "docs/note/04-pickup-bench-coupon-rule.md",
+      "bytes": 6697,
+      "sha256": "95c80e8cad5889c713d6d9b61e75af08d4ec24e12bee43d355da53e31b2265ba"
+    },
+    {
+      "path": "docs/note/05-ben-roof-bridge-knowledge.md",
+      "bytes": 6801,
+      "sha256": "e808655dd377745b884b16e23c032df8ae0f9062bd0320b74d210ec05fbffc5f"
+    },
+    {
+      "path": "docs/note/06-ben-freecad-faithful-reproduction.md",
+      "bytes": 7166,
+      "sha256": "df4e33e04826f5e0317335813df1b9169e139e611626191d00d03763382c4314"
+    },
+    {
+      "path": "docs/note/07-solaris-dr-and-print-hold.md",
+      "bytes": 10007,
+      "sha256": "22f1cecc563590dfecac4976fd6a72e8a55be28cbbe6a2332186fa945ea11cbb"
+    },
+    {
+      "path": "docs/note/08-rover-r11-and-recalibration.md",
+      "bytes": 9127,
+      "sha256": "e3c0247b58884b4713f96825c0133ccad34d62aa7566397e5ed15433591e328e"
+    },
+    {
+      "path": "docs/note/09-delay-investigation.md",
+      "bytes": 9326,
+      "sha256": "a96a5ae83af4dbeb2af53a8450eb46965c0633d000b1238e8e917ac5dc36aa98"
+    },
+    {
+      "path": "docs/note/10-revision-rule-and-readme.md",
+      "bytes": 7344,
+      "sha256": "bd2451fe03b1e7f6d51bede3610d7e381633164f48186db007dd18bdba915c39"
+    },
+    {
+      "path": "docs/note/11-history-review-and-agents.md",
+      "bytes": 8759,
+      "sha256": "9b2c4017a83455d442e981d3da40a201940fa194268043249a511c57c331aca8"
+    },
+    {
+      "path": "docs/note/12-riding-car-supportless-analysis.md",
+      "bytes": 6697,
+      "sha256": "1636137b3b352cc8c4c201dc860dea4038b4a8a334f350b279cf61402effb0cb"
+    },
+    {
+      "path": "docs/note/assets/01-01-workshop.png",
+      "bytes": 1174675,
+      "sha256": "f7719209d3ae7c609faf71fb90a72df22c133f973fb05e583ef37e92b594906f"
+    },
+    {
+      "path": "docs/note/assets/01-15-wonder-go-wordmark.png",
+      "bytes": 1135380,
+      "sha256": "62c255d7a77ad9cdae9f80eeaf0731b61ae1eb67f7f3e1377d242ca280fc6265"
+    },
+    {
+      "path": "docs/note/assets/01-21-cat-sailboat.png",
+      "bytes": 969071,
+      "sha256": "2aae7bc46bfcf2c304742d47703c042216646980785c228bf5ff5dfaac1a34c5"
+    },
+    {
+      "path": "docs/note/assets/01-38-cat-captain.png",
+      "bytes": 1023094,
+      "sha256": "c0ba90f4628d922add61108951ac155bfcd9b022deda85f56534bf5996059a71"
+    },
+    {
+      "path": "docs/note/assets/01-logo.png",
+      "bytes": 1023094,
+      "sha256": "c0ba90f4628d922add61108951ac155bfcd9b022deda85f56534bf5996059a71"
+    },
+    {
+      "path": "docs/note/assets/02-assembled-final.png",
+      "bytes": 57579,
+      "sha256": "d25dbb61aabea85f430263f947084aaf146a858c4706bcf74582991abda04206"
+    },
+    {
+      "path": "docs/note/assets/02-final-view-r03.png",
+      "bytes": 19147,
+      "sha256": "520dba234bf369da6f73f04a2cd599e392b723ed58e413b41cc974b4c2ff6232"
+    },
+    {
+      "path": "docs/note/assets/02-progress-final.jpg",
+      "bytes": 151739,
+      "sha256": "aae79e3c147c6026e3f743991e7d519562ad379349f49ede28c46dfb0a38895f"
+    },
+    {
+      "path": "docs/note/assets/02-school-bus-concept.png",
+      "bytes": 2501000,
+      "sha256": "b673bd4d977aac2cb14d4ddbf02712eb285faf12c8f5e189fb22961a06ec1e01"
+    },
+    {
+      "path": "docs/note/assets/02-sloped-front.png",
+      "bytes": 59910,
+      "sha256": "d19a9a6bf075861effe7b94474bff11d981011cf8b3d5b8e1516a025d82ebe72"
+    },
+    {
+      "path": "docs/note/assets/02-sloped-inverted.png",
+      "bytes": 51504,
+      "sha256": "91be55fbed6d45d3e1fd75c42973b105ea6f02f62556950d3e31077ae5db069e"
+    },
+    {
+      "path": "docs/note/assets/03-gcode-support-toolpath-overlays.png",
+      "bytes": 233314,
+      "sha256": "a6bea784aaacac025c8a2e47b430dfbd3f152b91ec0ac928a89954ebbdacb474"
+    },
+    {
+      "path": "docs/note/assets/03-red-tyres-isometric.png",
+      "bytes": 78592,
+      "sha256": "81fd151b00aa4901fd15beb7d74aced69ba9e898f4c76d66456994664765f9df"
+    },
+    {
+      "path": "docs/note/assets/03-v06-02.jpg",
+      "bytes": 1155138,
+      "sha256": "122ae581d68dc7d5f4171959e9ae22af291d10449bb6119670d512e2eef5d1af"
+    },
+    {
+      "path": "docs/note/assets/03-v10-02.jpg",
+      "bytes": 3240311,
+      "sha256": "11b115ec18ca99fad1d055be11604b6bbce40399d66e1ed6beff5a540117572a"
+    },
+    {
+      "path": "docs/note/assets/03-v10-model-final.png",
+      "bytes": 91653,
+      "sha256": "b10d44bbbd2efe6370400cd70667cf002f150a64656af70476d5c54430c0871c"
+    },
+    {
+      "path": "docs/note/assets/03-v10-v11-section-comparison.png",
+      "bytes": 158392,
+      "sha256": "2212a7bce9a1d20d7e9a128744027babe5513028d4b4d5c5306e18ba756d53dc"
+    },
+    {
+      "path": "docs/note/assets/03-v10-window-root-sections.png",
+      "bytes": 57900,
+      "sha256": "2a0a9bfce7f1cda456a6da71e643c4833c02ce6194c4c47904114e6f1793b9d8"
+    },
+    {
+      "path": "docs/note/assets/04-coupon-start.jpg",
+      "bytes": 134724,
+      "sha256": "59c7077d035d6866cd32a40f8961d880a7c0af5f7cb6a699ace6f61ee9952781"
+    },
+    {
+      "path": "docs/note/assets/04-pick-up-r01-01.jpg",
+      "bytes": 1538526,
+      "sha256": "5e462a27b21a2f9460796b29106005116071f6dbe9942f6337b5b253c609b025"
+    },
+    {
+      "path": "docs/note/assets/04-pick-up-r01-02.jpg",
+      "bytes": 1288215,
+      "sha256": "5dec2b996e30be64a91a37b4b12dbc03158cb02f4a6f8715bb957436b3db147b"
+    },
+    {
+      "path": "docs/note/assets/05-ben-roof-section.png",
+      "bytes": 85458,
+      "sha256": "e113f0a41074dc4385e60c8fb0da64e7bb112c8a93f0857d0387a0b4005b61e5"
+    },
+    {
+      "path": "docs/note/assets/05-first-layer.jpg",
+      "bytes": 144179,
+      "sha256": "bfd5564edd0ae71638dbb197525de63fad8336aecdd7b6349dc410fa7d3ba7bd"
+    },
+    {
+      "path": "docs/note/assets/05-preview-final.png",
+      "bytes": 386000,
+      "sha256": "197e4f74d1f1270bdb89d62db1d649af1693655210d168ba50c9ca04ce581ac3"
+    },
+    {
+      "path": "docs/note/assets/05-section-grid.png",
+      "bytes": 452062,
+      "sha256": "41b35898944c6fb3c6b239772fae3dad3ab83e7b0d01d10d100e58d37e02ef58"
+    },
+    {
+      "path": "docs/note/assets/06-before-after-sections.png",
+      "bytes": 194480,
+      "sha256": "aa47dc636bc5d0d5e63fe0dc0063bcade684f759703d6f38c948c85966ac5846"
+    },
+    {
+      "path": "docs/note/assets/06-freecad-ui-2026-11-12.jpg",
+      "bytes": 110378,
+      "sha256": "d2748dbb9b3887de103d781533fbe67f1f04d87fabddf4a5e08c92e166b29dff"
+    },
+    {
+      "path": "docs/note/assets/06-isometric.png",
+      "bytes": 48129,
+      "sha256": "7be916a775530470f3a6f619125c8c4f724adbd760939a72af689cc47a4f0b99"
+    },
+    {
+      "path": "docs/note/assets/06-preview.png",
+      "bytes": 58440,
+      "sha256": "2799f5a485a713b8190b00182fc99105357b7cef825cbd27078fc12aa2fe2ad4"
+    },
+    {
+      "path": "docs/note/assets/06-righting-v02.png",
+      "bytes": 89136,
+      "sha256": "4bef68ec065d2ee8db7e70086802cd300f7a3fc71f6daca2649ab9b6c2015238"
+    },
+    {
+      "path": "docs/note/assets/07-comparison-print-pose.png",
+      "bytes": 1697937,
+      "sha256": "0e845009f6780d9d896d404606f58016c7458bfb2b433e662ce624165baee3c1"
+    },
+    {
+      "path": "docs/note/assets/07-nkm-x12a-r01-preview.png",
+      "bytes": 527349,
+      "sha256": "00f523fa88074e473b4b4cfeb20b5dfd305672557dacbd0c76a8efa983c25cf1"
+    },
+    {
+      "path": "docs/note/assets/07-nkm-x12a-r01-section-review-s01-to-s15.png",
+      "bytes": 273037,
+      "sha256": "5b0144d0a2e260d804aa2a6b80c49fa725871a34ef8a01538b795c7b0a1b7c23"
+    },
+    {
+      "path": "docs/note/assets/07-r02-cutaway.png",
+      "bytes": 1377666,
+      "sha256": "c66af5235957ae169a26d92bb646de58510285120cfde32e66bc3808b9a0bb43"
+    },
+    {
+      "path": "docs/note/assets/07-r05-r06-stl-overview.png",
+      "bytes": 522422,
+      "sha256": "45d671db246607ff077c9eb26c92c67c136284560ca7f0585e07c1873c518795"
+    },
+    {
+      "path": "docs/note/assets/07-r06-bed-plane-and-first-layer-d01.png",
+      "bytes": 117752,
+      "sha256": "1d4040b8838282e67f248a0671144e7e7b6ab4c148803d2b3b6a48ab4417f56f"
+    },
+    {
+      "path": "docs/note/assets/08-04-moon-rover-rwg.png",
+      "bytes": 1951772,
+      "sha256": "15c9d3c274241a3ce18e12d2abbe360a8b863c57e4085838de6e87e423d23104"
+    },
+    {
+      "path": "docs/note/assets/08-cad-isometric.png",
+      "bytes": 42816,
+      "sha256": "1fd0fa212f6c2778a877601a41e1eea5509fd4a96d47337b4ef71ec704c6c773"
+    },
+    {
+      "path": "docs/note/assets/08-cad-overview.png",
+      "bytes": 810490,
+      "sha256": "6350e0a59d80e9e1e81a8e362345b9688b7b43336290c0b0185c74dcd7eae02f"
+    },
+    {
+      "path": "docs/note/assets/08-calibration-camera.jpg",
+      "bytes": 162310,
+      "sha256": "5561ad87bb7449d4d4c09a5b16e9891d4f71258c13bc99f52e245b91124ed8b7"
+    },
+    {
+      "path": "docs/note/assets/08-contact-sheet.png",
+      "bytes": 347307,
+      "sha256": "baeccfbb073fdc4b25d2b0f8afdf93f77393e8681290fec290a7cb6b9439d53b"
+    },
+    {
+      "path": "docs/note/assets/08-rover-r11-04.jpg",
+      "bytes": 328115,
+      "sha256": "fac4f2d848815c217493752f7ef3e7daf119b990147a7588c6d8ece4632e2a5c"
+    },
+    {
+      "path": "docs/note/assets/08-white-failure-check.jpg",
+      "bytes": 182390,
+      "sha256": "f2e7aa8e42406c33259d52cb7bc4a909d7d0cd24484e4a206205146261af6a98"
+    },
+    {
+      "path": "docs/note/assets/09-current-model-and-path-overview.png",
+      "bytes": 802365,
+      "sha256": "ee941c755498133074b3cc9edeff5efea0150420bffd0b80839577796181bd9a"
+    },
+    {
+      "path": "docs/note/assets/09-print-time-comparison.png",
+      "bytes": 95066,
+      "sha256": "fc4f7823cb35d97f51afd0a4aa18570d6117877bfa24600240ce2e2e869488ee"
+    },
+    {
+      "path": "docs/note/assets/10-dr-before-after.png",
+      "bytes": 196509,
+      "sha256": "13b6f898ef6a3dcfb8626c8464caf039305d9fde1e66efbca464fbe5f149d0d2"
+    },
+    {
+      "path": "docs/note/assets/10-nkm-x12a-r00-side-dimensions.png",
+      "bytes": 71467,
+      "sha256": "d853c6a74a4ad8d32c432d8cabfbafddaf98d8d91c2b61f0fceb45d3e9475bed"
+    },
+    {
+      "path": "docs/note/assets/10-nkm-x12a-r00-v09-comparison.png",
+      "bytes": 122149,
+      "sha256": "24e065e950c301020ea2070d33ae19e6acfce87d7dbd5057719f68bcded293d3"
+    },
+    {
+      "path": "docs/note/assets/10-v13-r2-model.png",
+      "bytes": 92404,
+      "sha256": "00d69cfabfe05caa436aa76feafaf4c780b54ee36cad9e34b21e45cdac3e0439"
+    },
+    {
+      "path": "docs/note/assets/11-pick-up-r01-01.jpg",
+      "bytes": 1538526,
+      "sha256": "5e462a27b21a2f9460796b29106005116071f6dbe9942f6337b5b253c609b025"
+    },
+    {
+      "path": "docs/note/assets/11-rover-r11-01.jpg",
+      "bytes": 511307,
+      "sha256": "99e0f5a587aac7dd02f5ddc9f6c919d4b76c69b34d54065946f58d3f94256719"
+    },
+    {
+      "path": "docs/note/assets/11-support-path-comparison.png",
+      "bytes": 1303390,
+      "sha256": "a0baa9e115efac13869b9fd6e3b8f6751b75047de0153db027c8e25ca6df7d19"
+    },
+    {
+      "path": "docs/note/assets/11-v06-01.jpg",
+      "bytes": 1302932,
+      "sha256": "cacd2e9b4c77bfc818d414aae45d87ff748e7ec74802203e2bdcc4154db0d244"
+    },
+    {
+      "path": "docs/note/assets/11-v10-01.jpg",
+      "bytes": 3838143,
+      "sha256": "5410cd45e74348fb7f47bbbb0be076d3b18ccb7f751df34d1ff52528d4f0eba7"
+    },
+    {
+      "path": "docs/note/assets/12-bridge-anchor-section.png",
+      "bytes": 182327,
+      "sha256": "bc6b7148d8adc7eea3812ab6eaf3f0760cab98b684b538bda2ba9f7a7704d2f1"
+    },
+    {
+      "path": "docs/note/assets/12-cabin-sections.png",
+      "bytes": 135109,
+      "sha256": "b2c2657bef48e684a72043008573bec86c759960fcdab8cb6c2d2685a3a7ac50"
+    },
+    {
+      "path": "docs/note/assets/12-photo-1.jpg",
+      "bytes": 1231283,
+      "sha256": "fb0ddac36a0f52510c9d598d700a6d188f586b1c80a2a997a30bf9489ca62d26"
+    },
+    {
+      "path": "docs/note/assets/12-studio-plate-preview.png",
+      "bytes": 22687,
+      "sha256": "d8fd1ab64ae0c8d8aa8c8ee1c7e3a0df14dc1315cc3edde4728ba022bd2731ad"
+    },
+    {
+      "path": "docs/note/assets/12-toolpath-layer-178.png",
+      "bytes": 414983,
+      "sha256": "463229469b4fe0d5b34a78d633fffad8a68e1c3bd1c9cb5d5dbc1bf7825a3969"
+    },
+    {
+      "path": "docs/note/assets/12-wheel-axial-section.png",
+      "bytes": 90435,
+      "sha256": "253f76b8cbdc92aa566b2b419a0e8c2cc425ea0f7c77296c772886979e3053a9"
+    },
+    {
+      "path": "docs/note/assets/thumb-01-brand-and-logo.jpg",
+      "bytes": 529802,
+      "sha256": "005644a9700412c23ae3f82bc4c09c8558395eaaa26e23589706a65f26fe891f"
+    },
+    {
       "path": "docs/reproduce.md",
-      "bytes": 5815,
-      "sha256": "13cffeb9d587ae0a4a9eb4768fc7d8351d71c110bf8491001d364068df3966c6"
+      "bytes": 5868,
+      "sha256": "146b0aec0fe524aace203ba43366da882e8b4e82806f024aa04c6325445fdeef"
     },
     {
       "path": "docs/バスの版一覧.md",
@@ -1285,8 +1685,13 @@
     },
     {
       "path": "quality/support-removal-preflight.py",
-      "bytes": 21853,
-      "sha256": "67b7935aa92c81315eca6f9bdf36c63d57bc10bb34aa970b0ef2aae32828e240"
+      "bytes": 21847,
+      "sha256": "5e4ba3b2f0b9fd4589bd6caa7a4bca5f2faef97a18d95e260e65faaad3eb11b3"
+    },
+    {
+      "path": "tools/check_brand_names.py",
+      "bytes": 4348,
+      "sha256": "b05b0684c2453b8d269ce1e3e55b8f6384b88f655e939188f3dca74dc6bd3d28"
     },
     {
       "path": "tools/update_manifest.py",
@@ -1295,8 +1700,8 @@
     },
     {
       "path": "tools/verify_snapshot.py",
-      "bytes": 4316,
-      "sha256": "dee6c98a8ab3fcb2333bca65701fa70a774ef93023336abb87c5f236d83e98f4"
+      "bytes": 4329,
+      "sha256": "734df15a856b0226762e561f8daecf47842e3b86c4948e98474c74cda326a23f"
     }
   ]
 }

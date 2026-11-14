@@ -1,0 +1,21 @@
+{
+  "canonical_name_ja": "ネコネコインダストリー",
+  "canonical_name_en": "NEKONEKO INDUSTRIES",
+  "repository_slug": "NEKONEKO-INDUSTRIES",
+  "incident_prefix": "NNI-TR-",
+  "effective_date": "2026-11-14",
+  "retired_names": [
+    "NEKOMO",
+    "ネコモ"
+  ],
+  "use_retired_name_as_product_brand": false,
+  "legacy_exception": "Existing CAD/STL/3MF/G-code names, original reports and checksums remain historical identifiers. Local C:/Prj/NEKOMO is a compatibility workspace path, not the current company or product name.",
+  "aliases": {
+    "NEKOMO-TR-001": "NNI-TR-001",
+    "NEKOMO-TR-002": "NNI-TR-002",
+    "NEKOMO-TR-003": "NNI-TR-003",
+    "NEKOMO-TR-004": "NNI-TR-004",
+    "NEKOMO-TR-005": "NNI-TR-005",
+    "NEKOMO-TR-006": "NNI-TR-006"
+  }
+}

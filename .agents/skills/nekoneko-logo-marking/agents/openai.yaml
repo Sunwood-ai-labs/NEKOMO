@@ -1,0 +1,4 @@
+interface:
+  display_name: "ネコネコインダストリー ロゴ・刻印"
+  short_description: "採用ロゴの原本を保ち機体名やシンボルのCAD刻印と確認を進める"
+  default_prompt: "$nekoneko-logo-marking を使って採用ロゴと機体名を刻印してください。"

@@ -1,6 +1,6 @@
 # 公開資料
 
-ネコネコインダストリー（NEKONEKO INDUSTRIES）の公開資料です。NEKOMOブランドの乗り物玩具について、設計・試作・改良の経緯を公開しています。
+ネコネコインダストリー（NEKONEKO INDUSTRIES）の公開資料です。ネコネコインダストリーの乗り物玩具について、設計・試作・改良の経緯を公開しています。
 
 > **わくわくを、どこへでも。／Wonder to Go.**
 
@@ -15,8 +15,8 @@
 
 - [バスの版一覧](バスの版一覧.md)：版ごとの設計差、要望、DR履歴、印刷・現物の記録
 - [人間のレビュー記録](人間のレビュー記録.md)：会話原文を含まない要望と判断の要約
-- [コンセプトと品質方針](NEKOMO-concept-and-quality.md)
-- [DRレビュー手順](../.agents/skills/nekomo-dr-review/SKILL.md)：設計審査と記録の方法
+- [コンセプトと品質方針](NEKONEKO-INDUSTRIES-concept-and-quality.md)
+- [DRレビュー手順](../.agents/skills/nekoneko-dr-review/SKILL.md)：設計審査と記録の方法
 
 ## 再現と公開データ
 
